@@ -1,0 +1,18 @@
+[
+  { "en": "ShanghaiPort", "cn": "上海海港", "venue": "上海浦东足球场", "primary": "#C8102E", "secondary": "#FFFFFF", "slogan": "白 玉 碗", "emblem": "港" },
+  { "en": "ShanghaiShenhua", "cn": "上海申花", "venue": "上海体育场", "primary": "#003DA5", "secondary": "#FFFFFF", "slogan": "蓝 魔", "emblem": "申" },
+  { "en": "BeijingGuoan", "cn": "北京国安", "venue": "北京工人体育场", "primary": "#00703C", "secondary": "#FFFFFF", "slogan": "永 远 争 第 一", "emblem": "京" },
+  { "en": "ChengduRongcheng", "cn": "成都蓉城", "venue": "成都凤凰山体育公园", "primary": "#E4002B", "secondary": "#F2C200", "slogan": "雄 起", "emblem": "蓉" },
+  { "en": "ShandongTaishan", "cn": "山东泰山", "venue": "济南奥体中心", "primary": "#E86A10", "secondary": "#FFFFFF", "slogan": "橙 色 风 暴", "emblem": "泰" },
+  { "en": "Zhejiang", "cn": "浙江", "venue": "杭州黄龙体育中心", "primary": "#1B4F9C", "secondary": "#F2C200", "slogan": "黄 龙", "emblem": "浙" },
+  { "en": "TianjinJinmenTiger", "cn": "天津津门虎", "venue": "天津团泊足球场", "primary": "#1B3F8B", "secondary": "#F2C200", "slogan": "津 门 虎", "emblem": "津" },
+  { "en": "YunnanYukun", "cn": "云南玉昆", "venue": "玉溪高原体育运动中心", "primary": "#CE1126", "secondary": "#F2C200", "slogan": "高 原", "emblem": "滇" },
+  { "en": "QingdaoWestCoast", "cn": "青岛西海岸", "venue": "青岛西海岸大学城体育场", "primary": "#0E4C92", "secondary": "#FFD100", "slogan": "西 海 岸", "emblem": "岸" },
+  { "en": "Henan", "cn": "河南", "venue": "郑州航海体育场", "primary": "#D71920", "secondary": "#0E7A3C", "slogan": "中 原 铁 军", "emblem": "豫" },
+  { "en": "DalianYingbo", "cn": "大连英博", "venue": "大连梭鱼湾足球场", "primary": "#1D4E9E", "secondary": "#FFFFFF", "slogan": "足 球 城", "emblem": "连" },
+  { "en": "ShenzhenPengCity", "cn": "深圳新鹏城", "venue": "深圳宝安体育场", "primary": "#C8102E", "secondary": "#FFFFFF", "slogan": "鹏 城", "emblem": "鹏" },
+  { "en": "QingdaoHainiu", "cn": "青岛海牛", "venue": "青岛天泰体育场", "primary": "#0B4EA2", "secondary": "#F2C200", "slogan": "海 牛", "emblem": "牛" },
+  { "en": "WuhanThreeTowns", "cn": "武汉三镇", "venue": "武汉体育中心", "primary": "#0047A0", "secondary": "#FFFFFF", "slogan": "三 镇", "emblem": "汉" },
+  { "en": "LiaoningTieren", "cn": "辽宁铁人", "venue": "沈阳奥体中心", "primary": "#B02E2E", "secondary": "#F4F5F7", "slogan": "铁 人", "emblem": "辽" },
+  { "en": "ChongqingTonglianglong", "cn": "重庆铜梁龙", "venue": "重庆奥体中心", "primary": "#C62026", "secondary": "#F2C200", "slogan": "铜 梁 龙", "emblem": "渝" }
+]
