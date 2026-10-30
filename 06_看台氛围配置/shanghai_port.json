@@ -1,0 +1,95 @@
+{
+  "id": "shanghai_port",
+  "gameId": "C231",
+  "cn": "上海海港",
+  "venue": "上海浦东足球场",
+  "palette": {
+    "primary": "#C8102E",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.3,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/shanghai_port_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 100,
+    "loop": true,
+    "lines": [
+      {
+        "text": "阿拉欢喜上海上港队",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "我们站在你的身后",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/shanghai_port_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/shanghai_port_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/shanghai_port_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/shanghai_port_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/shanghai_port_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.62,
+    "secondaryRatio": 0.26,
+    "accentRatio": 0.12
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/shanghai_port_symbol_1.png",
+      "zone": "concourse",
+      "note": "陆家嘴天际线做 TIFO 背景板与客场远征横幅"
+    },
+    {
+      "asset": "04_地方文化符号/shanghai_port_symbol_2.png",
+      "zone": "concourse",
+      "note": "上海市花，球场『白玉碗』的造型母题，可做花形拼图"
+    },
+    {
+      "asset": "04_地方文化符号/shanghai_port_symbol_3.png",
+      "zone": "concourse",
+      "note": "场外小吃摊与联名周边"
+    },
+    {
+      "asset": "05_球场饮食/shanghai_port_food_1.png",
+      "zone": "market",
+      "note": "底板焦脆 · 场外现煎"
+    },
+    {
+      "asset": "05_球场饮食/shanghai_port_food_2.png",
+      "zone": "market",
+      "note": "散场夜宵 · 一碗上头"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "联合北看台统一鼓点、统一旗语；膜结构顶棚聚音，声压比同规模球场高一档"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "dalian_yingbo",
+  "gameId": "C243",
+  "cn": "大连英博",
+  "venue": "大连梭鱼湾足球场",
+  "palette": {
+    "primary": "#1D4E9E",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.38,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/dalian_yingbo_mosaic.png",
+    "cols": 46
+  },
+  "chant": {
+    "bpm": 108,
+    "loop": true,
+    "lines": [
+      {
+        "text": "莎啦～啦啦啦，呼",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "大海啊故乡",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/dalian_yingbo_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/dalian_yingbo_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/dalian_yingbo_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/dalian_yingbo_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/dalian_yingbo_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.7,
+    "secondaryRatio": 0.2,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/dalian_yingbo_symbol_1.png",
+      "zone": "concourse",
+      "note": "斯坦丘 TIFO 肩头的海鸥，海滨印记与球队灵魂的合体"
+    },
+    {
+      "asset": "04_地方文化符号/dalian_yingbo_symbol_2.png",
+      "zone": "concourse",
+      "note": "我国唯一三面环海的海边足球场，看台与慢跑坡道可看海"
+    },
+    {
+      "asset": "04_地方文化符号/dalian_yingbo_symbol_3.png",
+      "zone": "concourse",
+      "note": "场外嘉年华的焖子文化体验"
+    },
+    {
+      "asset": "05_球场饮食/dalian_yingbo_food_1.png",
+      "zone": "market",
+      "note": "场外嘉年华招牌"
+    },
+    {
+      "asset": "05_球场饮食/dalian_yingbo_food_2.png",
+      "zone": "market",
+      "note": "大连本味 · 鲜得上头"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "北看台全员站立式助威，被称『节日载体』；6.3 万席 + 海洋蓝立面，TIFO 可做整面看台的三面联动"
+}

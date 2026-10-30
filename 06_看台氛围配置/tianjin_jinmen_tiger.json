@@ -1,0 +1,90 @@
+{
+  "id": "tianjin_jinmen_tiger",
+  "gameId": "C236",
+  "cn": "天津津门虎",
+  "venue": "天津团泊足球场",
+  "palette": {
+    "primary": "#1B3F8B",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.34,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/tianjin_jinmen_tiger_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 92,
+    "loop": true,
+    "lines": [
+      {
+        "text": "为了天津 永远进攻",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/tianjin_jinmen_tiger_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/tianjin_jinmen_tiger_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/tianjin_jinmen_tiger_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/tianjin_jinmen_tiger_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/tianjin_jinmen_tiger_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.64,
+    "secondaryRatio": 0.26,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/tianjin_jinmen_tiger_symbol_1.png",
+      "zone": "concourse",
+      "note": "我国首座自建海上灯塔，2025 双 TIFO 的正看台主角"
+    },
+    {
+      "asset": "04_地方文化符号/tianjin_jinmen_tiger_symbol_2.png",
+      "zone": "concourse",
+      "note": "『海河儿女』的球迷自称，海河冲浪手球迷会命名来源"
+    },
+    {
+      "asset": "04_地方文化符号/tianjin_jinmen_tiger_symbol_3.png",
+      "zone": "concourse",
+      "note": "天津足球的民园记忆，门前足球雕塑搬上南看台"
+    },
+    {
+      "asset": "05_球场饮食/tianjin_jinmen_tiger_food_1.png",
+      "zone": "market",
+      "note": "码头早点 · 加薄脆"
+    },
+    {
+      "asset": "05_球场饮食/tianjin_jinmen_tiger_food_2.png",
+      "zone": "market",
+      "note": "看台伴手礼"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#F2C200"
+  },
+  "note": "南看台拼图需提前入场逐座摆放；10 秒倒数＋『为了天津 永远进攻』是仪式化的开场"
+}

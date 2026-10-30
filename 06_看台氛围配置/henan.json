@@ -1,0 +1,95 @@
+{
+  "id": "henan",
+  "gameId": "C240",
+  "cn": "河南",
+  "venue": "郑州航海体育场",
+  "palette": {
+    "primary": "#D71920",
+    "secondary": "#0E7A3C",
+    "accent": "#F2C200",
+    "seatTint": "#0E7A3C"
+  },
+  "tifoCoverage": 0.34,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/henan_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 98,
+    "loop": true,
+    "lines": [
+      {
+        "text": "为河南，共战斗！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "建业",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/henan_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/henan_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/henan_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/henan_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/henan_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.72,
+    "secondaryRatio": 0.18,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/henan_symbol_1.png",
+      "zone": "concourse",
+      "note": "吉祥物巴布的原型，中原的动物符号"
+    },
+    {
+      "asset": "04_地方文化符号/henan_symbol_2.png",
+      "zone": "concourse",
+      "note": "吉祥物水纹来源，寓意扎根中原"
+    },
+    {
+      "asset": "04_地方文化符号/henan_symbol_3.png",
+      "zone": "concourse",
+      "note": "中原青铜文明，做看台纹样与围巾"
+    },
+    {
+      "asset": "05_球场饮食/henan_food_1.png",
+      "zone": "market",
+      "note": "郑州羊肉烩面 · 大碗"
+    },
+    {
+      "asset": "05_球场饮食/henan_food_2.png",
+      "zone": "market",
+      "note": "提起来像灯笼"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#0E7A3C"
+  },
+  "note": "北看台发《助威手册》要求同穿红衣，把航体变红色海洋；球迷仍齐喊旧名『建业』，这是最有辨识度的一层"
+}

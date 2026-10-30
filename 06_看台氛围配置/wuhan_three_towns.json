@@ -1,0 +1,95 @@
+{
+  "id": "wuhan_three_towns",
+  "gameId": "C239",
+  "cn": "武汉三镇",
+  "venue": "武汉体育中心",
+  "palette": {
+    "primary": "#0047A0",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.34,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/wuhan_three_towns_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 96,
+    "loop": true,
+    "lines": [
+      {
+        "text": "三镇必胜！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "蓝色的火焰，永照夜空；蓝色的猛虎，永远冲锋！",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/wuhan_three_towns_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/wuhan_three_towns_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/wuhan_three_towns_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/wuhan_three_towns_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/wuhan_three_towns_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.7,
+    "secondaryRatio": 0.2,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/wuhan_three_towns_symbol_1.png",
+      "zone": "concourse",
+      "note": "亚冠 TIFO 三大地标之首"
+    },
+    {
+      "asset": "04_地方文化符号/wuhan_three_towns_symbol_2.png",
+      "zone": "concourse",
+      "note": "汉口开埠与长江航运的城市记忆"
+    },
+    {
+      "asset": "04_地方文化符号/wuhan_three_towns_symbol_3.png",
+      "zone": "concourse",
+      "note": "远征清晨在球场门口台阶上的一碗"
+    },
+    {
+      "asset": "05_球场饮食/wuhan_three_towns_food_1.png",
+      "zone": "market",
+      "note": "看球零嘴 · 越辣越喊"
+    },
+    {
+      "asset": "05_球场饮食/wuhan_three_towns_food_2.png",
+      "zone": "market",
+      "note": "过早三件套之一"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "南看台学生票方阵构成稳定蓝色块；『保卫大武汉』把保级战写成城市保卫战，是 2026 最强的一幕"
+}

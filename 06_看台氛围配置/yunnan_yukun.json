@@ -1,0 +1,100 @@
+{
+  "id": "yunnan_yukun",
+  "gameId": "C242",
+  "cn": "云南玉昆",
+  "venue": "玉溪高原体育运动中心",
+  "palette": {
+    "primary": "#CE1126",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.34,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/yunnan_yukun_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 96,
+    "loop": true,
+    "lines": [
+      {
+        "text": "高原橙色魔鬼",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "我们来自云南，坚毅如哀牢山，澜沧江水在热血中流淌",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "玉昆最板扎",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/yunnan_yukun_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/yunnan_yukun_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/yunnan_yukun_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/yunnan_yukun_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/yunnan_yukun_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.68,
+    "secondaryRatio": 0.22,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/yunnan_yukun_symbol_1.png",
+      "zone": "concourse",
+      "note": "『坚毅如哀牢山』写进助威歌，可做山形看台拼图"
+    },
+    {
+      "asset": "04_地方文化符号/yunnan_yukun_symbol_2.png",
+      "zone": "concourse",
+      "note": "『将军象』是 TIFO 主角，代表云南"
+    },
+    {
+      "asset": "04_地方文化符号/yunnan_yukun_symbol_3.png",
+      "zone": "concourse",
+      "note": "玉溪国家级非遗花灯戏，球迷集市非遗摊位的灯彩"
+    },
+    {
+      "asset": "05_球场饮食/yunnan_yukun_food_1.png",
+      "zone": "market",
+      "note": "看球日的开胃标配"
+    },
+    {
+      "asset": "05_球场饮食/yunnan_yukun_food_2.png",
+      "zone": "market",
+      "note": "高原湖泊的鲜"
+    }
+  ],
+  "smoke": {
+    "enabled": true,
+    "color": "#F2C200"
+  },
+  "note": "海拔约 1630 米的高原主场，客队体能吃亏；散场后两万人涌向烧烤摊，夜经济是主场体验的一半"
+}

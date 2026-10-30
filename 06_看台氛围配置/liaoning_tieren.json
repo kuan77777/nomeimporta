@@ -1,0 +1,100 @@
+{
+  "id": "liaoning_tieren",
+  "gameId": "C247",
+  "cn": "辽宁铁人",
+  "venue": "沈阳奥体中心",
+  "palette": {
+    "primary": "#B02E2E",
+    "secondary": "#F4F5F7",
+    "accent": "#F2C200",
+    "seatTint": "#F4F5F7"
+  },
+  "tifoCoverage": 0.36,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/liaoning_tieren_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 108,
+    "loop": true,
+    "lines": [
+      {
+        "text": "铁人战斗！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "我就是烈焰的魂，辽宁铁人！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "真心英雄",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/liaoning_tieren_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/liaoning_tieren_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/liaoning_tieren_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/liaoning_tieren_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/liaoning_tieren_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.74,
+    "secondaryRatio": 0.16,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/liaoning_tieren_symbol_1.png",
+      "zone": "concourse",
+      "note": "『铁人』名号的现实来源，钢铁工业意象"
+    },
+    {
+      "asset": "04_地方文化符号/liaoning_tieren_symbol_2.png",
+      "zone": "concourse",
+      "note": "吉祥物形象，官方商店与比赛日周边主力 IP"
+    },
+    {
+      "asset": "04_地方文化符号/liaoning_tieren_symbol_3.png",
+      "zone": "concourse",
+      "note": "沈阳看球标配：鸡架配啤酒"
+    },
+    {
+      "asset": "05_球场饮食/liaoning_tieren_food_1.png",
+      "zone": "market",
+      "note": "沈阳老字号"
+    },
+    {
+      "asset": "05_球场饮食/liaoning_tieren_food_2.png",
+      "zone": "market",
+      "note": "球迷市集 · 球场外烧烤"
+    }
+  ],
+  "smoke": {
+    "enabled": true,
+    "color": "#B02E2E"
+  },
+  "note": "红衫 + 烈焰意象，首秀后全场手机灯海齐唱《真心英雄》；铁西新场把工业区气质带进看台"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "qingdao_west_coast",
+  "gameId": "C238",
+  "cn": "青岛西海岸",
+  "venue": "青岛西海岸大学城体育场",
+  "palette": {
+    "primary": "#0E4C92",
+    "secondary": "#FFD100",
+    "accent": "#FFFFFF",
+    "seatTint": "#FFD100"
+  },
+  "tifoCoverage": 0.3,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/qingdao_west_coast_mosaic.png",
+    "cols": 42
+  },
+  "chant": {
+    "bpm": 100,
+    "loop": true,
+    "lines": [
+      {
+        "text": "青岛赢了",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "战斗！西海岸",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/qingdao_west_coast_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/qingdao_west_coast_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/qingdao_west_coast_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/qingdao_west_coast_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/qingdao_west_coast_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.66,
+    "secondaryRatio": 0.24,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/qingdao_west_coast_symbol_1.png",
+      "zone": "concourse",
+      "note": "距海五六百米，看台可眺望海天一色"
+    },
+    {
+      "asset": "04_地方文化符号/qingdao_west_coast_symbol_2.png",
+      "zone": "concourse",
+      "note": "写进横幅『吃蛤蜊喝啤酒』的城市待客符号"
+    },
+    {
+      "asset": "04_地方文化符号/qingdao_west_coast_symbol_3.png",
+      "zone": "concourse",
+      "note": "看台与球迷市集的第一标签"
+    },
+    {
+      "asset": "05_球场饮食/qingdao_west_coast_food_1.png",
+      "zone": "market",
+      "note": "本地读 gala · 一大盆"
+    },
+    {
+      "asset": "05_球场饮食/qingdao_west_coast_food_2.png",
+      "zone": "market",
+      "note": "散场碰杯 · 塑料袋装"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFD100"
+  },
+  "note": "两万座小场地，海风与贝壳造型看台；关键时刻全场齐喊 VAR 的『第 12 人』细节"
+}

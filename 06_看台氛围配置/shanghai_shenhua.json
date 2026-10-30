@@ -1,0 +1,95 @@
+{
+  "id": "shanghai_shenhua",
+  "gameId": "C232",
+  "cn": "上海申花",
+  "venue": "上海体育场",
+  "palette": {
+    "primary": "#003DA5",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.32,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/shanghai_shenhua_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 104,
+    "loop": true,
+    "lines": [
+      {
+        "text": "OLE！OLE！申花是冠军",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "申花队",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/shanghai_shenhua_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/shanghai_shenhua_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/shanghai_shenhua_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/shanghai_shenhua_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/shanghai_shenhua_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.68,
+    "secondaryRatio": 0.22,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/shanghai_shenhua_symbol_1.png",
+      "zone": "concourse",
+      "note": "海派城市记忆，老上海主题拼图与复古围巾"
+    },
+    {
+      "asset": "04_地方文化符号/shanghai_shenhua_symbol_2.png",
+      "zone": "concourse",
+      "note": "队徽剪影与吉祥物 BOB 原型，衍生『领先一步』标语"
+    },
+    {
+      "asset": "04_地方文化符号/shanghai_shenhua_symbol_3.png",
+      "zone": "concourse",
+      "note": "上海体育场俯视如市花白玉兰，做花形环场拼图"
+    },
+    {
+      "asset": "05_球场饮食/shanghai_shenhua_food_1.png",
+      "zone": "market",
+      "note": "南翔小笼 · 看球标配"
+    },
+    {
+      "asset": "05_球场饮食/shanghai_shenhua_food_2.png",
+      "zone": "market",
+      "note": "德比日限定 · 甜咸口"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "蓝魔 2023 年集中到北看台，全程站立；开赛与终场双手拉围巾高举"
+}

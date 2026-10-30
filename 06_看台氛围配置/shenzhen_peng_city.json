@@ -1,0 +1,95 @@
+{
+  "id": "shenzhen_peng_city",
+  "gameId": "C241",
+  "cn": "深圳新鹏城",
+  "venue": "深圳宝安体育场",
+  "palette": {
+    "primary": "#C8102E",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.32,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/shenzhen_peng_city_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 110,
+    "loop": true,
+    "lines": [
+      {
+        "text": "来吧，我们是兄弟，一起呐喊为深圳！燃烧我们的激情，一起COME ON，COME ON CITY!",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "COME ON深圳！",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/shenzhen_peng_city_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/shenzhen_peng_city_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/shenzhen_peng_city_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/shenzhen_peng_city_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/shenzhen_peng_city_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.66,
+    "secondaryRatio": 0.22,
+    "accentRatio": 0.12
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/shenzhen_peng_city_symbol_1.png",
+      "zone": "concourse",
+      "note": "深圳别称『鹏城』，吉祥物取名鹏鹏，激光秀设『鹏城之翼』序章"
+    },
+    {
+      "asset": "04_地方文化符号/shenzhen_peng_city_symbol_2.png",
+      "zone": "concourse",
+      "note": "中超首个机器人原型吉祥物，科技感的深圳表达"
+    },
+    {
+      "asset": "04_地方文化符号/shenzhen_peng_city_symbol_3.png",
+      "zone": "concourse",
+      "note": "激光秀四序章的城市影像母题"
+    },
+    {
+      "asset": "05_球场饮食/shenzhen_peng_city_food_1.png",
+      "zone": "market",
+      "note": "深圳老字号 · 皮脆"
+    },
+    {
+      "asset": "05_球场饮食/shenzhen_peng_city_food_2.png",
+      "zone": "market",
+      "note": "看球前的一盅两件"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "赛前激光秀（12 台、4 分 16 秒）＋南看台大型 TIFO，是沿海城市的科技感开场"
+}

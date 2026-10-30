@@ -1,0 +1,100 @@
+{
+  "id": "shandong_taishan",
+  "gameId": "C235",
+  "cn": "山东泰山",
+  "venue": "济南奥体中心",
+  "palette": {
+    "primary": "#E86A10",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.36,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/shandong_taishan_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 100,
+    "loop": true,
+    "lines": [
+      {
+        "text": "我们是风，我们是电，我们是橘红色的火焰",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "泰山！战斗！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "进一个！",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/shandong_taishan_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/shandong_taishan_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/shandong_taishan_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/shandong_taishan_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/shandong_taishan_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.72,
+    "secondaryRatio": 0.2,
+    "accentRatio": 0.08
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/shandong_taishan_symbol_1.png",
+      "zone": "concourse",
+      "note": "队名与『永不倒的泰山』精神来源"
+    },
+    {
+      "asset": "04_地方文化符号/shandong_taishan_symbol_2.png",
+      "zone": "concourse",
+      "note": "泰山镇石民俗，与『泰山压顶』的守护意象同源"
+    },
+    {
+      "asset": "04_地方文化符号/shandong_taishan_symbol_3.png",
+      "zone": "concourse",
+      "note": "济南市井吃食，看球前后的地方符号"
+    },
+    {
+      "asset": "05_球场饮食/shandong_taishan_food_1.png",
+      "zone": "market",
+      "note": "泉城早点 · 咸香糊口"
+    },
+    {
+      "asset": "05_球场饮食/shandong_taishan_food_2.png",
+      "zone": "market",
+      "note": "葱香酥脆 · 现烤现卖"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "北看台旗帜与拼图主阵地，东看台橙浪设指挥台带动『泰山！战斗！』"
+}

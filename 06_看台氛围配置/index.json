@@ -1,0 +1,39 @@
+{
+  "note": "teamId → 看台氛围配置。游戏里按 clubId 查 clubId-map.json 再取本表。",
+  "teams": [
+    "shanghai_port",
+    "shanghai_shenhua",
+    "beijing_guoan",
+    "chengdu_rongcheng",
+    "shandong_taishan",
+    "zhejiang",
+    "tianjin_jinmen_tiger",
+    "yunnan_yukun",
+    "qingdao_west_coast",
+    "henan",
+    "dalian_yingbo",
+    "shenzhen_peng_city",
+    "qingdao_hainiu",
+    "wuhan_three_towns",
+    "liaoning_tieren",
+    "chongqing_tongliang_long"
+  ],
+  "files": {
+    "shanghai_port": "shanghai_port.json",
+    "shanghai_shenhua": "shanghai_shenhua.json",
+    "beijing_guoan": "beijing_guoan.json",
+    "chengdu_rongcheng": "chengdu_rongcheng.json",
+    "shandong_taishan": "shandong_taishan.json",
+    "zhejiang": "zhejiang.json",
+    "tianjin_jinmen_tiger": "tianjin_jinmen_tiger.json",
+    "yunnan_yukun": "yunnan_yukun.json",
+    "qingdao_west_coast": "qingdao_west_coast.json",
+    "henan": "henan.json",
+    "dalian_yingbo": "dalian_yingbo.json",
+    "shenzhen_peng_city": "shenzhen_peng_city.json",
+    "qingdao_hainiu": "qingdao_hainiu.json",
+    "wuhan_three_towns": "wuhan_three_towns.json",
+    "liaoning_tieren": "liaoning_tieren.json",
+    "chongqing_tongliang_long": "chongqing_tongliang_long.json"
+  }
+}

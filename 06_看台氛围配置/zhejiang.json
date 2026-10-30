@@ -1,0 +1,100 @@
+{
+  "id": "zhejiang",
+  "gameId": "C237",
+  "cn": "浙江",
+  "venue": "杭州黄龙体育中心",
+  "palette": {
+    "primary": "#1B4F9C",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.4,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/zhejiang_mosaic.png",
+    "cols": 48
+  },
+  "chant": {
+    "bpm": 96,
+    "loop": true,
+    "lines": [
+      {
+        "text": "在东叁之上，忘掉忧愁和悲伤；怀揣着梦想，复兴看台的辉煌；战斗一整场，让对手胆怯投降；一起去面对，共进退浙江队！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "我们的家，住在天堂",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "大禹的后代越王的种，东海的惊涛钱塘的风",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/zhejiang_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/zhejiang_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/zhejiang_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/zhejiang_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/zhejiang_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.6,
+    "secondaryRatio": 0.3,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/zhejiang_symbol_1.png",
+      "zone": "concourse",
+      "note": "吉祥物菜狗与河南巴布『相约西湖』的城市会客场景"
+    },
+    {
+      "asset": "04_地方文化符号/zhejiang_symbol_2.png",
+      "zone": "concourse",
+      "note": "西湖天际线，做环场拼图与客场横幅"
+    },
+    {
+      "asset": "04_地方文化符号/zhejiang_symbol_3.png",
+      "zone": "concourse",
+      "note": "吉祥物形象，看台入口与人偶互动位"
+    },
+    {
+      "asset": "05_球场饮食/zhejiang_food_1.png",
+      "zone": "market",
+      "note": "杭州面 · 笋片雪菜"
+    },
+    {
+      "asset": "05_球场饮食/zhejiang_food_2.png",
+      "zone": "market",
+      "note": "主场宴客菜"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#F2C200"
+  },
+  "note": "黄龙东看台上下两层可铺 2.5 万片拼图；赛前熄灯由一角起调、全场接唱"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "qingdao_hainiu",
+  "gameId": "C244",
+  "cn": "青岛海牛",
+  "venue": "青岛天泰体育场",
+  "palette": {
+    "primary": "#0B4EA2",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.32,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/qingdao_hainiu_mosaic.png",
+    "cols": 44
+  },
+  "chant": {
+    "bpm": 94,
+    "loop": true,
+    "lines": [
+      {
+        "text": "战斗海牛队！战斗青岛队！",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "抬起头来，继续战斗！",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/qingdao_hainiu_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/qingdao_hainiu_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/qingdao_hainiu_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/qingdao_hainiu_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/qingdao_hainiu_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.68,
+    "secondaryRatio": 0.22,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/qingdao_hainiu_symbol_1.png",
+      "zone": "concourse",
+      "note": "齐鲁德比海报用崂山回应泰山，青岛的山海地标"
+    },
+    {
+      "asset": "04_地方文化符号/qingdao_hainiu_symbol_2.png",
+      "zone": "concourse",
+      "note": "2025 赛季橙色战袍的设计灵感来源"
+    },
+    {
+      "asset": "04_地方文化符号/qingdao_hainiu_symbol_3.png",
+      "zone": "concourse",
+      "note": "散场撸串碰杯的固定延伸"
+    },
+    {
+      "asset": "05_球场饮食/qingdao_hainiu_food_1.png",
+      "zone": "market",
+      "note": "本地读 gala · 配冰啤"
+    },
+    {
+      "asset": "05_球场饮食/qingdao_hainiu_food_2.png",
+      "zone": "market",
+      "note": "散场后的第二主场"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#F2C200"
+  },
+  "note": "北看台 B12-B15 在球门后，三家协会共用鼓点与旗阵；看台文化主打『好客』主题横幅"
+}

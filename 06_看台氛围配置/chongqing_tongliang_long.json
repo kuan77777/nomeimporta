@@ -1,0 +1,95 @@
+{
+  "id": "chongqing_tongliang_long",
+  "gameId": "C248",
+  "cn": "重庆铜梁龙",
+  "venue": "重庆奥体中心",
+  "palette": {
+    "primary": "#C62026",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.4,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/chongqing_tongliang_long_mosaic.png",
+    "cols": 46
+  },
+  "chant": {
+    "bpm": 104,
+    "loop": true,
+    "lines": [
+      {
+        "text": "队长，队长，英勇的向余望；带球奔袭，射门破网，共铸辉煌斗志昂。",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "重庆雄起",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/chongqing_tongliang_long_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/chongqing_tongliang_long_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/chongqing_tongliang_long_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/chongqing_tongliang_long_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/chongqing_tongliang_long_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.76,
+    "secondaryRatio": 0.16,
+    "accentRatio": 0.08
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/chongqing_tongliang_long_symbol_1.png",
+      "zone": "concourse",
+      "note": "国家级非遗，队名的直接来源，开场表演与看台龙形装置"
+    },
+    {
+      "asset": "04_地方文化符号/chongqing_tongliang_long_symbol_2.png",
+      "zone": "concourse",
+      "note": "1500 度铁水打出万点星辰，火里舞龙，与主场高温氛围同构"
+    },
+    {
+      "asset": "04_地方文化符号/chongqing_tongliang_long_symbol_3.png",
+      "zone": "concourse",
+      "note": "红锅与红色主场色、南看台红色海洋呼应"
+    },
+    {
+      "asset": "05_球场饮食/chongqing_tongliang_long_food_1.png",
+      "zone": "market",
+      "note": "山城早餐 · 二两小面"
+    },
+    {
+      "asset": "05_球场饮食/chongqing_tongliang_long_food_2.png",
+      "zone": "market",
+      "note": "散场夜宵 · 又酸又辣"
+    }
+  ],
+  "smoke": {
+    "enabled": true,
+    "color": "#C62026"
+  },
+  "note": "南看台是 TIFO 与领唱核心，5.5 万人级红色海洋；火龙铁水的火星可作为烟火特效的视觉参照"
+}

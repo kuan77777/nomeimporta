@@ -1,0 +1,95 @@
+{
+  "id": "chengdu_rongcheng",
+  "gameId": "C233",
+  "cn": "成都蓉城",
+  "venue": "成都凤凰山体育公园",
+  "palette": {
+    "primary": "#E4002B",
+    "secondary": "#F2C200",
+    "accent": "#FFFFFF",
+    "seatTint": "#F2C200"
+  },
+  "tifoCoverage": 0.42,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/chengdu_rongcheng_mosaic.png",
+    "cols": 48
+  },
+  "chant": {
+    "bpm": 112,
+    "loop": true,
+    "lines": [
+      {
+        "text": "雄起",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "我们都在这里",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/chengdu_rongcheng_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/chengdu_rongcheng_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/chengdu_rongcheng_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/chengdu_rongcheng_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/chengdu_rongcheng_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.74,
+    "secondaryRatio": 0.18,
+    "accentRatio": 0.08
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/chengdu_rongcheng_symbol_1.png",
+      "zone": "concourse",
+      "note": "红色看台里的熊猫人偶与 12 号球衣形象"
+    },
+    {
+      "asset": "04_地方文化符号/chengdu_rongcheng_symbol_2.png",
+      "zone": "concourse",
+      "note": "球场名自带凤凰意象，做展翅环场拼图与灯光秀"
+    },
+    {
+      "asset": "04_地方文化符号/chengdu_rongcheng_symbol_3.png",
+      "zone": "concourse",
+      "note": "场外小吃街与『麻辣主场』主题周边"
+    },
+    {
+      "asset": "05_球场饮食/chengdu_rongcheng_food_1.png",
+      "zone": "market",
+      "note": "看台下的麻辣夜宵"
+    },
+    {
+      "asset": "05_球场饮食/chengdu_rongcheng_food_2.png",
+      "zone": "market",
+      "note": "散场必吃 · 二两起"
+    }
+  ],
+  "smoke": {
+    "enabled": true,
+    "color": "#E4002B"
+  },
+  "note": "刀锋阵型的红色人浪 + 赛后熄灯手机灯合唱《成都》；雄起节奏极快，TIFO 覆盖可开到 0.4 以上"
+}

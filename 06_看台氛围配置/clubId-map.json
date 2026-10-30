@@ -1,0 +1,21 @@
+{
+  "note": "游戏 dist/game/data/football-index.js 的 clubs[].id → 本包 teamId",
+  "map": {
+    "C231": "shanghai_port",
+    "C232": "shanghai_shenhua",
+    "C234": "beijing_guoan",
+    "C233": "chengdu_rongcheng",
+    "C235": "shandong_taishan",
+    "C237": "zhejiang",
+    "C236": "tianjin_jinmen_tiger",
+    "C242": "yunnan_yukun",
+    "C238": "qingdao_west_coast",
+    "C240": "henan",
+    "C243": "dalian_yingbo",
+    "C241": "shenzhen_peng_city",
+    "C244": "qingdao_hainiu",
+    "C239": "wuhan_three_towns",
+    "C247": "liaoning_tieren",
+    "C248": "chongqing_tongliang_long"
+  }
+}

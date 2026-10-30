@@ -1,0 +1,95 @@
+{
+  "id": "beijing_guoan",
+  "gameId": "C234",
+  "cn": "北京国安",
+  "venue": "北京工人体育场",
+  "palette": {
+    "primary": "#00703C",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200",
+    "seatTint": "#FFFFFF"
+  },
+  "tifoCoverage": 0.38,
+  "mosaic": {
+    "asset": "01_旗帜与TIFO/beijing_guoan_mosaic.png",
+    "cols": 46
+  },
+  "chant": {
+    "bpm": 106,
+    "loop": true,
+    "lines": [
+      {
+        "text": "国安国安，北京国安",
+        "kind": "chant",
+        "gapSec": 6
+      },
+      {
+        "text": "国安必胜",
+        "kind": "chant",
+        "gapSec": 6
+      }
+    ]
+  },
+  "flags": [
+    {
+      "asset": "01_旗帜与TIFO/beijing_guoan_flag_main.png",
+      "anchor": "north-rail",
+      "count": 4
+    },
+    {
+      "asset": "01_旗帜与TIFO/beijing_guoan_flag_terrace.png",
+      "anchor": "ultras-block",
+      "count": 12
+    }
+  ],
+  "banners": [
+    {
+      "asset": "02_标语与助威/beijing_guoan_banner_slogan.png",
+      "anchor": "facade",
+      "count": 1
+    },
+    {
+      "asset": "02_标语与助威/beijing_guoan_banner_chant.png",
+      "anchor": "tier-front",
+      "count": 2
+    }
+  ],
+  "scarf": "02_标语与助威/beijing_guoan_scarf.png",
+  "crowd": {
+    "primaryRatio": 0.7,
+    "secondaryRatio": 0.2,
+    "accentRatio": 0.1
+  },
+  "props": [
+    {
+      "asset": "04_地方文化符号/beijing_guoan_symbol_1.png",
+      "zone": "concourse",
+      "note": "北京市树，新工体 6.8 万座椅的『国槐绿』来源"
+    },
+    {
+      "asset": "04_地方文化符号/beijing_guoan_symbol_2.png",
+      "zone": "concourse",
+      "note": "工体北门男女工人雕像，TIFO 与海报的剪影母题"
+    },
+    {
+      "asset": "04_地方文化符号/beijing_guoan_symbol_3.png",
+      "zone": "concourse",
+      "note": "吉祥物京狮与数字人 GLEO，看台入口打卡形象"
+    },
+    {
+      "asset": "05_球场饮食/beijing_guoan_food_1.png",
+      "zone": "market",
+      "note": "工体周边 · 老北京口味"
+    },
+    {
+      "asset": "05_球场饮食/beijing_guoan_food_2.png",
+      "zone": "market",
+      "note": "寒夜主场 · 一碗到底"
+    }
+  ],
+  "smoke": {
+    "enabled": false,
+    "color": "#FFFFFF"
+  },
+  "note": "24 号看台约 1.5 万座，御林军几乎全场背对球场由总指挥领喊；围巾墙是固定景观"
+}
