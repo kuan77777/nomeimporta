@@ -1,0 +1,955 @@
+{
+  "ok": 73,
+  "fail": 0,
+  "log": [
+    {
+      "slug": "football-soccer-club-grounds-assembled-c-a701b13a-starter-scene",
+      "id": "19143",
+      "file": "assembled-c-a701b13a-starter-scene.glb",
+      "bytes": 274456,
+      "tris": 6076,
+      "size": [
+        80,
+        12.352,
+        113.11
+      ],
+      "title": "Assembled soccer club ground (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-full-marked-pitch-6ecdec76",
+      "id": "19078",
+      "file": "full-marked-pitch-6ecdec76.glb",
+      "bytes": 107580,
+      "tris": 2192,
+      "size": [
+        75.997,
+        0.092,
+        112
+      ],
+      "title": "105 by 68 m marked soccer pitch (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-training-half-pitch-4c535305",
+      "id": "19079",
+      "file": "training-half-pitch-4c535305.glb",
+      "bytes": 18616,
+      "tris": 352,
+      "size": [
+        38.001,
+        0.044,
+        52
+      ],
+      "title": "Marked half training pitch (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-sideline-turf-strip-17922fcf",
+      "id": "19074",
+      "file": "sideline-turf-strip-17922fcf.glb",
+      "bytes": 2436,
+      "tris": 24,
+      "size": [
+        4,
+        0.046,
+        2
+      ],
+      "title": "Sideline turf apron (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-runoff-gravel-strip-97b47515",
+      "id": "19076",
+      "file": "runoff-gravel-strip-97b47515.glb",
+      "bytes": 9248,
+      "tris": 156,
+      "size": [
+        4,
+        0.11,
+        2
+      ],
+      "title": "Pitch runoff gravel strip (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-drain-channel-eb5195cb",
+      "id": "19075",
+      "file": "drain-channel-eb5195cb.glb",
+      "bytes": 21292,
+      "tris": 408,
+      "size": [
+        4,
+        0.092,
+        0.25
+      ],
+      "title": "Slotted pitch drain (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-corner-flag-65953ad0",
+      "id": "19077",
+      "file": "corner-flag-65953ad0.glb",
+      "bytes": 6408,
+      "tris": 108,
+      "size": [
+        0.46,
+        1.525,
+        0.2
+      ],
+      "title": "Corner flag with flexible pole (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-touchline-rope-d43e3c7e",
+      "id": "19073",
+      "file": "touchline-rope-d43e3c7e.glb",
+      "bytes": 7836,
+      "tris": 128,
+      "size": [
+        4.07,
+        1,
+        0.07
+      ],
+      "title": "Portable rope boundary (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-perimeter-rail-8d914e58",
+      "id": "19080",
+      "file": "perimeter-rail-8d914e58.glb",
+      "bytes": 11048,
+      "tris": 208,
+      "size": [
+        4.08,
+        1.14,
+        0.08
+      ],
+      "title": "Pitch perimeter rail (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-perimeter-corner-6f377447",
+      "id": "19082",
+      "file": "perimeter-corner-6f377447.glb",
+      "bytes": 14176,
+      "tris": 272,
+      "size": [
+        2.08,
+        1.14,
+        2.08
+      ],
+      "title": "Right angle perimeter rail (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-mesh-fence-panel-8586bfcb",
+      "id": "19083",
+      "file": "mesh-fence-panel-8586bfcb.glb",
+      "bytes": 30268,
+      "tris": 608,
+      "size": [
+        4.07,
+        3.04,
+        0.07
+      ],
+      "title": "Ball stop mesh fence panel (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-fence-corner-08b3bc2b",
+      "id": "19081",
+      "file": "fence-corner-08b3bc2b.glb",
+      "bytes": 47168,
+      "tris": 960,
+      "size": [
+        2.07,
+        3.04,
+        2.07
+      ],
+      "title": "Ball stop fence corner (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-pedestrian-gate-03104c3e",
+      "id": "19084",
+      "file": "pedestrian-gate-03104c3e.glb",
+      "bytes": 25480,
+      "tris": 508,
+      "size": [
+        1.27,
+        1.235,
+        0.105
+      ],
+      "title": "Pedestrian pitch gate (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-maintenance-gate-ca2724cf",
+      "id": "19085",
+      "file": "maintenance-gate-ca2724cf.glb",
+      "bytes": 13316,
+      "tris": 240,
+      "size": [
+        3.67,
+        1.435,
+        0.115
+      ],
+      "title": "Double maintenance gate (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-dugout-ramp-85a15561",
+      "id": "19086",
+      "file": "dugout-ramp-85a15561.glb",
+      "bytes": 3364,
+      "tris": 36,
+      "size": [
+        1.502,
+        0.14,
+        2.001
+      ],
+      "title": "Dugout approach ramp (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-pitch-access-step-1ca7cab5",
+      "id": "19088",
+      "file": "pitch-access-step-1ca7cab5.glb",
+      "bytes": 3532,
+      "tris": 36,
+      "size": [
+        1.2,
+        0.31,
+        0.7
+      ],
+      "title": "Two tread pitch access step (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-full-size-goal-08c07f03",
+      "id": "19087",
+      "file": "full-size-goal-08c07f03.glb",
+      "bytes": 100940,
+      "tris": 2080,
+      "size": [
+        7.56,
+        2.56,
+        2.095
+      ],
+      "title": "Full size open net soccer goal (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-training-rebounder-752a829f",
+      "id": "19089",
+      "file": "training-rebounder-752a829f.glb",
+      "bytes": 32556,
+      "tris": 640,
+      "size": [
+        1.47,
+        1.285,
+        0.657
+      ],
+      "title": "Angled training rebounder (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-mini-goal-b4e93f9b",
+      "id": "19090",
+      "file": "mini-goal-b4e93f9b.glb",
+      "bytes": 46388,
+      "tris": 944,
+      "size": [
+        2.04,
+        1.22,
+        0.795
+      ],
+      "title": "Portable mini goal (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-soccer-ball-118e3a67",
+      "id": "19091",
+      "file": "soccer-ball-118e3a67.glb",
+      "bytes": 10408,
+      "tris": 180,
+      "size": [
+        0.215,
+        0.215,
+        0.215
+      ],
+      "title": "Faceted panel soccer ball (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-ball-cart-abb2cbb4",
+      "id": "19092",
+      "file": "ball-cart-abb2cbb4.glb",
+      "bytes": 15216,
+      "tris": 380,
+      "size": [
+        0.885,
+        1.035,
+        0.72
+      ],
+      "title": "Wheeled open ball cart (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-slalom-pole-dea3f8f7",
+      "id": "19093",
+      "file": "slalom-pole-dea3f8f7.glb",
+      "bytes": 5108,
+      "tris": 96,
+      "size": [
+        0.28,
+        1.67,
+        0.28
+      ],
+      "title": "Weighted slalom pole (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-agility-ladder-75e84ad2",
+      "id": "19094",
+      "file": "agility-ladder-75e84ad2.glb",
+      "bytes": 6948,
+      "tris": 108,
+      "size": [
+        0.525,
+        0.015,
+        2.44
+      ],
+      "title": "Six rung agility ladder (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-training-hurdle-0562f899",
+      "id": "19095",
+      "file": "training-hurdle-0562f899.glb",
+      "bytes": 10288,
+      "tris": 192,
+      "size": [
+        0.636,
+        0.338,
+        0.36
+      ],
+      "title": "Low training hurdle (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-training-cone-9635613a",
+      "id": "19096",
+      "file": "training-cone-9635613a.glb",
+      "bytes": 6960,
+      "tris": 108,
+      "size": [
+        0.28,
+        0.345,
+        0.28
+      ],
+      "title": "White band training cone (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-disc-marker-ce194594",
+      "id": "19097",
+      "file": "disc-marker-ce194594.glb",
+      "bytes": 6376,
+      "tris": 96,
+      "size": [
+        0.22,
+        0.027,
+        0.22
+      ],
+      "title": "Low profile disc marker (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-free-kick-mannequin-1412ba74",
+      "id": "19098",
+      "file": "free-kick-mannequin-1412ba74.glb",
+      "bytes": 23116,
+      "tris": 444,
+      "size": [
+        0.48,
+        1.59,
+        0.35
+      ],
+      "title": "Free kick training mannequin (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-passing-gate-7e95a48c",
+      "id": "19099",
+      "file": "passing-gate-7e95a48c.glb",
+      "bytes": 7196,
+      "tris": 128,
+      "size": [
+        0.97,
+        0.625,
+        0.07
+      ],
+      "title": "Training passing gate (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-target-hoop-3ca8b765",
+      "id": "19100",
+      "file": "target-hoop-3ca8b765.glb",
+      "bytes": 30944,
+      "tris": 608,
+      "size": [
+        0.7,
+        1.32,
+        0.46
+      ],
+      "title": "Upright target hoop (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-ball-pump-46d4eaeb",
+      "id": "19101",
+      "file": "ball-pump-46d4eaeb.glb",
+      "bytes": 8320,
+      "tris": 136,
+      "size": [
+        0.387,
+        0.255,
+        0.196
+      ],
+      "title": "Foot operated ball pump (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-equipment-carry-bag-787b6642",
+      "id": "19102",
+      "file": "equipment-carry-bag-787b6642.glb",
+      "bytes": 10572,
+      "tris": 176,
+      "size": [
+        0.65,
+        0.408,
+        0.31
+      ],
+      "title": "Training equipment carry bag (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-terrace-tier-d060e188",
+      "id": "19103",
+      "file": "terrace-tier-d060e188.glb",
+      "bytes": 4176,
+      "tris": 72,
+      "size": [
+        4,
+        1.212,
+        2.4
+      ],
+      "title": "Three level standing terrace (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-seated-stand-bay-237fb200",
+      "id": "19104",
+      "file": "seated-stand-bay-237fb200.glb",
+      "bytes": 35212,
+      "tris": 900,
+      "size": [
+        4,
+        2.03,
+        2.4
+      ],
+      "title": "Three row seated stand bay (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-stand-stair-aisle-f4e60a60",
+      "id": "19106",
+      "file": "stand-stair-aisle-f4e60a60.glb",
+      "bytes": 17492,
+      "tris": 328,
+      "size": [
+        1.2,
+        1.873,
+        2.4
+      ],
+      "title": "Stand stair aisle (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-accessible-platform-c28164f3",
+      "id": "19105",
+      "file": "accessible-platform-c28164f3.glb",
+      "bytes": 16148,
+      "tris": 300,
+      "size": [
+        4,
+        1.285,
+        2.4
+      ],
+      "title": "Accessible viewing platform (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-stand-roof-bay-97c354e8",
+      "id": "19107",
+      "file": "stand-roof-bay-97c354e8.glb",
+      "bytes": 6552,
+      "tris": 100,
+      "size": [
+        4,
+        3.72,
+        3.2
+      ],
+      "title": "Cantilever stand roof bay (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-stand-end-screen-73082658",
+      "id": "19108",
+      "file": "stand-end-screen-73082658.glb",
+      "bytes": 3500,
+      "tris": 36,
+      "size": [
+        0.12,
+        2.6,
+        2.42
+      ],
+      "title": "Stand end wind screen (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-stand-rear-railing-1252a9ae",
+      "id": "19109",
+      "file": "stand-rear-railing-1252a9ae.glb",
+      "bytes": 55612,
+      "tris": 1136,
+      "size": [
+        4.07,
+        1.235,
+        0.07
+      ],
+      "title": "Stand rear safety rail (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-dugout-shelter-ea708920",
+      "id": "19110",
+      "file": "dugout-shelter-ea708920.glb",
+      "bytes": 20256,
+      "tris": 372,
+      "size": [
+        4,
+        2.18,
+        1.875
+      ],
+      "title": "Six seat team dugout (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-team-bench-ce50f02b",
+      "id": "19111",
+      "file": "team-bench-ce50f02b.glb",
+      "bytes": 5152,
+      "tris": 72,
+      "size": [
+        2,
+        0.92,
+        0.447
+      ],
+      "title": "Three place team bench (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-bucket-seat-1a72cd60",
+      "id": "19112",
+      "file": "bucket-seat-1a72cd60.glb",
+      "bytes": 3416,
+      "tris": 48,
+      "size": [
+        0.44,
+        0.83,
+        0.435
+      ],
+      "title": "Individual spectator bucket seat (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-folding-coach-chair-3a02f4ca",
+      "id": "19113",
+      "file": "folding-coach-chair-3a02f4ca.glb",
+      "bytes": 9136,
+      "tris": 152,
+      "size": [
+        0.48,
+        0.848,
+        0.493
+      ],
+      "title": "Folding coach chair (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-technical-area-marker-27deaa75",
+      "id": "19114",
+      "file": "technical-area-marker-27deaa75.glb",
+      "bytes": 2280,
+      "tris": 24,
+      "size": [
+        1.2,
+        0.018,
+        1.2
+      ],
+      "title": "Technical area corner marker (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-substitution-board-05e2171f",
+      "id": "19115",
+      "file": "substitution-board-05e2171f.glb",
+      "bytes": 9292,
+      "tris": 144,
+      "size": [
+        0.72,
+        0.47,
+        0.083
+      ],
+      "title": "Handheld substitution board (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-tactics-easel-725544ea",
+      "id": "19117",
+      "file": "tactics-easel-725544ea.glb",
+      "bytes": 8828,
+      "tris": 132,
+      "size": [
+        0.95,
+        1.643,
+        0.798
+      ],
+      "title": "Portable tactics easel (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-spectator-barrier-407144f5",
+      "id": "19118",
+      "file": "spectator-barrier-407144f5.glb",
+      "bytes": 33344,
+      "tris": 672,
+      "size": [
+        2.47,
+        1.135,
+        0.7
+      ],
+      "title": "Freestanding crowd barrier (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-open-kit-locker-d10c9b5a",
+      "id": "19116",
+      "file": "open-kit-locker-d10c9b5a.glb",
+      "bytes": 8060,
+      "tris": 116,
+      "size": [
+        0.65,
+        1.93,
+        0.503
+      ],
+      "title": "Open ventilated kit locker (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-changing-bench-912e20bc",
+      "id": "19119",
+      "file": "changing-bench-912e20bc.glb",
+      "bytes": 3424,
+      "tris": 36,
+      "size": [
+        2,
+        0.485,
+        0.45
+      ],
+      "title": "Backless changing room bench (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-boot-rack-1112eb8f",
+      "id": "19120",
+      "file": "boot-rack-1112eb8f.glb",
+      "bytes": 5776,
+      "tris": 84,
+      "size": [
+        1.15,
+        1.05,
+        0.442
+      ],
+      "title": "Three shelf boot rack (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-shower-column-2aeb12a4",
+      "id": "19121",
+      "file": "shower-column-2aeb12a4.glb",
+      "bytes": 9220,
+      "tris": 140,
+      "size": [
+        0.25,
+        2.05,
+        0.44
+      ],
+      "title": "Freestanding shower column (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-wash-basin-3be77db0",
+      "id": "19122",
+      "file": "wash-basin-3be77db0.glb",
+      "bytes": 8876,
+      "tris": 148,
+      "size": [
+        0.58,
+        1.032,
+        0.43
+      ],
+      "title": "Pedestal wash basin (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-toilet-stall-4d622ba7",
+      "id": "19123",
+      "file": "toilet-stall-4d622ba7.glb",
+      "bytes": 32136,
+      "tris": 620,
+      "size": [
+        1.1,
+        2.06,
+        1.5
+      ],
+      "title": "Open front toilet cubicle (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-towel-shelf-8d7f3ef9",
+      "id": "19125",
+      "file": "towel-shelf-8d7f3ef9.glb",
+      "bytes": 5804,
+      "tris": 84,
+      "size": [
+        0.802,
+        0.436,
+        0.352
+      ],
+      "title": "Towel storage shelf (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-laundry-trolley-8899c51b",
+      "id": "19124",
+      "file": "laundry-trolley-8899c51b.glb",
+      "bytes": 11976,
+      "tris": 204,
+      "size": [
+        0.845,
+        0.81,
+        0.68
+      ],
+      "title": "Open kit laundry trolley (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-treatment-table-2eeb6a53",
+      "id": "19126",
+      "file": "treatment-table-2eeb6a53.glb",
+      "bytes": 5556,
+      "tris": 72,
+      "size": [
+        1.9,
+        0.86,
+        0.7
+      ],
+      "title": "Sideline treatment table (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-first-aid-cabinet-feff73ae",
+      "id": "19127",
+      "file": "first-aid-cabinet-feff73ae.glb",
+      "bytes": 4464,
+      "tris": 48,
+      "size": [
+        0.5,
+        0.6,
+        0.217
+      ],
+      "title": "First aid supply cabinet (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-water-bottle-carrier-3c5028a4",
+      "id": "19128",
+      "file": "water-bottle-carrier-3c5028a4.glb",
+      "bytes": 18076,
+      "tris": 324,
+      "size": [
+        0.42,
+        0.34,
+        0.28
+      ],
+      "title": "Six bottle sideline carrier (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-drink-cooler-e552e4f8",
+      "id": "19129",
+      "file": "drink-cooler-e552e4f8.glb",
+      "bytes": 8192,
+      "tris": 120,
+      "size": [
+        0.47,
+        0.6,
+        0.535
+      ],
+      "title": "Insulated sideline drink cooler (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-waste-bin-15a6b427",
+      "id": "19130",
+      "file": "waste-bin-15a6b427.glb",
+      "bytes": 15580,
+      "tris": 288,
+      "size": [
+        0.44,
+        0.72,
+        0.44
+      ],
+      "title": "Open rim venue waste bin (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-wall-hook-rail-618b9d6b",
+      "id": "19131",
+      "file": "wall-hook-rail-618b9d6b.glb",
+      "bytes": 20792,
+      "tris": 396,
+      "size": [
+        1.2,
+        0.13,
+        0.127
+      ],
+      "title": "Six hook changing rail (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-tactics-wall-board-15e2a3e2",
+      "id": "19132",
+      "file": "tactics-wall-board-15e2a3e2.glb",
+      "bytes": 5612,
+      "tris": 72,
+      "size": [
+        1.201,
+        0.8,
+        0.113
+      ],
+      "title": "Wall mounted tactics board (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-scoreboard-e12a4ed5",
+      "id": "19133",
+      "file": "scoreboard-e12a4ed5.glb",
+      "bytes": 10228,
+      "tris": 156,
+      "size": [
+        4,
+        4.001,
+        0.283
+      ],
+      "title": "Club neutral elevated scoreboard (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-floodlight-mast-282b2db3",
+      "id": "19134",
+      "file": "floodlight-mast-282b2db3.glb",
+      "bytes": 10544,
+      "tris": 168,
+      "size": [
+        2.6,
+        12.35,
+        0.7
+      ],
+      "title": "Four lamp floodlight mast (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-ticket-booth-e23acd9f",
+      "id": "19135",
+      "file": "ticket-booth-e23acd9f.glb",
+      "bytes": 6928,
+      "tris": 96,
+      "size": [
+        2.2,
+        2.47,
+        1.875
+      ],
+      "title": "Ground entrance ticket booth (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-tripod-turnstile-b2daf4d7",
+      "id": "19137",
+      "file": "tripod-turnstile-b2daf4d7.glb",
+      "bytes": 6980,
+      "tris": 108,
+      "size": [
+        0.691,
+        1.149,
+        0.612
+      ],
+      "title": "Tripod entrance turnstile (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-concession-kiosk-fc162fe3",
+      "id": "19136",
+      "file": "concession-kiosk-fc162fe3.glb",
+      "bytes": 6936,
+      "tris": 96,
+      "size": [
+        3.3,
+        2.62,
+        2.625
+      ],
+      "title": "Open concession hatch kiosk (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-camera-platform-81d16afb",
+      "id": "19138",
+      "file": "camera-platform-81d16afb.glb",
+      "bytes": 18484,
+      "tris": 348,
+      "size": [
+        2.4,
+        3.31,
+        2
+      ],
+      "title": "Broadcast camera platform (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-press-desk-54242480",
+      "id": "19139",
+      "file": "press-desk-54242480.glb",
+      "bytes": 5516,
+      "tris": 72,
+      "size": [
+        1.8,
+        1.02,
+        0.65
+      ],
+      "title": "Two position press desk (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-line-marker-cart-cf1d16fc",
+      "id": "19140",
+      "file": "line-marker-cart-cf1d16fc.glb",
+      "bytes": 13668,
+      "tris": 264,
+      "size": [
+        0.665,
+        1.075,
+        0.99
+      ],
+      "title": "Pitch line marking cart (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-hose-reel-ddc1335b",
+      "id": "19141",
+      "file": "hose-reel-ddc1335b.glb",
+      "bytes": 18188,
+      "tris": 328,
+      "size": [
+        0.705,
+        0.72,
+        0.56
+      ],
+      "title": "Groundskeeper hose reel (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-trophy-plinth-99e2c1de",
+      "id": "19142",
+      "file": "trophy-plinth-99e2c1de.glb",
+      "bytes": 4320,
+      "tris": 48,
+      "size": [
+        0.7,
+        0.87,
+        0.7
+      ],
+      "title": "Club trophy display plinth (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-assembled-c-a701b13a-starter-scene",
+      "id": "19143",
+      "file": "assembled-c-a701b13a-starter-scene.glb",
+      "bytes": 274456,
+      "tris": 6076,
+      "size": [
+        80,
+        12.352,
+        113.11
+      ],
+      "title": "Assembled soccer club ground (Football Soccer Stadium and Club Grounds)"
+    },
+    {
+      "slug": "football-soccer-club-grounds-training-equipment-layout-9cbfc598",
+      "id": "19144",
+      "file": "training-equipment-layout-9cbfc598.glb",
+      "bytes": 270100,
+      "tris": 5876,
+      "size": [
+        12.312,
+        2.56,
+        10.255
+      ],
+      "title": "Soccer training corner (Football Soccer Stadium and Club Grounds)"
+    }
+  ]
+}

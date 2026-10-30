@@ -1,0 +1,17 @@
+﻿序号,球队,英文,俱乐部ID,主场,容量,级别,形制(层/排/进深/罩棚/灯塔/角塔),贴图(KB),几何哈希,三角面,文件
+1,上海海港,ShanghaiPort,C231,上海浦东足球场,37000,B,1层/6排/8m/无罩棚/4灯塔/有,201,729f31e7a51cbbbe,55236,02_球队球场/01_ShanghaiPort/ShanghaiPort_stadium.glb
+2,上海申花,ShanghaiShenhua,C232,上海体育场,72000,S,3层/9排/8m/全罩棚/4灯塔/有,183,98d57bf3495fa512,70068,02_球队球场/02_ShanghaiShenhua/ShanghaiShenhua_stadium.glb
+3,北京国安,BeijingGuoan,C234,北京工人体育场,68000,A+,2层/9排/8.5m/半罩棚/4灯塔/有,174,add89de71b33119e,65186,02_球队球场/03_BeijingGuoan/BeijingGuoan_stadium.glb
+4,成都蓉城,ChengduRongcheng,C233,成都凤凰山体育公园,50000,A,2层/7排/11m/半罩棚/4灯塔/有,218,9e448f752fb1a000,64074,02_球队球场/04_ChengduRongcheng/ChengduRongcheng_stadium.glb
+5,山东泰山,ShandongTaishan,C235,济南奥体中心,56808,A,2层/8排/9.5m/半罩棚/4灯塔/无,204,4836635984a5f7af,65470,02_球队球场/05_ShandongTaishan/ShandongTaishan_stadium.glb
+6,浙江,Zhejiang,C237,杭州黄龙体育中心,52672,A,2层/7排/10.5m/半罩棚/4灯塔/无,196,18e21727d958d5c6,63954,02_球队球场/06_Zhejiang/Zhejiang_stadium.glb
+7,天津津门虎,TianjinJinmenTiger,C236,天津团泊足球场,37000,B,1层/6排/8.5m/无罩棚/4灯塔/无,213,dbc72c27a13ea25c,55140,02_球队球场/07_TianjinJinmenTiger/TianjinJinmenTiger_stadium.glb
+8,云南玉昆,YunnanYukun,C242,玉溪高原体育运动中心,30300,B,1层/5排/9m/无罩棚/4灯塔/有,203,b4b1cc7ae79c4cf9,55132,02_球队球场/08_YunnanYukun/YunnanYukun_stadium.glb
+9,青岛西海岸,QingdaoWestCoast,C238,青岛西海岸大学城体育场,30000,B,1层/5排/9.5m/无罩棚/2灯塔/无,213,5841ac40739b11a4,54980,02_球队球场/09_QingdaoWestCoast/QingdaoWestCoast_stadium.glb
+10,河南,Henan,C240,郑州航海体育场,29860,B,1层/5排/10m/无罩棚/2灯塔/无,205,39835b738ceb0033,55004,02_球队球场/10_Henan/Henan_stadium.glb
+11,大连英博,DalianYingbo,C243,大连梭鱼湾足球场,63000,A+,2层/8排/9m/半罩棚/4灯塔/有,178,bb4b9cb7a49f38f2,64578,02_球队球场/11_DalianYingbo/DalianYingbo_stadium.glb
+12,深圳新鹏城,ShenzhenPengCity,C241,深圳宝安体育场,45000,A,2层/6排/12m/半罩棚/4灯塔/无,202,e4d431365b062935,63626,02_球队球场/12_ShenzhenPengCity/ShenzhenPengCity_stadium.glb
+13,青岛海牛,QingdaoHainiu,C244,青岛天泰体育场,50000,A,2层/6排/11.5m/无罩棚/4灯塔/无,207,d57378a32d6a392c,62954,02_球队球场/13_QingdaoHainiu/QingdaoHainiu_stadium.glb
+14,武汉三镇,WuhanThreeTowns,C239,武汉体育中心,56201,A,2层/7排/10m/半罩棚/4灯塔/无,187,9055d402cc8de791,63954,02_球队球场/14_WuhanThreeTowns/WuhanThreeTowns_stadium.glb
+15,辽宁铁人,LiaoningTieren,C247,沈阳奥体中心,19600,C,1层/4排/7m/无罩棚/2灯塔/有,175,3b0ccecee7399df1,53692,02_球队球场/15_LiaoningTieren/LiaoningTieren_stadium.glb
+16,重庆铜梁龙,ChongqingTonglianglong,C248,重庆奥体中心,20000,C,1层/4排/7.5m/无罩棚/2灯塔/无,215,0be2d5a8e612a3e5,53596,02_球队球场/16_ChongqingTonglianglong/ChongqingTonglianglong_stadium.glb
