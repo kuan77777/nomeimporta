@@ -1,0 +1,31 @@
+{
+  "no": 11,
+  "team": "大连英博",
+  "en": "DalianYingbo",
+  "clubId": "C243",
+  "venue": "大连梭鱼湾足球场",
+  "tier": "A+",
+  "capacity": 63000,
+  "colors": {
+    "primary": "#1D4E9E",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 8,
+    "inset": 9,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "DalianYingbo_name.png",
+    "slogan": "DalianYingbo_slogan.png",
+    "emblem": "DalianYingbo_emblem.png"
+  },
+  "file": "02_球队球场/11_DalianYingbo/DalianYingbo_stadium.glb",
+  "bytes": 5074588,
+  "triangles": 64304,
+  "vertices": 113480
+}

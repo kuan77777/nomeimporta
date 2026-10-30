@@ -1,0 +1,31 @@
+{
+  "no": 16,
+  "team": "重庆铜梁龙",
+  "en": "ChongqingTonglianglong",
+  "clubId": "C248",
+  "venue": "重庆奥体中心",
+  "tier": "C",
+  "capacity": 20000,
+  "colors": {
+    "primary": "#B02E2E",
+    "secondary": "#F4F5F7"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 4,
+    "inset": 7.5,
+    "roof": "none",
+    "floodlights": 2,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "ChongqingTonglianglong_name.png",
+    "slogan": "ChongqingTonglianglong_slogan.png",
+    "emblem": "ChongqingTonglianglong_emblem.png"
+  },
+  "file": "02_球队球场/16_ChongqingTonglianglong/ChongqingTonglianglong_stadium.glb",
+  "bytes": 4285412,
+  "triangles": 53444,
+  "vertices": 94304
+}

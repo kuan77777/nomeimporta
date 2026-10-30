@@ -1,0 +1,31 @@
+{
+  "no": 12,
+  "team": "深圳新鹏城",
+  "en": "ShenzhenPengCity",
+  "clubId": "C241",
+  "venue": "深圳宝安体育场",
+  "tier": "A",
+  "capacity": 45000,
+  "colors": {
+    "primary": "#C8102E",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 6,
+    "inset": 12,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "ShenzhenPengCity_name.png",
+    "slogan": "ShenzhenPengCity_slogan.png",
+    "emblem": "ShenzhenPengCity_emblem.png"
+  },
+  "file": "02_球队球场/12_ShenzhenPengCity/ShenzhenPengCity_stadium.glb",
+  "bytes": 5023368,
+  "triangles": 63392,
+  "vertices": 111720
+}

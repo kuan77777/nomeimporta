@@ -1,0 +1,31 @@
+{
+  "no": 13,
+  "team": "青岛海牛",
+  "en": "QingdaoHainiu",
+  "clubId": "C244",
+  "venue": "青岛天泰体育场",
+  "tier": "A",
+  "capacity": 50000,
+  "colors": {
+    "primary": "#0B4EA2",
+    "secondary": "#F2C200"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 6,
+    "inset": 11.5,
+    "roof": "none",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "QingdaoHainiu_name.png",
+    "slogan": "QingdaoHainiu_slogan.png",
+    "emblem": "QingdaoHainiu_emblem.png"
+  },
+  "file": "02_球队球场/13_QingdaoHainiu/QingdaoHainiu_stadium.glb",
+  "bytes": 4972584,
+  "triangles": 62720,
+  "vertices": 110400
+}

@@ -1,0 +1,31 @@
+{
+  "no": 15,
+  "team": "辽宁铁人",
+  "en": "LiaoningTieren",
+  "clubId": "C247",
+  "venue": "沈阳奥体中心",
+  "tier": "C",
+  "capacity": 19600,
+  "colors": {
+    "primary": "#B02E2E",
+    "secondary": "#F4F5F7"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 4,
+    "inset": 7,
+    "roof": "none",
+    "floodlights": 2,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "LiaoningTieren_name.png",
+    "slogan": "LiaoningTieren_slogan.png",
+    "emblem": "LiaoningTieren_emblem.png"
+  },
+  "file": "02_球队球场/15_LiaoningTieren/LiaoningTieren_stadium.glb",
+  "bytes": 4251588,
+  "triangles": 53540,
+  "vertices": 94496
+}

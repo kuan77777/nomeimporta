@@ -1,0 +1,31 @@
+{
+  "no": 14,
+  "team": "武汉三镇",
+  "en": "WuhanThreeTowns",
+  "clubId": "C239",
+  "venue": "武汉体育中心",
+  "tier": "A",
+  "capacity": 56201,
+  "colors": {
+    "primary": "#0047A0",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 7,
+    "inset": 10,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "WuhanThreeTowns_name.png",
+    "slogan": "WuhanThreeTowns_slogan.png",
+    "emblem": "WuhanThreeTowns_emblem.png"
+  },
+  "file": "02_球队球场/14_WuhanThreeTowns/WuhanThreeTowns_stadium.glb",
+  "bytes": 5033172,
+  "triangles": 63704,
+  "vertices": 112312
+}

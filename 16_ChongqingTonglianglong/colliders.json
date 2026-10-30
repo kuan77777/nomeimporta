@@ -1,0 +1,863 @@
+{
+  "model": "ChongqingTonglianglong_stadium.glb",
+  "units": "metre",
+  "yUp": true,
+  "note": "kind: wall 外墙 / stand 看台 / walkway 可走面 / stair 楼梯 / prop 设施 / opening 通道口（看台碰撞盒在这些位置要挖开）",
+  "count": 61,
+  "boxes": [
+    {
+      "name": "wall-south",
+      "kind": "wall",
+      "min": [
+        -57.3,
+        0,
+        74.6
+      ],
+      "max": [
+        57.3,
+        8.1,
+        75.8
+      ]
+    },
+    {
+      "name": "wall-north",
+      "kind": "wall",
+      "min": [
+        -57.3,
+        0,
+        -75.8
+      ],
+      "max": [
+        57.3,
+        8.1,
+        -74.6
+      ]
+    },
+    {
+      "name": "wall-east",
+      "kind": "wall",
+      "min": [
+        56.1,
+        0,
+        -75.2
+      ],
+      "max": [
+        57.3,
+        8.1,
+        75.2
+      ]
+    },
+    {
+      "name": "wall-west",
+      "kind": "wall",
+      "min": [
+        -57.3,
+        0,
+        -75.2
+      ],
+      "max": [
+        -56.1,
+        8.1,
+        75.2
+      ]
+    },
+    {
+      "name": "hall-east",
+      "kind": "wall",
+      "min": [
+        4.6,
+        0,
+        65.2
+      ],
+      "max": [
+        5.4,
+        5.4,
+        75.2
+      ]
+    },
+    {
+      "name": "hall-west",
+      "kind": "wall",
+      "min": [
+        -5.4,
+        0,
+        65.2
+      ],
+      "max": [
+        -4.6,
+        5.4,
+        75.2
+      ]
+    },
+    {
+      "name": "turnstiles",
+      "kind": "prop",
+      "min": [
+        -4.8,
+        0,
+        71
+      ],
+      "max": [
+        4.8,
+        1.2,
+        73
+      ]
+    },
+    {
+      "name": "stand-south",
+      "kind": "stand",
+      "min": [
+        -46.7,
+        0,
+        60
+      ],
+      "max": [
+        46.7,
+        4.6,
+        65.2
+      ]
+    },
+    {
+      "name": "stand-north",
+      "kind": "stand",
+      "min": [
+        -46.7,
+        0,
+        -65.2
+      ],
+      "max": [
+        46.7,
+        4.6,
+        -60
+      ]
+    },
+    {
+      "name": "stand-west-0",
+      "kind": "stand",
+      "min": [
+        -46.7,
+        0,
+        -65.2
+      ],
+      "max": [
+        -41.5,
+        4.6,
+        5
+      ]
+    },
+    {
+      "name": "stand-west-1",
+      "kind": "stand",
+      "min": [
+        -46.7,
+        0,
+        15
+      ],
+      "max": [
+        -41.5,
+        4.6,
+        -15
+      ]
+    },
+    {
+      "name": "stand-west-2",
+      "kind": "stand",
+      "min": [
+        -46.7,
+        0,
+        -5
+      ],
+      "max": [
+        -41.5,
+        4.6,
+        65.2
+      ]
+    },
+    {
+      "name": "stand-east-0",
+      "kind": "stand",
+      "min": [
+        41.5,
+        0,
+        -65.2
+      ],
+      "max": [
+        46.7,
+        4.6,
+        5
+      ]
+    },
+    {
+      "name": "stand-east-1",
+      "kind": "stand",
+      "min": [
+        41.5,
+        0,
+        15
+      ],
+      "max": [
+        46.7,
+        4.6,
+        -15
+      ]
+    },
+    {
+      "name": "stand-east-2",
+      "kind": "stand",
+      "min": [
+        41.5,
+        0,
+        -5
+      ],
+      "max": [
+        46.7,
+        4.6,
+        65.2
+      ]
+    },
+    {
+      "name": "concourse-floor-N",
+      "kind": "walkway",
+      "min": [
+        -57.3,
+        -0.1,
+        -75.2
+      ],
+      "max": [
+        57.3,
+        0.1,
+        -65.2
+      ]
+    },
+    {
+      "name": "concourse-floor-S",
+      "kind": "walkway",
+      "min": [
+        -57.3,
+        -0.1,
+        65.2
+      ],
+      "max": [
+        57.3,
+        0.1,
+        75.2
+      ]
+    },
+    {
+      "name": "concourse-floor-W",
+      "kind": "walkway",
+      "min": [
+        -56.7,
+        -0.1,
+        -75.8
+      ],
+      "max": [
+        -46.7,
+        0.1,
+        75.8
+      ]
+    },
+    {
+      "name": "concourse-floor-E",
+      "kind": "walkway",
+      "min": [
+        46.7,
+        -0.1,
+        -75.8
+      ],
+      "max": [
+        56.7,
+        0.1,
+        75.8
+      ]
+    },
+    {
+      "name": "tunnel-W",
+      "kind": "opening",
+      "min": [
+        -33.4,
+        0,
+        -2.6
+      ],
+      "max": [
+        -47.1,
+        4.85,
+        2.6
+      ]
+    },
+    {
+      "name": "tunnel-E",
+      "kind": "opening",
+      "min": [
+        33.4,
+        0,
+        -2.6
+      ],
+      "max": [
+        47.1,
+        4.85,
+        2.6
+      ]
+    },
+    {
+      "name": "room-ticket",
+      "kind": "room",
+      "min": [
+        12.6,
+        0,
+        70.1
+      ],
+      "max": [
+        19.4,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-firstaid",
+      "kind": "room",
+      "min": [
+        -19.4,
+        0,
+        70.1
+      ],
+      "max": [
+        -12.6,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-security",
+      "kind": "room",
+      "min": [
+        20.6,
+        0,
+        70.1
+      ],
+      "max": [
+        27.4,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        -27.4,
+        0,
+        70.1
+      ],
+      "max": [
+        -20.6,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-shop",
+      "kind": "room",
+      "min": [
+        28.6,
+        0,
+        70.1
+      ],
+      "max": [
+        35.4,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-shop",
+      "kind": "room",
+      "min": [
+        -35.4,
+        0,
+        70.1
+      ],
+      "max": [
+        -28.6,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-media",
+      "kind": "room",
+      "min": [
+        36.6,
+        0,
+        70.1
+      ],
+      "max": [
+        43.4,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        -43.4,
+        0,
+        70.1
+      ],
+      "max": [
+        -36.6,
+        3.4,
+        74.5
+      ]
+    },
+    {
+      "name": "room-family",
+      "kind": "room",
+      "min": [
+        12.6,
+        0,
+        -74.5
+      ],
+      "max": [
+        19.4,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        -19.4,
+        0,
+        -74.5
+      ],
+      "max": [
+        -12.6,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        20.6,
+        0,
+        -74.5
+      ],
+      "max": [
+        27.4,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-family",
+      "kind": "room",
+      "min": [
+        -27.4,
+        0,
+        -74.5
+      ],
+      "max": [
+        -20.6,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-vip",
+      "kind": "room",
+      "min": [
+        28.6,
+        0,
+        -74.5
+      ],
+      "max": [
+        35.4,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-shop",
+      "kind": "room",
+      "min": [
+        -35.4,
+        0,
+        -74.5
+      ],
+      "max": [
+        -28.6,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-press",
+      "kind": "room",
+      "min": [
+        36.6,
+        0,
+        -74.5
+      ],
+      "max": [
+        43.4,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-doctor",
+      "kind": "room",
+      "min": [
+        -43.4,
+        0,
+        -74.5
+      ],
+      "max": [
+        -36.6,
+        3.4,
+        -70.1
+      ]
+    },
+    {
+      "name": "room-home",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        12.6
+      ],
+      "max": [
+        56,
+        3.4,
+        19.4
+      ]
+    },
+    {
+      "name": "room-doping",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        20.6
+      ],
+      "max": [
+        56,
+        3.4,
+        27.4
+      ]
+    },
+    {
+      "name": "room-changing",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        28.6
+      ],
+      "max": [
+        56,
+        3.4,
+        35.4
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        36.6
+      ],
+      "max": [
+        56,
+        3.4,
+        43.4
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        44.6
+      ],
+      "max": [
+        56,
+        3.4,
+        51.4
+      ]
+    },
+    {
+      "name": "room-toilet",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        52.6
+      ],
+      "max": [
+        56,
+        3.4,
+        59.4
+      ]
+    },
+    {
+      "name": "room-home",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -19.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -12.6
+      ]
+    },
+    {
+      "name": "room-doping",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -27.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -20.6
+      ]
+    },
+    {
+      "name": "room-changing",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -35.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -28.6
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -43.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -36.6
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -51.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -44.6
+      ]
+    },
+    {
+      "name": "room-toilet",
+      "kind": "room",
+      "min": [
+        51.6,
+        0,
+        -59.4
+      ],
+      "max": [
+        56,
+        3.4,
+        -52.6
+      ]
+    },
+    {
+      "name": "room-away",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        12.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        19.4
+      ]
+    },
+    {
+      "name": "room-doping",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        20.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        27.4
+      ]
+    },
+    {
+      "name": "room-changing",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        28.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        35.4
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        36.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        43.4
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        44.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        51.4
+      ]
+    },
+    {
+      "name": "room-toilet",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        52.6
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        59.4
+      ]
+    },
+    {
+      "name": "room-away",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -19.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -12.6
+      ]
+    },
+    {
+      "name": "room-doping",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -27.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -20.6
+      ]
+    },
+    {
+      "name": "room-changing",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -35.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -28.6
+      ]
+    },
+    {
+      "name": "room-storage",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -43.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -36.6
+      ]
+    },
+    {
+      "name": "room-kiosk",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -51.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -44.6
+      ]
+    },
+    {
+      "name": "room-toilet",
+      "kind": "room",
+      "min": [
+        -56,
+        0,
+        -59.4
+      ],
+      "max": [
+        -51.6,
+        3.4,
+        -52.6
+      ]
+    }
+  ]
+}

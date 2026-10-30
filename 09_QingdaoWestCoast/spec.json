@@ -1,0 +1,31 @@
+{
+  "no": 9,
+  "team": "青岛西海岸",
+  "en": "QingdaoWestCoast",
+  "clubId": "C238",
+  "venue": "青岛西海岸大学城体育场",
+  "tier": "B",
+  "capacity": 30000,
+  "colors": {
+    "primary": "#0E4C92",
+    "secondary": "#FFD100"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 5,
+    "inset": 9.5,
+    "roof": "none",
+    "floodlights": 2,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "QingdaoWestCoast_name.png",
+    "slogan": "QingdaoWestCoast_slogan.png",
+    "emblem": "QingdaoWestCoast_emblem.png"
+  },
+  "file": "02_球队球场/09_QingdaoWestCoast/QingdaoWestCoast_stadium.glb",
+  "bytes": 4395720,
+  "triangles": 54812,
+  "vertices": 96972
+}

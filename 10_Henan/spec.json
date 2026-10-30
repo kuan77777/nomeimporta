@@ -1,0 +1,31 @@
+{
+  "no": 10,
+  "team": "河南",
+  "en": "Henan",
+  "clubId": "C240",
+  "venue": "郑州航海体育场",
+  "tier": "B",
+  "capacity": 29860,
+  "colors": {
+    "primary": "#D71920",
+    "secondary": "#0E7A3C"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 5,
+    "inset": 10,
+    "roof": "none",
+    "floodlights": 2,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "Henan_name.png",
+    "slogan": "Henan_slogan.png",
+    "emblem": "Henan_emblem.png"
+  },
+  "file": "02_球队球场/10_Henan/Henan_stadium.glb",
+  "bytes": 4390092,
+  "triangles": 54836,
+  "vertices": 97020
+}
