@@ -1,0 +1,31 @@
+{
+  "no": 7,
+  "team": "天津津门虎",
+  "en": "TianjinJinmenTiger",
+  "clubId": "C236",
+  "venue": "天津团泊足球场",
+  "tier": "B",
+  "capacity": 37000,
+  "colors": {
+    "primary": "#1B3F8B",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 6,
+    "inset": 8.5,
+    "roof": "none",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "TianjinJinmenTiger_name.png",
+    "slogan": "TianjinJinmenTiger_slogan.png",
+    "emblem": "TianjinJinmenTiger_emblem.png"
+  },
+  "file": "02_球队球场/07_TianjinJinmenTiger/TianjinJinmenTiger_stadium.glb",
+  "bytes": 4409296,
+  "triangles": 54964,
+  "vertices": 97276
+}

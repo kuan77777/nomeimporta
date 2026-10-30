@@ -1,0 +1,31 @@
+{
+  "no": 6,
+  "team": "浙江",
+  "en": "Zhejiang",
+  "clubId": "C237",
+  "venue": "杭州黄龙体育中心",
+  "tier": "A",
+  "capacity": 52672,
+  "colors": {
+    "primary": "#1B4F9C",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 7,
+    "inset": 10.5,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "Zhejiang_name.png",
+    "slogan": "Zhejiang_slogan.png",
+    "emblem": "Zhejiang_emblem.png"
+  },
+  "file": "02_球队球场/06_Zhejiang/Zhejiang_stadium.glb",
+  "bytes": 5042740,
+  "triangles": 63704,
+  "vertices": 112312
+}

@@ -1,0 +1,31 @@
+{
+  "no": 5,
+  "team": "山东泰山",
+  "en": "ShandongTaishan",
+  "clubId": "C235",
+  "venue": "济南奥体中心",
+  "tier": "A",
+  "capacity": 56808,
+  "colors": {
+    "primary": "#E86A10",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 8,
+    "inset": 9.5,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 0,
+    "interior": true
+  },
+  "signage": {
+    "name": "ShandongTaishan_name.png",
+    "slogan": "ShandongTaishan_slogan.png",
+    "emblem": "ShandongTaishan_emblem.png"
+  },
+  "file": "02_球队球场/05_ShandongTaishan/ShandongTaishan_stadium.glb",
+  "bytes": 5173588,
+  "triangles": 65192,
+  "vertices": 115192
+}

@@ -1,0 +1,31 @@
+{
+  "no": 4,
+  "team": "成都蓉城",
+  "en": "ChengduRongcheng",
+  "clubId": "C233",
+  "venue": "成都凤凰山体育公园",
+  "tier": "A",
+  "capacity": 50000,
+  "colors": {
+    "primary": "#E4002B",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 7,
+    "inset": 11,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "ChengduRongcheng_name.png",
+    "slogan": "ChengduRongcheng_slogan.png",
+    "emblem": "ChengduRongcheng_emblem.png"
+  },
+  "file": "02_球队球场/04_ChengduRongcheng/ChengduRongcheng_stadium.glb",
+  "bytes": 5075464,
+  "triangles": 63824,
+  "vertices": 112552
+}

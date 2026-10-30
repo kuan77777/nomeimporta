@@ -1,0 +1,31 @@
+{
+  "no": 3,
+  "team": "北京国安",
+  "en": "BeijingGuoan",
+  "clubId": "C234",
+  "venue": "北京工人体育场",
+  "tier": "A+",
+  "capacity": 68000,
+  "colors": {
+    "primary": "#00703C",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 2,
+    "rows": 9,
+    "inset": 8.5,
+    "roof": "partial",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "BeijingGuoan_name.png",
+    "slogan": "BeijingGuoan_slogan.png",
+    "emblem": "BeijingGuoan_emblem.png"
+  },
+  "file": "02_球队球场/03_BeijingGuoan/BeijingGuoan_stadium.glb",
+  "bytes": 5118756,
+  "triangles": 64880,
+  "vertices": 114584
+}

@@ -1,0 +1,31 @@
+{
+  "no": 8,
+  "team": "云南玉昆",
+  "en": "YunnanYukun",
+  "clubId": "C242",
+  "venue": "玉溪高原体育运动中心",
+  "tier": "B",
+  "capacity": 30300,
+  "colors": {
+    "primary": "#CE1126",
+    "secondary": "#F2C200"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 5,
+    "inset": 9,
+    "roof": "none",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "YunnanYukun_name.png",
+    "slogan": "YunnanYukun_slogan.png",
+    "emblem": "YunnanYukun_emblem.png"
+  },
+  "file": "02_球队球场/08_YunnanYukun/YunnanYukun_stadium.glb",
+  "bytes": 4398904,
+  "triangles": 54964,
+  "vertices": 97276
+}

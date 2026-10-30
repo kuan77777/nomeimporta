@@ -1,0 +1,31 @@
+{
+  "no": 1,
+  "team": "上海海港",
+  "en": "ShanghaiPort",
+  "clubId": "C231",
+  "venue": "上海浦东足球场",
+  "tier": "B",
+  "capacity": 37000,
+  "colors": {
+    "primary": "#C8102E",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 1,
+    "rows": 6,
+    "inset": 8,
+    "roof": "none",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "ShanghaiPort_name.png",
+    "slogan": "ShanghaiPort_slogan.png",
+    "emblem": "ShanghaiPort_emblem.png"
+  },
+  "file": "02_球队球场/01_ShanghaiPort/ShanghaiPort_stadium.glb",
+  "bytes": 4404528,
+  "triangles": 55060,
+  "vertices": 97468
+}

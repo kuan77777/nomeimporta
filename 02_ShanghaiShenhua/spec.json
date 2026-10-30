@@ -1,0 +1,31 @@
+{
+  "no": 2,
+  "team": "上海申花",
+  "en": "ShanghaiShenhua",
+  "clubId": "C232",
+  "venue": "上海体育场",
+  "tier": "S",
+  "capacity": 72000,
+  "colors": {
+    "primary": "#003DA5",
+    "secondary": "#FFFFFF"
+  },
+  "form": {
+    "decks": 3,
+    "rows": 9,
+    "inset": 8,
+    "roof": "shell",
+    "floodlights": 4,
+    "cornerTowers": 1,
+    "interior": true
+  },
+  "signage": {
+    "name": "ShanghaiShenhua_name.png",
+    "slogan": "ShanghaiShenhua_slogan.png",
+    "emblem": "ShanghaiShenhua_emblem.png"
+  },
+  "file": "02_球队球场/02_ShanghaiShenhua/ShanghaiShenhua_stadium.glb",
+  "bytes": 5523208,
+  "triangles": 69668,
+  "vertices": 123824
+}
