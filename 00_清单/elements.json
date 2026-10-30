@@ -1,0 +1,4295 @@
+{
+  "meta": {
+    "name": "中超 16 队球场特色元素包",
+    "version": "1.0.0",
+    "generatedAt": "2026-10-30T06:31:18.561Z",
+    "teams": 16,
+    "assets": 208,
+    "categories": [
+      {
+        "key": "flag",
+        "folder": "01_旗帜与TIFO",
+        "label": "旗帜与 TIFO",
+        "note": "大旗 / 双杆旗 / 巨幅布幔 / 座席拼图",
+        "hint": "每队：主场大旗 / 看台双杆旗 / 巨幅布幔 / 座席拼图"
+      },
+      {
+        "key": "text",
+        "folder": "02_标语与助威",
+        "label": "标语与助威",
+        "note": "主场标语 / 助威词条幅 / 围巾",
+        "hint": "每队：主场标语条幅 / 助威词条幅 / 助威围巾（含看台原文）"
+      },
+      {
+        "key": "crest",
+        "folder": "03_徽记与吉祥物",
+        "label": "徽记与吉祥物",
+        "note": "城市简称徽记 + 吉祥物说明",
+        "hint": "每队：城市简称徽记（非真实队徽，规避商标）"
+      },
+      {
+        "key": "symbol",
+        "folder": "04_地方文化符号",
+        "label": "地方文化符号",
+        "note": "地标 / 饮食 / 非遗 / 方言",
+        "hint": "每队 3 个城市符号，用于看台装饰 / 环廊展板 / 打卡点"
+      },
+      {
+        "key": "food",
+        "folder": "05_球场饮食",
+        "label": "球场饮食",
+        "note": "外场集市与小卖部招牌",
+        "hint": "每队 2 个地方饮食招牌，用于外场集市与小卖部"
+      },
+      {
+        "key": "config",
+        "folder": "06_看台氛围配置",
+        "label": "看台氛围配置",
+        "note": "游戏直接消费的参数",
+        "hint": "按 clubId 查表，驱动 TIFO 覆盖、鼓点、烟火与人群配色"
+      }
+    ],
+    "preview": {
+      "categoryTitleFormat": "{folder} · {label}",
+      "teamSheetTitle": "每队元素全套",
+      "teamSheetSub": "一行一个主场：大旗 → 双杆旗 → TIFO → 拼图 → 标语 → 助威 → 徽记 → 3 个地方符号 → 2 个饮食牌",
+      "missingLabel": "缺失"
+    },
+    "relatedPacks": {
+      "stadiums": "球场包"
+    },
+    "licenseNote": "旗帜 / 标语 / 徽记 / 符号 / 饮食牌全部为本包用 GDI+ 程序绘制的原创图形，不含真实队徽、赞助商标识、球员肖像；文字类元素（口号、助威词、TIFO 字样）来自公开报道，仅作球迷文化引用，出处见每队 sources。"
+  },
+  "teams": [
+    {
+      "id": "shanghai_port",
+      "cn": "上海海港",
+      "en": "ShanghaiPort",
+      "gameId": "C231",
+      "city": "上海",
+      "venue": "上海浦东足球场",
+      "stadiumPackFolder": "01_ShanghaiPort",
+      "palette": {
+        "primary": "#C8102E",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "港",
+      "nickname": [
+        "海港",
+        "上港",
+        "东亚"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "红日球迷会",
+            "note": "2009年3月22日由论坛网友组建，原名上海东亚红日球迷会，名称取『旭日东升』，会歌《旭日东升》，2023年参与创建浦东足球场『联合北看台』"
+          },
+          {
+            "name": "联合北看台",
+            "note": "2023年起由红日等多家球迷会在浦东足球场共同组建的助威区，统一领喊、统一助威、统一鼓点、统一旗语"
+          }
+        ],
+        "chants": [
+          {
+            "text": "阿拉欢喜上海上港队",
+            "kind": "chant",
+            "note": "联合北看台统一助威歌曲之一，用上海话唱『我们喜欢上海上港队』"
+          },
+          {
+            "text": "我们站在你的身后",
+            "kind": "chant",
+            "note": "联合北看台统一助威歌曲之一，球队落后或被压制时使用"
+          },
+          {
+            "text": "双星海港，荣耀申城",
+            "kind": "slogan",
+            "note": "2023赛季总结会主题语，夺冠庆典沿用"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "武磊TIFO『你是最棒的』",
+            "desc": "看台巨型TIFO，文字为『你是最棒的，我们一直与你同在』，声援此前德比后遭辱骂的武磊",
+            "when": "2024年9月28日 中超 海港vs青岛西海岸"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "红色为主的大型旗阵与统一旗语，多家球迷会共用同一套旗语信号",
+            "note": "浦东足球场联合北看台"
+          }
+        ],
+        "mascot": {
+          "name": "伊戈",
+          "desc": "以俱乐部精神象征『海鹰』为原型的吉祥物，2025年11月1日主场首次亮相，伴随三声鹰叫挥翅登场；胸前徽章融合足球与皇冠，中央数字『12』代表第12人"
+        },
+        "localSymbols": [
+          {
+            "item": "白玉兰（上海市花）",
+            "kind": "landmark",
+            "use": "球场以白瓷『白玉碗』为造型母题，可在TIFO与冠军视觉中用作花形拼图"
+          },
+          {
+            "item": "上海话『阿拉』",
+            "kind": "dialect",
+            "use": "助威歌直接用上海话开场，方言声浪是联合北看台的特色"
+          },
+          {
+            "item": "东方明珠与陆家嘴天际线",
+            "kind": "landmark",
+            "use": "适合做TIFO背景板、夺冠庆典与客场远征横幅"
+          },
+          {
+            "item": "生煎馒头",
+            "kind": "food",
+            "use": "球场周边小吃与俱乐部联名周边"
+          }
+        ],
+        "food": [
+          "生煎馒头",
+          "小笼包（南翔小笼）",
+          "葱油拌面",
+          "排骨年糕"
+        ],
+        "venueFeatures": [
+          "别称『白玉碗』，造型取自中国传统白瓷，白色金属表皮可投影呈现不同颜色",
+          "固定坐席33765个（极限37000），第一排看台距球场仅8.5米，为FIFA规定的极限近距离",
+          "膜结构顶棚具备收音、聚音功能，放大看台助威声；场内观众理论上不淋雨",
+          "矩形倒圆角双层看台＋二层环形平台，是『联合北看台』旗阵与鼓点的物理基础",
+          "2023年成为海港主场，2023、2024、2025赛季在此完成中超三连冠"
+        ],
+        "slogan": "双星海港 荣耀申城",
+        "sloganNote": "2023 赛季总结会主题语，夺冠庆典沿用",
+        "chant": "我们站在你的身后",
+        "chantNote": "联合北看台统一助威歌，落后时唱",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/shanghai_port_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "上海海港",
+          "sub": "ShanghaiPort",
+          "glyph": "港",
+          "slogan": "白 玉 碗"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/shanghai_port_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "上海海港",
+          "text": "阿拉欢喜上海上港队",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/shanghai_port_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "你是最棒的",
+          "lines": [
+            "我们一直与你同在",
+            "2024 · 浦东足球场 · 声援武磊"
+          ],
+          "icon": "shield"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/shanghai_port_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "港",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shanghai_port_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "双星海港 荣耀申城",
+          "sub": "2023 赛季总结会主题语，夺冠庆典沿用"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shanghai_port_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "我们站在你的身后",
+          "sub": "联合北看台统一助威歌，落后时唱",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/shanghai_port_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "上海海港",
+          "sub": "白玉碗"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/shanghai_port_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "港",
+          "sub": "上海",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_port_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 东方明珠",
+          "icon": "tvtower",
+          "title": "东方明珠",
+          "note": "陆家嘴天际线做 TIFO 背景板与客场远征横幅"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_port_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 白玉兰",
+          "icon": "lotus",
+          "title": "白玉兰",
+          "note": "上海市花，球场『白玉碗』的造型母题，可做花形拼图"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_port_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 生煎馒头",
+          "icon": "dumpling",
+          "title": "生煎馒头",
+          "note": "场外小吃摊与联名周边"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shanghai_port_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 生煎馒头",
+          "icon": "dumpling",
+          "title": "生煎馒头",
+          "sub": "底板焦脆 · 场外现煎"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shanghai_port_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 葱油拌面",
+          "icon": "noodle",
+          "title": "葱油拌面",
+          "sub": "散场夜宵 · 一碗上头"
+        }
+      ],
+      "sources": [
+        "https://wapbaike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%B8%9C%E4%BA%9A%E7%BA%A2%E6%97%A5%E7%90%83%E8%BF%B7%E4%BC%9A/2120847",
+        "https://www.fcshanghaiport.com/news/focus/10718.html",
+        "https://wapbaike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E8%B6%B3%E7%90%83%E5%9C%BA",
+        "http://www.ppsports.com/article/news/2272205.html"
+      ]
+    },
+    {
+      "id": "shanghai_shenhua",
+      "cn": "上海申花",
+      "en": "ShanghaiShenhua",
+      "gameId": "C232",
+      "city": "上海",
+      "venue": "上海体育场",
+      "stadiumPackFolder": "02_ShanghaiShenhua",
+      "palette": {
+        "primary": "#003DA5",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "申",
+      "nickname": [
+        "申花",
+        "我花"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "蓝魔",
+            "note": "2000年3月12日成立，中国第一家职业球迷俱乐部；长期驻虹口足球场北看台，2023赛季随队迁至上海体育场北看台，统一蓝色球迷服、全程站立助威"
+          },
+          {
+            "name": "蓝魔青年军",
+            "note": "蓝魔下属青年小组，2025年9月22日公告解散，装备与标识作废"
+          }
+        ],
+        "chants": [
+          {
+            "text": "OLE！OLE！申花是冠军",
+            "kind": "chant",
+            "note": "申花进球后从蓝魔看台整齐响起，2008年3月29日申花『回家』虹口首战即有此声"
+          },
+          {
+            "text": "申花队",
+            "kind": "chant",
+            "note": "按鼓点节奏反复呼喊，蓝魔最基础的应援方式，配合举过头顶的集体鼓掌"
+          },
+          {
+            "text": "不狂不放不申花，不离不弃真蓝魔",
+            "kind": "slogan",
+            "note": "蓝魔口号；前句『不狂不放不申花』被媒体用作申花标签（新华社2019年评申花夺冠标题）"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "ShenHua 巨幅拼图",
+            "desc": "双方球员入场仪式时，看台球迷拼出『ShenHua』字样的巨幅TIFO，被记者称为『中国足球的福音』级的氛围",
+            "when": "2024年4月13日 中超第6轮 申花vs北京国安"
+          },
+          {
+            "title": "布拉泽维奇手绘TIFO",
+            "desc": "北看台手绘的时任主帅布拉泽维奇主题巨幅，向老帅致敬；蓝魔自称中国第一个引入巨幅TIFO的球迷组织",
+            "when": "2010赛季"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "蓝色大旗与门旗，歌声第二遍起开始挥动大旗直至歌曲结束；围巾在开赛与终场时双手拉开高举",
+            "note": "蓝魔看台的『助威须知』对大旗、门旗、围巾有明确规定"
+          }
+        ],
+        "mascot": {
+          "name": "BOB",
+          "desc": "2008年3月29日虹口主场推出，为两只蓝色小豹，分别穿申花主客场蓝白队服在看台边互动；2020年又出现脚踩足球的蓝色花豹新版平面形象。球队真正图腾为猎豹，对应早期格言『领先一步』"
+        },
+        "localSymbols": [
+          {
+            "item": "上海话（本地方言）",
+            "kind": "dialect",
+            "use": "2023年迁入上海体育场后，各球迷会集中北看台形成统一的方言应援声"
+          },
+          {
+            "item": "石库门",
+            "kind": "heritage",
+            "use": "海派城市记忆符号，可做老上海主题拼图与复古版围巾"
+          },
+          {
+            "item": "猎豹",
+            "kind": "animal",
+            "use": "队徽剪影与吉祥物原型，衍生『领先一步』看台标语"
+          },
+          {
+            "item": "白玉兰",
+            "kind": "landmark",
+            "use": "上海体育场俯视形如市花白玉兰，适合做花形环场拼图"
+          },
+          {
+            "item": "生煎与小笼",
+            "kind": "food",
+            "use": "球场周边小吃摊与德比日主题周边"
+          }
+        ],
+        "food": [
+          "生煎馒头",
+          "小笼包",
+          "白斩鸡",
+          "排骨年糕"
+        ],
+        "venueFeatures": [
+          "俗称『八万人』，1997年八运会主会场，改造后坐席增至72000个",
+          "外形西高东低呈波浪马鞍形，俯视如白玉兰；2023赛季起成为申花主场",
+          "改造时屋盖向内场新增16.5米悬挑（总悬挑81.5米）并加设环屏天幕，声光电一体化",
+          "2023年起蓝魔等主要球迷会由虹口南北看台各自为营，改为集中上海体育场北看台，声浪更集中",
+          "2026年5月1日申花vs蓉城入场61815人，创上海体育场赛事与上海职业足球单场上座纪录"
+        ],
+        "slogan": "不狂不放不申花 不离不弃真蓝魔",
+        "sloganNote": "蓝魔口号，前句被媒体当作申花标签",
+        "chant": "OLE！OLE！申花是冠军",
+        "chantNote": "进球后从蓝魔看台整齐响起",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/shanghai_shenhua_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "上海申花",
+          "sub": "ShanghaiShenhua",
+          "glyph": "申",
+          "slogan": "蓝 魔"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/shanghai_shenhua_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "上海申花",
+          "text": "不狂不放不申花",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/shanghai_shenhua_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "ShenHua",
+          "lines": [
+            "申花是冠军",
+            "2024 · 上海体育场 · 蓝魔看台"
+          ],
+          "icon": "tiger"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/shanghai_shenhua_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "申",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shanghai_shenhua_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "不狂不放不申花 不离不弃真蓝魔",
+          "sub": "蓝魔口号，前句被媒体当作申花标签"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shanghai_shenhua_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "OLE！OLE！申花是冠军",
+          "sub": "进球后从蓝魔看台整齐响起",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/shanghai_shenhua_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "上海申花",
+          "sub": "蓝魔"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/shanghai_shenhua_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "申",
+          "sub": "上海",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_shenhua_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 石库门",
+          "icon": "gate",
+          "title": "石库门",
+          "note": "海派城市记忆，老上海主题拼图与复古围巾"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_shenhua_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 猎豹",
+          "icon": "tiger",
+          "title": "猎豹",
+          "note": "队徽剪影与吉祥物 BOB 原型，衍生『领先一步』标语"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shanghai_shenhua_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 白玉兰",
+          "icon": "lotus",
+          "title": "白玉兰",
+          "note": "上海体育场俯视如市花白玉兰，做花形环场拼图"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shanghai_shenhua_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 小笼包",
+          "icon": "dumpling",
+          "title": "小笼包",
+          "sub": "南翔小笼 · 看球标配"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shanghai_shenhua_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 排骨年糕",
+          "icon": "skewer",
+          "title": "排骨年糕",
+          "sub": "德比日限定 · 甜咸口"
+        }
+      ],
+      "sources": [
+        "https://wapbaike.baidu.com/item/%E8%93%9D%E9%AD%94/2639886",
+        "http://sports.big5.enorth.com.cn/system/2008/03/30/003058410.shtml",
+        "https://www.dongqiudi.com/articles/1584719.html",
+        "https://www.ppsports.com/article/news/2188313.html",
+        "https://wapbaike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%BD%93%E8%82%B2%E5%9C%BA"
+      ]
+    },
+    {
+      "id": "beijing_guoan",
+      "cn": "北京国安",
+      "en": "BeijingGuoan",
+      "gameId": "C234",
+      "city": "北京",
+      "venue": "北京工人体育场",
+      "stadiumPackFolder": "03_BeijingGuoan",
+      "palette": {
+        "primary": "#00703C",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "京",
+      "nickname": [
+        "御林军",
+        "国安"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "御林军",
+            "note": "2005年9月11日因理念分歧自绿色狂飙分出成立，主张『球门后文化』，驻工体24号看台下（24下），几乎全场背对球场由总指挥领喊"
+          },
+          {
+            "name": "绿色狂飙",
+            "note": "国安规模最大的老牌球迷组织，御林军创始人亦出自其中"
+          }
+        ],
+        "chants": [
+          {
+            "text": "国安国安，北京国安",
+            "kind": "chant",
+            "note": "御林军总指挥张悦受国外球队口号启发创作，约2008年起取代旧口号，成为工体全场最常喊的一句"
+          },
+          {
+            "text": "国安必胜",
+            "kind": "chant",
+            "note": "2008年之前北京球迷最常用的助威口号"
+          },
+          {
+            "text": "御林国安，军临天下",
+            "kind": "banner",
+            "note": "御林军随身横幅，随队远征日本、韩国、天津、山东等地，走出火车站一路挥旗高唱"
+          },
+          {
+            "text": "永远争第一",
+            "kind": "slogan",
+            "note": "俱乐部长期口号，围巾与看台标语高频出现（具体提出年份与提出者待核实）"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "张稀哲400场TIFO",
+            "desc": "三幅张稀哲巨幅画像依次展开（第一次、第100次、第200次为国安出战时的形象），随后北看台拼图上排为其拼音名、下排左侧侧脸头像右侧『400』数字",
+            "when": "2025年6月14日 中超 国安vs长春亚泰"
+          },
+          {
+            "title": "队史第1000场环场TIFO",
+            "desc": "全场球迷参与的巨型环场拼图，纪念国安队史第1000场比赛，『第12人』集体亮出",
+            "when": "2023年8月19日 京沪大战 国安vs申花，入场52500人"
+          },
+          {
+            "title": "历任主帅巨幅",
+            "desc": "24下看台巨幅，把2005至2016年所有国安主教练的头像排列其上，寓意『不该忘记每一个为国安付出的人』",
+            "when": "2016年9月 国安vs延边"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "绿色大旗与『御林国安，军临天下』长横幅，配扩音喇叭领喊",
+            "note": "御林军，24号看台下，远征必带"
+          },
+          {
+            "desc": "黄绿围巾墙：全场高举围巾连成一片色带",
+            "note": "工体传统看台景观，2026赛季国安主场球衣即以『球迷围巾墙』为设计灵感"
+          }
+        ],
+        "mascot": {
+          "name": "京狮",
+          "desc": "以狮子为原型的俱乐部吉祥物，队徽与『LEO（拉丁语狮子）』一脉相承；2022年发布绿狮子数字人GLEO（G代表国安），是工体元宇宙的数字分身"
+        },
+        "localSymbols": [
+          {
+            "item": "国槐（北京市树）",
+            "kind": "landmark",
+            "use": "新工体6.8万个座椅采用『国槐绿』，看台本身就是城市树种的色卡"
+          },
+          {
+            "item": "工人雕塑",
+            "kind": "landmark",
+            "use": "工体北门『男女工人雕像』是球场门面，可在TIFO/海报中做剪影母题"
+          },
+          {
+            "item": "京腔『丫』",
+            "kind": "dialect",
+            "use": "看台方言口号『跟丫死磕』（意为跟他拼了），北京话的硬气标签（该口号具体流行年份待核实）"
+          },
+          {
+            "item": "京剧",
+            "kind": "heritage",
+            "use": "开场鼓点与脸谱视觉可做看台拼图，呼应『御林军』的京味叙事"
+          },
+          {
+            "item": "北京烤鸭",
+            "kind": "food",
+            "use": "工体周边餐饮与德比日主题小吃"
+          }
+        ],
+        "food": [
+          "炸酱面",
+          "卤煮火烧",
+          "北京烤鸭",
+          "豆汁焦圈"
+        ],
+        "venueFeatures": [
+          "新工体2023年竣工，6.8万座席、4层『碗形』看台，坡度更陡、视线更好",
+          "东看台用国安黄绿两色座椅拼出『BEI JING FC』字样",
+          "24号北看台按球迷看台标准设计，保留原编号，约15000个座位，是御林军的阵地",
+          "东西侧看台座椅距草坪最近仅8.5米；罩棚集遮阳、照明、排水、融雪、光伏、吸声降噪于一体",
+          "场内设工体博物馆与国安荣誉殿堂；南北两侧各300平方米大屏内倾30度安装"
+        ],
+        "slogan": "永远争第一",
+        "sloganNote": "俱乐部长期口号，围巾与看台标语高频出现",
+        "chant": "国安必胜",
+        "chantNote": "老工体最常用的助威词",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/beijing_guoan_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "北京国安",
+          "sub": "BeijingGuoan",
+          "glyph": "京",
+          "slogan": "永 远 争 第 一"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/beijing_guoan_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "北京国安",
+          "text": "国安国安 北京国安",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/beijing_guoan_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "御林国安",
+          "lines": [
+            "军临天下",
+            "工体 24 号看台 · 球门后文化"
+          ],
+          "icon": "shield"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/beijing_guoan_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "京",
+          "cols": 46
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/beijing_guoan_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "永远争第一",
+          "sub": "俱乐部长期口号，围巾与看台标语高频出现"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/beijing_guoan_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "国安必胜",
+          "sub": "老工体最常用的助威词",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/beijing_guoan_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "北京国安",
+          "sub": "御林军"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/beijing_guoan_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "京",
+          "sub": "北京",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/beijing_guoan_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 国槐",
+          "icon": "tree",
+          "title": "国槐",
+          "note": "北京市树，新工体 6.8 万座椅的『国槐绿』来源"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/beijing_guoan_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 工人雕塑",
+          "icon": "gate",
+          "title": "工人雕塑",
+          "note": "工体北门男女工人雕像，TIFO 与海报的剪影母题"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/beijing_guoan_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 京狮",
+          "icon": "lion",
+          "title": "京狮",
+          "note": "吉祥物京狮与数字人 GLEO，看台入口打卡形象"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/beijing_guoan_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 炸酱面",
+          "icon": "noodle",
+          "title": "炸酱面",
+          "sub": "工体周边 · 老北京口味"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/beijing_guoan_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 卤煮火烧",
+          "icon": "hotpot",
+          "title": "卤煮火烧",
+          "sub": "寒夜主场 · 一碗到底"
+        }
+      ],
+      "sources": [
+        "http://sports.cctv.com/2016/09/23/ARTIw8gKOhUqqkbtpD2uNWbB160923.shtml",
+        "https://wapbaike.baidu.com/item/%E5%8C%97%E4%BA%AC%E5%B7%A5%E4%BA%BA%E4%BD%93%E8%82%B2%E5%9C%BA",
+        "https://www.163.com/dy/article/K21UCVSS0514R9KQ.html",
+        "https://m.mp.oeeee.com/oe/BAAFRD000020230821834335.html",
+        "http://www.news.cn/tech/20230207/09a22b0ff0f540d29a8ad2a232c6e215/c.html"
+      ]
+    },
+    {
+      "id": "chengdu_rongcheng",
+      "cn": "成都蓉城",
+      "en": "ChengduRongcheng",
+      "gameId": "C233",
+      "city": "成都",
+      "venue": "成都凤凰山体育公园",
+      "stadiumPackFolder": "04_ChengduRongcheng",
+      "palette": {
+        "primary": "#E4002B",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "蓉",
+      "nickname": [
+        "蓉城",
+        "雄起之地"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "红色刀锋",
+            "note": "2006年由陈涛等10名大学生创立，首秀为2006年3月25日成都谢菲联vs南京有有；2018年随成都兴城（今蓉城）复兴，会员从98人增至4000余人，看台上排出『刀锋阵型』，设应急组、赤影小组"
+          },
+          {
+            "name": "刀锋应急组",
+            "note": "由医生、护士、教师组成，白T恤配红马甲，每个主场处理中暑、擦伤等突发状况"
+          }
+        ],
+        "chants": [
+          {
+            "text": "雄起",
+            "kind": "chant",
+            "note": "四川方言，读去声，全场齐喊；1994年甲A四川全兴以成都体育中心为主场时喊响，1995年『成都保卫战』后传遍全国，成都因此被称『雄起之地』"
+          },
+          {
+            "text": "保卫成都",
+            "kind": "banner",
+            "note": "1995年成都球迷在看台高举的字牌，『雄起』时代最具代表性的看台文字"
+          },
+          {
+            "text": "我们都在这里",
+            "kind": "chant",
+            "note": "赛前全场与公益看台（城市守护者方阵）合唱的歌曲，2026年8月22日对阵上海申花时唱响"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "全场变换拼图TIFO",
+            "desc": "一层与二层看台联动的全场拼图，521-525与118-122看台联动；118-122看台随入场曲《斗志昂扬》每唱一遍撕去一层、换一幅画面，共四幅递进；球迷倡议书口号为『同袍同心，决意共赴凤凰山』",
+            "when": "2026年10月24日 成都蓉城vs大连英博（争冠关键战）"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "红色旗阵，看台上按『刀锋阵型』排布的大旗与门旗，全场红衫形成红色人浪",
+            "note": "红色刀锋球迷会，凤凰山主场"
+          }
+        ],
+        "mascot": {
+          "name": "安逸熊猫",
+          "desc": "四川文旅吉祥物，2026年8月22日换上成都蓉城12号球衣『加盟』蓉城大家庭，在看台与全场一起呐喊；俱乐部自有官方吉祥物形象暂未查到"
+        },
+        "localSymbols": [
+          {
+            "item": "大熊猫",
+            "kind": "animal",
+            "use": "红色看台里的熊猫人偶与12号球衣形象，是成都最强识别的软性符号"
+          },
+          {
+            "item": "川剧变脸",
+            "kind": "heritage",
+            "use": "开场表演与TIFO脸谱拼图，配合鼓点做『变脸式』画面切换"
+          },
+          {
+            "item": "四川话『雄起』",
+            "kind": "dialect",
+            "use": "全场齐喊的助威词本身就是方言，可直接做巨幅拼图文字"
+          },
+          {
+            "item": "凤凰山",
+            "kind": "landmark",
+            "use": "球场名自带『凤凰』意象，可做凤凰展翅环场拼图与灯光秀"
+          },
+          {
+            "item": "火锅与串串",
+            "kind": "food",
+            "use": "球场周边小吃街与『麻辣主场』主题周边"
+          }
+        ],
+        "food": [
+          "串串香",
+          "钵钵鸡",
+          "龙抄手",
+          "担担面",
+          "三大炮"
+        ],
+        "venueFeatures": [
+          "FIFA标准专业足球场，6万座，锚固草系统由95%天然草＋5%人造草纤维组成",
+          "南侧、东北角、西北角设三块LED全彩大屏，配合场地扩声系统",
+          "赛后固定环节：全场熄灯、球迷点亮手机灯合唱《成都》（也唱过《Hey Jude》《流星雨》《追梦赤子心》），被称『凤凰山演唱会』",
+          "设公益看台，赛前以主场之名致敬城市守护者（民警、医护、教师等）",
+          "2026年5月9日对阵河南入场41719人刷新球场纪录；场地另有约9500座席扩容计划"
+        ],
+        "slogan": "成都雄起 同袍同心",
+        "sloganNote": "1994 甲A 喊响、1995『成都保卫战』传遍全国",
+        "chant": "保卫成都",
+        "chantNote": "1995 年看台字牌，雄起时代最有代表性的四个字",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/chengdu_rongcheng_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "成都蓉城",
+          "sub": "ChengduRongcheng",
+          "glyph": "蓉",
+          "slogan": "雄 起"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/chengdu_rongcheng_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "成都蓉城",
+          "text": "雄起",
+          "sub": "四川方言，去声，全场齐喊",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/chengdu_rongcheng_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "同袍同心",
+          "lines": [
+            "决意共赴凤凰山",
+            "2026 · 全场变换拼图"
+          ],
+          "icon": "panda"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/chengdu_rongcheng_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "蓉",
+          "cols": 48
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/chengdu_rongcheng_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "成都雄起 同袍同心",
+          "sub": "1994 甲A 喊响、1995『成都保卫战』传遍全国"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/chengdu_rongcheng_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "保卫成都",
+          "sub": "1995 年看台字牌，雄起时代最有代表性的四个字",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/chengdu_rongcheng_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "成都蓉城",
+          "sub": "雄起"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/chengdu_rongcheng_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "蓉",
+          "sub": "成都",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chengdu_rongcheng_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 大熊猫",
+          "icon": "panda",
+          "title": "大熊猫",
+          "note": "红色看台里的熊猫人偶与 12 号球衣形象"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chengdu_rongcheng_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 凤凰山",
+          "icon": "fire",
+          "title": "凤凰山",
+          "note": "球场名自带凤凰意象，做展翅环场拼图与灯光秀"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chengdu_rongcheng_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 火锅",
+          "icon": "hotpot",
+          "title": "火锅",
+          "note": "场外小吃街与『麻辣主场』主题周边"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/chengdu_rongcheng_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 串串香",
+          "icon": "skewer",
+          "title": "串串香",
+          "sub": "看台下的麻辣夜宵"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/chengdu_rongcheng_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 担担面",
+          "icon": "noodle",
+          "title": "担担面",
+          "sub": "散场必吃 · 二两起"
+        }
+      ],
+      "sources": [
+        "http://www.ahradio.com.cn/sports/13008.html",
+        "https://www.scsqw.cn/scyx/scfw/content_193241",
+        "http://cd.wenming.cn/wmbb/202608/t20260826_9338160.shtml",
+        "http://pc.dongqiudi.com/articles/6538872.html",
+        "https://www.thecover.cn/video/S1/3T4u%2BE3CH90qSdq8Jkw==",
+        "https://www.163.com/dy/article/I4FB41PP0514R9OJ.html",
+        "https://wapbaike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%B1%B1%E4%BD%93%E8%82%B2%E5%85%AC%E5%9B%AD/57356287"
+      ]
+    },
+    {
+      "id": "shandong_taishan",
+      "cn": "山东泰山",
+      "en": "ShandongTaishan",
+      "gameId": "C235",
+      "city": "济南",
+      "venue": "济南奥体中心",
+      "stadiumPackFolder": "05_ShandongTaishan",
+      "palette": {
+        "primary": "#E86A10",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "泰",
+      "nickname": [
+        "泰山队",
+        "鲁能",
+        "泰山"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "北看台青年",
+            "note": "济南奥体中心北看台核心球迷会，自称传递践行『团结战斗』理念；2025年7月耗时一周绘制王大雷与患病小球迷的TIFO；2026赛季首战携全国18家泰山球迷组织团队围巾共同呈现北看台"
+          },
+          {
+            "name": "山东橙浪球迷协会",
+            "note": "东看台阵地，会长蒋培国（球迷称『将军』）站在指挥台领喊；协会从泰安发展到济南，会员由数百人增至几万人"
+          }
+        ],
+        "chants": [
+          {
+            "text": "我们是风，我们是电，我们是橘红色的火焰",
+            "kind": "chant",
+            "note": "队歌《橘红色的火焰》，赛前与进球后全场跟唱"
+          },
+          {
+            "text": "泰山！战斗！",
+            "kind": "chant",
+            "note": "东看台指挥台领喊、鼓声配合，全场整齐回应"
+          },
+          {
+            "text": "进一个！",
+            "kind": "chant",
+            "note": "进攻时段看台齐喊"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "勇往直前",
+            "desc": "北看台青年耗时一周绘制，画面主角是门将王大雷与患病小球迷道明，球迷同时做出『勇往直前』手势，并致敬王大雷第446场顶级联赛",
+            "when": "2025年7月，主场3-0梅州客家赛前"
+          },
+          {
+            "title": "橙浪球迷会TIFO",
+            "desc": "亚冠小组赛主场对横滨水手，东看台山东橙浪球迷协会展示TIFO，当晚全场43783人",
+            "when": "2023年10月3日"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "北看台、橙浪、忠義、勇士等各色旗帜在看台挥舞",
+            "note": "2023年10月3日亚冠主场对横滨水手现场"
+          },
+          {
+            "desc": "2026赛季首战以19条横幅加全国18家泰山球迷组织团队围巾铺满北看台",
+            "note": "2026年3月7日济南奥体中心"
+          }
+        ],
+        "mascot": {
+          "name": "泰山",
+          "desc": "2025年4月俱乐部公示选定。灵感来自济南奥体中心体育场北侧的『泰山童子』雕塑，演变为以泰山山神为蓝本的中国古代武将卡通形象：身披橘红色主场队服、头顶火焰、眉心闪电，头盔嵌『泰山』石刻，手持戟，鞋纹取自泰山南天门滴水瓦"
+        },
+        "localSymbols": [
+          {
+            "item": "泰山",
+            "kind": "landmark",
+            "use": "队名与『永不倒的泰山』精神来源，队歌、吉祥物、看台口号都围绕泰山展开"
+          },
+          {
+            "item": "泰山童子雕塑",
+            "kind": "landmark",
+            "use": "立于济南奥体中心体育场北侧，是球队吉祥物的设计原型，也是主场打卡点"
+          },
+          {
+            "item": "泰山石敢当",
+            "kind": "heritage",
+            "use": "泰山镇石民俗，与球队『泰山压顶、永不倒』的守护意象同源"
+          },
+          {
+            "item": "山东快书",
+            "kind": "heritage",
+            "use": "山东代表性曲艺，齐鲁乡土文化的听觉符号"
+          },
+          {
+            "item": "把子肉",
+            "kind": "food",
+            "use": "济南最具代表性的市井吃食，主场看球前后的地方饮食符号"
+          }
+        ],
+        "food": [
+          "把子肉",
+          "甜沫",
+          "油旋"
+        ],
+        "venueFeatures": [
+          "济南奥体中心体育场（鲁能大球场），泰山队中超与亚冠主场",
+          "北看台是死忠看台，北看台青年等球迷会集中于此，是旗帜与拼图TIFO的主阵地",
+          "东看台为橙浪球迷协会阵地，设领喊指挥台，鼓声与『泰山！战斗！』由此带动",
+          "球场北侧立有『泰山童子』雕塑，为吉祥物设计原型",
+          "2023年10月3日亚冠主场对横滨水手，现场观众43783人，橘红色看台全满"
+        ],
+        "slogan": "我们是风 我们是电 我们是橘红色的火焰",
+        "sloganNote": "队歌《橘红色的火焰》",
+        "chant": "泰山！战斗！",
+        "chantNote": "东看台指挥台领喊、鼓声配合",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/shandong_taishan_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "山东泰山",
+          "sub": "ShandongTaishan",
+          "glyph": "泰",
+          "slogan": "橙 色 风 暴"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/shandong_taishan_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "山东泰山",
+          "text": "橘红色的火焰",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/shandong_taishan_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "勇往直前",
+          "lines": [
+            "我们是风 我们是电",
+            "2025 · 济南奥体 · 北看台青年"
+          ],
+          "icon": "mountain"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/shandong_taishan_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "泰",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shandong_taishan_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "我们是风 我们是电 我们是橘红色的火焰",
+          "sub": "队歌《橘红色的火焰》"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shandong_taishan_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "泰山！战斗！",
+          "sub": "东看台指挥台领喊、鼓声配合",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/shandong_taishan_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "山东泰山",
+          "sub": "橙色风暴"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/shandong_taishan_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "泰",
+          "sub": "济南",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shandong_taishan_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 泰山",
+          "icon": "mountain",
+          "title": "泰山",
+          "note": "队名与『永不倒的泰山』精神来源"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shandong_taishan_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 泰山石敢当",
+          "icon": "shield",
+          "title": "泰山石敢当",
+          "note": "泰山镇石民俗，与『泰山压顶』的守护意象同源"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shandong_taishan_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 把子肉",
+          "icon": "skewer",
+          "title": "把子肉",
+          "note": "济南市井吃食，看球前后的地方符号"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shandong_taishan_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 甜沫",
+          "icon": "noodle",
+          "title": "甜沫",
+          "sub": "泉城早点 · 咸香糊口"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shandong_taishan_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 油旋",
+          "icon": "dumpling",
+          "title": "油旋",
+          "sub": "葱香酥脆 · 现烤现卖"
+        }
+      ],
+      "sources": [
+        "https://sdxw.iqilu.com/share/YS0yMS0xNjY0OTc3MA==.html",
+        "https://www.ppsports.com/360news/news/2361873.html",
+        "https://taian.dzwww.com/2024zt/tatyzmr/xlbd/202403/t20240327_13897164.html",
+        "https://www.sina.cn/news/detail/5276297410117687.html",
+        "https://www.sohu.com/a/884081047_362070"
+      ]
+    },
+    {
+      "id": "zhejiang",
+      "cn": "浙江",
+      "en": "Zhejiang",
+      "gameId": "C237",
+      "city": "杭州",
+      "venue": "杭州黄龙体育中心",
+      "stadiumPackFolder": "06_Zhejiang",
+      "palette": {
+        "primary": "#1B4F9C",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "浙",
+      "nickname": [
+        "绿城",
+        "浙江绿城"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "绿魂（浙江绿魂球迷协会）",
+            "note": "东三看台为核心阵地；2025年1月发布助威曲《共进退浙江队》；2025年8月与『旗帜』共同承担黄龙首个大型拼图TIFO的绘制与看台布置"
+          },
+          {
+            "name": "旗帜",
+            "note": "与绿魂并列的浙江绿城球迷协会，两协会均摊TIFO制作费3万元，赛前一夜组织200多名成员完成2.5万片拼图布置"
+          }
+        ],
+        "chants": [
+          {
+            "text": "在东叁之上，忘掉忧愁和悲伤；怀揣着梦想，复兴看台的辉煌；战斗一整场，让对手胆怯投降；一起去面对，共进退浙江队！",
+            "kind": "chant",
+            "note": "助威曲《共进退浙江队》，绿魂球迷协会2025年1月28日发布，新赛季在东三看台唱响"
+          },
+          {
+            "text": "我们的家，住在天堂",
+            "kind": "chant",
+            "note": "杭州城市民谣《梦想天堂》被球迷带进球场，成为黄龙主场万人合唱的『编外队歌』"
+          },
+          {
+            "text": "大禹的后代越王的种，东海的惊涛钱塘的风",
+            "kind": "chant",
+            "note": "老队歌《绿城圆我英雄梦》，把球队与浙江人文血脉绑定"
+          },
+          {
+            "text": "为了胸前的浙江，用你们的表现换回往日的黄龙",
+            "kind": "banner",
+            "note": "浙江球迷看台横幅（具体场次待核实）"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "东看台巨型 ZHEJIANG 拼图",
+            "desc": "覆盖黄龙东看台上下两层约2.5万个座席、2.5万片拼图，200多名球迷彻夜逐座安放并用透明皮筋固定，耗资3万元由球迷组织均摊；现场广播喊『请高举起你们手中的拼图，为浙江而拼』，36996名观众共同完成，黄龙历史上首个大型拼图式助威TIFO",
+            "when": "2025年8月16日，中超对上海申花"
+          },
+          {
+            "title": "悬河注火，奚有不灭",
+            "desc": "队史第800场里程碑，黄龙看台同时打出『悬河注火，奚有不灭』与『其作始也简，其将毕也必巨』两条巨幅",
+            "when": "2025年6月14日，中超第14轮对上海海港"
+          },
+          {
+            "title": "冲向亚洲绿白拼图",
+            "desc": "亚冠附加赛球门后看台绿白相间大型TIFO，配『冲向亚洲』横幅；浙江1-0泰港，时隔12年重返亚冠正赛",
+            "when": "2023年8月22日，湖州奥体中心"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "绿白双色为主视觉，绿魂与旗帜两协会的旗阵分布在东看台与球门后",
+            "note": "拼图TIFO由绿白双色起步，两年内升级为多色加文字组合"
+          },
+          {
+            "desc": "东看台拼图举起前，各球迷会旗帜在看台前沿一字排开",
+            "note": "2025年8月16日黄龙现场"
+          }
+        ],
+        "mascot": {
+          "name": "GOGOAL（菜狗）",
+          "desc": "浙江队吉祥物，官方名GOGOAL，球迷昵称『菜狗』；2025年5月俱乐部发布视频『GOGOAL与巴布，好朋友一辈子』，让浙江菜狗与河南队吉祥物巴布相约游西湖，呼应19年前两队携手冲超"
+        },
+        "localSymbols": [
+          {
+            "item": "西湖",
+            "kind": "landmark",
+            "use": "吉祥物菜狗与河南巴布『相约西湖』的城市会客场景；新队歌候选作品歌词里也写西湖水"
+          },
+          {
+            "item": "钱塘江潮",
+            "kind": "landmark",
+            "use": "老队歌『东海的惊涛钱塘的风』、新队歌『弄潮儿向涛头立』，把『勇立潮头』写成看台精神"
+          },
+          {
+            "item": "大禹与越王",
+            "kind": "heritage",
+            "use": "队歌『大禹的后代越王的种』，用浙江千年人文血脉为球队立传"
+          },
+          {
+            "item": "龙井茶",
+            "kind": "food",
+            "use": "杭州待客与城市礼物的代表符号"
+          },
+          {
+            "item": "越剧",
+            "kind": "heritage",
+            "use": "浙江地方戏曲，江南文化标识"
+          }
+        ],
+        "food": [
+          "片儿川",
+          "西湖醋鱼",
+          "龙井虾仁"
+        ],
+        "venueFeatures": [
+          "黄龙体育中心体育场东看台分上下两层，约2.5万个座席，是拼图TIFO的画布",
+          "学生看台：2000个座位，设在专业球迷助威区上方，半价票赠助威衫（正面ZHEJIANG、背面FIGHT FOR ZHEJIANG与12号）和助威折扇",
+          "2025赛季11个主场平均上座超2.5万人，其中3场超3万，单场纪录36996人",
+          "赛前灯光暗下后由看台一角起调、全场接唱的『演唱会式』开场，是浙江主场的招牌场景"
+        ],
+        "slogan": "为了胸前的浙江 换回往日的黄龙",
+        "sloganNote": "浙江球迷看台横幅原文",
+        "chant": "我们的家 住在天堂",
+        "chantNote": "《梦想天堂》被带进球场，黄龙万人合唱的编外队歌",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/zhejiang_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "浙江",
+          "sub": "Zhejiang",
+          "glyph": "浙",
+          "slogan": "黄 龙"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/zhejiang_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "浙江队",
+          "text": "共进退浙江队",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/zhejiang_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "ZHEJIANG",
+          "lines": [
+            "为了胸前的浙江",
+            "2025 · 黄龙东看台 · 2.5 万片拼图"
+          ],
+          "icon": "shield"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/zhejiang_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "浙",
+          "cols": 48
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/zhejiang_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "为了胸前的浙江 换回往日的黄龙",
+          "sub": "浙江球迷看台横幅原文"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/zhejiang_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "我们的家 住在天堂",
+          "sub": "《梦想天堂》被带进球场，黄龙万人合唱的编外队歌",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/zhejiang_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "浙江队",
+          "sub": "绿魂"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/zhejiang_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "浙",
+          "sub": "杭州",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/zhejiang_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 西湖",
+          "icon": "waves",
+          "title": "西湖",
+          "note": "吉祥物菜狗与河南巴布『相约西湖』的城市会客场景"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/zhejiang_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 雷峰塔",
+          "icon": "pagoda",
+          "title": "雷峰塔",
+          "note": "西湖天际线，做环场拼图与客场横幅"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/zhejiang_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 菜狗 GOGOAL",
+          "icon": "dog",
+          "title": "菜狗 GOGOAL",
+          "note": "吉祥物形象，看台入口与人偶互动位"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/zhejiang_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 片儿川",
+          "icon": "noodle",
+          "title": "片儿川",
+          "sub": "杭州面 · 笋片雪菜"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/zhejiang_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 西湖醋鱼",
+          "icon": "fish",
+          "title": "西湖醋鱼",
+          "sub": "主场宴客菜"
+        }
+      ],
+      "sources": [
+        "https://news.zhibo8.com/zuqiu/2025-06-14/684d3947cd10cnative.htm",
+        "https://www.hangzhou.gov.cn/art/2025/8/18/art_812270_59116210.html",
+        "https://hznews.hangzhou.com.cn/chengshi/content/2025-08/18/content_9062433.htm",
+        "https://m.dongqiudi.com/article/4878846.html",
+        "http://www.ppsport.com/article/news/2381152.html",
+        "https://m.163.com/dy/article/L5BDRCPQ0530SBFB.html",
+        "https://tidenews.com.cn/news.html?id=3441616"
+      ]
+    },
+    {
+      "id": "tianjin_jinmen_tiger",
+      "cn": "天津津门虎",
+      "en": "TianjinJinmenTiger",
+      "gameId": "C236",
+      "city": "天津",
+      "venue": "天津团泊足球场",
+      "stadiumPackFolder": "07_TianjinJinmenTiger",
+      "palette": {
+        "primary": "#1B3F8B",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "津",
+      "nickname": [
+        "津门虎",
+        "泰达"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "津门联合纵队TUB",
+            "note": "南看台拼图活动的组织者，赛前以『团结，团结，团结，这就是我们的武器』召集球迷，并指定 D107-112、D206-213 区提前入场、不得移动椅背上的塑料拼图"
+          },
+          {
+            "name": "海河冲浪手球迷会",
+            "note": "前负责人李思明在播客中讲述组织从几十人发展到八百人、权力下放的自治管理，以及南北看台未能联合助威的遗憾"
+          }
+        ],
+        "chants": [
+          {
+            "text": "为了天津 永远进攻",
+            "kind": "chant",
+            "note": "开球前现场DJ与全场球迷完成10秒倒数后齐声呐喊，中超官方称这是『海河儿女刻进DNA的足球坚守』"
+          },
+          {
+            "text": "团结，团结，团结，这就是我们的武器",
+            "kind": "banner",
+            "note": "南看台大型拼图TIFO下方拉起的横幅；TUB赛前预告也用同一句"
+          },
+          {
+            "text": "是男人就得踢足球",
+            "kind": "banner",
+            "note": "天津主场看台横幅（2024年3月26日国足在天津对新加坡时出现，另一侧写『活着就干』『万里长城永不倒』）；源自天津足球名宿左树声名言『男子汉就得踢足球』"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "经历艰险、终抵星辰",
+            "desc": "南看台大型拼图：画面取自津门虎客场战胜上海申花后教练球员围圈相互鼓励的一幕，并加入身穿12号球衣的『第12人』新角色，寓意球迷与球队在一起；配拉丁文「经历艰险、终抵星辰」（Per aspera ad astra 之意），下方横幅『团结，团结，团结，这就是我们的武器』",
+            "when": "2026年8月1日，中超第21轮主场3-2逆转云南玉昆赛前"
+          },
+          {
+            "title": "双TIFO联动：大沽灯塔与民园雕塑",
+            "desc": "正看台TIFO是一座灯塔，原型为我国首座自行设计建造的海上灯塔——大沽灯塔，光束穿透夜色为津门赛场引航；南看台TIFO以民园体育场门前的足球人物雕塑为主角，配标语『Reach A Star Shoot The Moon』，球迷方阵同步拼出蓝白色拼图",
+            "when": "2025年6月14日，泰达足球场"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "蓝白为主色的看台拼图与旗阵，南看台为拼图与横幅的集中区",
+            "note": "2025年6月14日双TIFO联动时球迷方阵同步拼出蓝白色拼图"
+          },
+          {
+            "desc": "南看台悬挂长条横幅，与拼图上下呼应",
+            "note": "TUB组织的拼图活动固定搭配横幅"
+          }
+        ],
+        "mascot": {
+          "name": "",
+          "desc": "未查到公开的官方吉祥物；队名『津门虎』本身即以虎为图腾，看台主视觉为蓝白配色"
+        },
+        "localSymbols": [
+          {
+            "item": "海河",
+            "kind": "landmark",
+            "use": "『海河儿女』是天津球迷自我称呼，海河冲浪手球迷会亦以海河命名"
+          },
+          {
+            "item": "大沽灯塔",
+            "kind": "landmark",
+            "use": "我国首座自行设计建造的海上灯塔，2025年6月14日成为正看台TIFO主角，寓意为津门赛场引航"
+          },
+          {
+            "item": "民园体育场",
+            "kind": "landmark",
+            "use": "天津足球的民园记忆，门前足球人物雕塑被搬上南看台TIFO"
+          },
+          {
+            "item": "天津话与相声",
+            "kind": "dialect",
+            "use": "天津看台的哏儿味表达与横幅文案（『活着就干』等）都带着码头城市的直给语气"
+          },
+          {
+            "item": "杨柳青年画",
+            "kind": "heritage",
+            "use": "天津代表性非遗，木版彩绘年画是城市文化名片"
+          },
+          {
+            "item": "煎饼果子",
+            "kind": "food",
+            "use": "天津最日常的街头符号，球迷口中的城市认同"
+          }
+        ],
+        "food": [
+          "煎饼果子",
+          "狗不理包子",
+          "十八街麻花",
+          "锅巴菜"
+        ],
+        "venueFeatures": [
+          "泰达足球场共37000个座席，按中超运行要求核定满员28550人，是国内最早的专业足球场之一",
+          "2023赛季后半程经提升改造后投用，草皮质量、观赛视野与整体氛围被公认为国内一流",
+          "南看台是拼图TIFO与横幅的主场，赛前由球迷组织统一指挥举图",
+          "开球前现场DJ带全场做10秒倒数，随后齐喊『为了天津 永远进攻』，成为固定仪式"
+        ],
+        "slogan": "团结，团结，团结，这就是我们的武器",
+        "sloganNote": "南看台拼图下方横幅原文",
+        "chant": "为了天津 永远进攻",
+        "chantNote": "开球前 DJ 与全场 10 秒倒数后的固定呐喊",
+        "venueNote": "本包按球场包统一用『天津团泊足球场』；调研里 2025-2026 赛季南看台拼图与双 TIFO 均发生在泰达足球场，两处主场都属天津，做场景时可按需切换。"
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/tianjin_jinmen_tiger_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "天津津门虎",
+          "sub": "TianjinJinmenTiger",
+          "glyph": "津",
+          "slogan": "津 门 虎"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/tianjin_jinmen_tiger_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "天津津门虎",
+          "text": "为了天津 永远进攻",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/tianjin_jinmen_tiger_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "经历艰险 终抵星辰",
+          "lines": [
+            "团结，团结，团结",
+            "这就是我们的武器"
+          ],
+          "icon": "lighthouse"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/tianjin_jinmen_tiger_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "津",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/tianjin_jinmen_tiger_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "团结，团结，团结，这就是我们的武器",
+          "sub": "南看台拼图下方横幅原文"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/tianjin_jinmen_tiger_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "为了天津 永远进攻",
+          "sub": "开球前 DJ 与全场 10 秒倒数后的固定呐喊",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/tianjin_jinmen_tiger_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "天津津门虎",
+          "sub": "津门虎"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/tianjin_jinmen_tiger_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "津",
+          "sub": "天津",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/tianjin_jinmen_tiger_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 大沽灯塔",
+          "icon": "lighthouse",
+          "title": "大沽灯塔",
+          "note": "我国首座自建海上灯塔，2025 双 TIFO 的正看台主角"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/tianjin_jinmen_tiger_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 海河",
+          "icon": "waves",
+          "title": "海河",
+          "note": "『海河儿女』的球迷自称，海河冲浪手球迷会命名来源"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/tianjin_jinmen_tiger_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 民园体育场",
+          "icon": "city",
+          "title": "民园体育场",
+          "note": "天津足球的民园记忆，门前足球雕塑搬上南看台"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/tianjin_jinmen_tiger_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 煎饼果子",
+          "icon": "dumpling",
+          "title": "煎饼果子",
+          "sub": "码头早点 · 加薄脆"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/tianjin_jinmen_tiger_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 十八街麻花",
+          "icon": "skewer",
+          "title": "十八街麻花",
+          "sub": "看台伴手礼"
+        }
+      ],
+      "sources": [
+        "https://beta.dongqiudi.com/articles/6111598.html",
+        "https://www.sina.cn/news/detail/5177542442747378.html",
+        "https://www.lichangshiji.com/news/1063121.html",
+        "https://bbs.hupu.com/638536137.html",
+        "https://epaper.tianjinwe.com/tjrb/h5/html5/2025-01/23/content_143096_1785957.html",
+        "https://www.dongqiudi.com/articles/4121057.html"
+      ]
+    },
+    {
+      "id": "yunnan_yukun",
+      "cn": "云南玉昆",
+      "en": "YunnanYukun",
+      "gameId": "C242",
+      "city": "玉溪",
+      "venue": "玉溪高原体育运动中心",
+      "stadiumPackFolder": "08_YunnanYukun",
+      "palette": {
+        "primary": "#CE1126",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "滇",
+      "nickname": [
+        "玉昆",
+        "高原魔鬼"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "云岭阵线",
+            "note": "玉昆看台球迷组织，自述『看台主义者』，出品《直到世界尽头》《征途》《钢铁战士》等助威歌并在看台传唱"
+          }
+        ],
+        "chants": [
+          {
+            "text": "高原橙色魔鬼",
+            "kind": "chant",
+            "note": "云岭阵线助威歌《直到世界尽头》里的核心词，全句为『前进吧玉昆队／征战大江南北／高原橙色魔鬼／坚定无惧无畏／看台为你嘶吼／永远在你身后／为云南而战斗／直到世界尽头』"
+          },
+          {
+            "text": "我们来自云南，坚毅如哀牢山，澜沧江水在热血中流淌",
+            "kind": "chant",
+            "note": "云岭阵线助威歌《征途》"
+          },
+          {
+            "text": "玉昆最板扎",
+            "kind": "chant",
+            "note": "球队队歌名，『板扎』是云南方言『厉害、带劲』；由云南省歌舞剧院合唱团演唱"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "高原制霸",
+            "desc": "中超首秀看台升起的巨型TIFO，表达阔别顶级联赛二十多年后云南球迷的信心与热爱；该场0-2负北京国安",
+            "when": "2025年2月22日，中超首轮主场对北京国安"
+          },
+          {
+            "title": "将军象与熊猫火锅",
+            "desc": "画面里象征云南的将军象与象征成都的三星堆面具熊猫并坐球场，面前一口火锅：左边云南菌汤锅、右边成都红锅，两口锅颜色正好对应两队主球衣颜色，以此欢迎成都队与成都球迷",
+            "when": "2025年8月23日，中超第22轮主场对成都蓉城"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "橙色主视觉看台，助威歌自称『高原橙色魔鬼』",
+            "note": "云岭阵线助威歌《直到世界尽头》歌词"
+          },
+          {
+            "desc": "球迷身着助威服、旗阵在看台展开，赛后成群结队涌入烧烤摊",
+            "note": "2025年4月25日凌晨球迷着助威服吃烧烤的现场记录"
+          }
+        ],
+        "mascot": {
+          "name": "",
+          "desc": "未查到公开的官方吉祥物；看台与TIFO以亚洲象（『将军象』）作为云南的图腾形象"
+        },
+        "localSymbols": [
+          {
+            "item": "哀牢山",
+            "kind": "landmark",
+            "use": "助威歌《征途》『坚毅如哀牢山』，把云南山岳写成球队性格"
+          },
+          {
+            "item": "澜沧江",
+            "kind": "landmark",
+            "use": "助威歌『澜沧江水在热血中流淌』"
+          },
+          {
+            "item": "聂耳与国歌",
+            "kind": "heritage",
+            "use": "昆明—玉溪『球迷专列』上，玉溪聂耳竹乐团用竹乐演奏加讲解讲述聂耳创作《义勇军进行曲》的故事"
+          },
+          {
+            "item": "玉溪花灯戏",
+            "kind": "heritage",
+            "use": "玉溪国家级非遗，地方戏曲代表"
+          },
+          {
+            "item": "通海高台",
+            "kind": "heritage",
+            "use": "玉溪国家级非遗，民间造型艺术，常出现在球迷集市的非遗摊位"
+          },
+          {
+            "item": "花腰傣服饰",
+            "kind": "heritage",
+            "use": "玉溪国家级非遗，傣族支系服饰，是球场外展示的云南民族文化符号"
+          },
+          {
+            "item": "板扎",
+            "kind": "dialect",
+            "use": "云南方言『厉害、带劲』，被写进队歌《玉昆最板扎》"
+          },
+          {
+            "item": "亚洲象",
+            "kind": "animal",
+            "use": "云南标志性动物，『将军象』作为TIFO主角代表云南"
+          }
+        ],
+        "food": [
+          "玉溪凉米线",
+          "鳝鱼米线",
+          "冰稀饭",
+          "抚仙湖铜锅鱼",
+          "烧烤大排档"
+        ],
+        "venueFeatures": [
+          "玉溪高原体育运动中心主体育场，2024年11月至2025年1月二次改造后座椅达30300座，2025赛季场均现场观众超22000人",
+          "高原主场：玉溪市区中心海拔约1630米，地处云贵高原，客队体感压力大，『高原魔鬼主场』由此得名；2025赛季15个主场8胜4平3负",
+          "公益看台：2023赛季中乙起步，2025年每个主场准备约200个公益观赛名额，盲人球迷、消防员、急救员、特校学生、足球少年等先后到场",
+          "球迷集市：球场附近设数个集市，除地方美食外专设非遗、文创、特色农产品摊位；赛事期间还有高铁接站与免费公交接驳",
+          "球迷专列：昆明站至玉溪站的城际动车『球迷专列』（如C594次）在比赛日开行，车厢内有竹乐与非遗展演",
+          "赛后经济：两万余名球迷散场后涌入红塔区烧烤摊、大排档，比赛日凌晨一位难求"
+        ],
+        "slogan": "玉昆最板扎",
+        "sloganNote": "队歌名，『板扎』是云南方言『厉害、带劲』",
+        "chant": "我们来自云南 坚毅如哀牢山",
+        "chantNote": "云岭阵线助威歌《征途》",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/yunnan_yukun_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "云南玉昆",
+          "sub": "YunnanYukun",
+          "glyph": "滇",
+          "slogan": "高 原 制 霸"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/yunnan_yukun_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "云南玉昆",
+          "text": "高原橙色魔鬼",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/yunnan_yukun_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "高原制霸",
+          "lines": [
+            "高原魔鬼主场",
+            "2025 · 玉溪 · 中超首秀"
+          ],
+          "icon": "mountain"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/yunnan_yukun_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "滇",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/yunnan_yukun_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "玉昆最板扎",
+          "sub": "队歌名，『板扎』是云南方言『厉害、带劲』"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/yunnan_yukun_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "我们来自云南 坚毅如哀牢山",
+          "sub": "云岭阵线助威歌《征途》",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/yunnan_yukun_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "云南玉昆",
+          "sub": "高原魔鬼"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/yunnan_yukun_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "滇",
+          "sub": "玉溪",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/yunnan_yukun_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 哀牢山",
+          "icon": "mountain",
+          "title": "哀牢山",
+          "note": "『坚毅如哀牢山』写进助威歌，可做山形看台拼图"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/yunnan_yukun_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 亚洲象",
+          "icon": "elephant",
+          "title": "亚洲象",
+          "note": "『将军象』是 TIFO 主角，代表云南"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/yunnan_yukun_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 玉溪花灯",
+          "icon": "fire",
+          "title": "玉溪花灯",
+          "note": "玉溪国家级非遗花灯戏，球迷集市非遗摊位的灯彩"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/yunnan_yukun_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 玉溪凉米线",
+          "icon": "noodle",
+          "title": "玉溪凉米线",
+          "sub": "看球日的开胃标配"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/yunnan_yukun_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 抚仙湖铜锅鱼",
+          "icon": "fish",
+          "title": "抚仙湖铜锅鱼",
+          "sub": "高原湖泊的鲜"
+        }
+      ],
+      "sources": [
+        "https://yn.yunnan.cn/system/2025/11/04/033713064.shtml",
+        "https://xiaojiangclub.com/singer/60795604.html",
+        "http://soccer.caizhichao.cn/article/DQD5325649.html",
+        "http://www.yndaily.com/html/2025/yunxinwen_0109/131854.html",
+        "https://www.hongta.gov.cn/htgk/20170727/595711.html",
+        "https://m.thepaper.cn/newsDetail_forward_31009328",
+        "https://www.yxswhg.org.cn/h-nr--0_31_113.html",
+        "https://www.kuwo.cn/play_detail/428387636"
+      ]
+    },
+    {
+      "id": "qingdao_west_coast",
+      "cn": "青岛西海岸",
+      "en": "QingdaoWestCoast",
+      "gameId": "C238",
+      "city": "青岛",
+      "venue": "青岛西海岸大学城体育场",
+      "stadiumPackFolder": "09_QingdaoWestCoast",
+      "palette": {
+        "primary": "#0E4C92",
+        "secondary": "#FFD100",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "岸",
+      "nickname": [
+        "西海岸",
+        "青春岛"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "青岛海湾球迷联盟（青岛西海岸足球协会球迷联盟）",
+            "note": "名称见俱乐部2026赛季招募公告及协会年度庆典标题，微信正文被验证页拦截，待核实"
+          },
+          {
+            "name": "东看台",
+            "note": "俱乐部曾发布『东看台招募令』，东看台为主场助威看台，原文待核实"
+          }
+        ],
+        "chants": [
+          {
+            "text": "为青岛而战，为西海岸而战！",
+            "kind": "slogan",
+            "note": "2023赛季出征仪式打出的口号，西海岸与青岛红狮共同使用（青岛晚报）"
+          },
+          {
+            "text": "青岛赢了",
+            "kind": "chant",
+            "note": "2024年3月31日青岛德比1比0击败海牛后，球迷伴着鼓声齐喊，响彻全场"
+          },
+          {
+            "text": "战斗！西海岸",
+            "kind": "chant",
+            "note": "队歌《战斗！西海岸》，赛前与看台均使用"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "致敬邵佳一TIFO",
+            "desc": "赛季最后一个主场，球迷在体育场看台展示TIFO，致敬赴国足执教的邵佳一",
+            "when": "2025年11月22日 赛季最后一个主场"
+          },
+          {
+            "title": "来青岛看中超吃蛤蜊喝啤酒",
+            "desc": "青岛德比主场2比0完胜海牛后，西海岸球迷打出横幅，盛情邀请各地球迷来青岛看中超、吃蛤蜊、喝啤酒",
+            "when": "2026年8月2日 青岛德比"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "青岛德比做客青春足球场时，西海岸球迷用手机闪光灯回应主队看台的巨型TIFO『大海，我的故乡』",
+            "note": "本赛季首回合青岛德比，海牛主场"
+          }
+        ],
+        "mascot": {
+          "name": "龙小飞",
+          "desc": "以龙为原型的俱乐部吉祥物，2025年7月30日完成焕新升级；俱乐部称其为承载『精神图腾与文化记忆』的载体"
+        },
+        "localSymbols": [
+          {
+            "item": "海（距海五六百米的海景球场）",
+            "kind": "landmark",
+            "use": "『中国离海最近的体育场之一』，登看台即可眺望海天一色"
+          },
+          {
+            "item": "贝壳与日月同辉",
+            "kind": "landmark",
+            "use": "体育场俯瞰如贝壳，西看台顶部为月亮造型，与一路之隔太阳造型体育馆呼应"
+          },
+          {
+            "item": "蛤蜊",
+            "kind": "food",
+            "use": "被写进球迷横幅『来青岛看中超吃蛤蜊喝啤酒』，成为城市待客符号"
+          },
+          {
+            "item": "啤酒（青岛啤酒／崂特啤酒）",
+            "kind": "food",
+            "use": "本地球赛以『崂特啤酒』冠名城市足球争霸赛，看台与市集均以啤酒为标签"
+          },
+          {
+            "item": "青岛话",
+            "kind": "dialect",
+            "use": "本地方言，未查到固定看台用法，待核实"
+          }
+        ],
+        "food": [
+          "蛤蜊（辣炒蛤蜊）",
+          "青岛啤酒（崂特啤酒）"
+        ],
+        "venueFeatures": [
+          "国内离海最近的体育场之一，距海仅五六百米，看台可看海景",
+          "整体造型如贝壳，西看台顶部月亮形态，与东侧太阳造型体育馆形成『日月同辉、沙滩拾贝』",
+          "看台座椅采用深蓝、中蓝、浅蓝三色渐变，做出海浪跃动造型",
+          "设计座席2万座，2023年5月10日启用；2024年3月1日迎来中超首个主场，入场10687人",
+          "2024年首主场关键时刻全场齐喊『VAR』，主裁随后经VAR罚下客队一人，被称为『场边第12人』"
+        ],
+        "slogan": "为青岛而战 为西海岸而战",
+        "sloganNote": "2023 赛季出征仪式口号",
+        "chant": "青岛赢了",
+        "chantNote": "2024 青岛德比 1-0 胜海牛后，球迷伴着鼓声齐喊",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/qingdao_west_coast_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "青岛西海岸",
+          "sub": "QingdaoWestCoast",
+          "glyph": "岸",
+          "slogan": "西 海 岸"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/qingdao_west_coast_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "青岛西海岸",
+          "text": "为青岛而战",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/qingdao_west_coast_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "来青岛看中超",
+          "lines": [
+            "吃蛤蜊 喝啤酒",
+            "2026 · 青岛德比"
+          ],
+          "icon": "waves"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/qingdao_west_coast_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "岸",
+          "cols": 42
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/qingdao_west_coast_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "为青岛而战 为西海岸而战",
+          "sub": "2023 赛季出征仪式口号"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/qingdao_west_coast_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "青岛赢了",
+          "sub": "2024 青岛德比 1-0 胜海牛后，球迷伴着鼓声齐喊",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/qingdao_west_coast_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "青岛西海岸",
+          "sub": "西海岸"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/qingdao_west_coast_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "岸",
+          "sub": "青岛",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_west_coast_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 离海最近的球场",
+          "icon": "waves",
+          "title": "离海最近的球场",
+          "note": "距海五六百米，看台可眺望海天一色"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_west_coast_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 蛤蜊",
+          "icon": "fish",
+          "title": "蛤蜊",
+          "note": "写进横幅『吃蛤蜊喝啤酒』的城市待客符号"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_west_coast_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 青岛啤酒",
+          "icon": "beer",
+          "title": "青岛啤酒",
+          "note": "看台与球迷市集的第一标签"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/qingdao_west_coast_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 辣炒蛤蜊",
+          "icon": "fish",
+          "title": "辣炒蛤蜊",
+          "sub": "本地读 gala · 一大盆"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/qingdao_west_coast_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 青岛啤酒",
+          "icon": "beer",
+          "title": "青岛啤酒",
+          "sub": "散场碰杯 · 塑料袋装"
+        }
+      ],
+      "sources": [
+        "https://www.thepaper.cn/newsDetail_forward_23014812",
+        "http://news.bandao.cn/a/1709646283200461.html",
+        "https://epaper.guanhai.com.cn/conpaper/qdwb/h5/html5/2024-03/13/content_144699_466219.htm",
+        "https://news.zhibo8.com/zuqiu/2024-03-31/6608e8de3a0e9native.htm",
+        "https://www.guanhai.com.cn/p/466045.html",
+        "https://www.dongqiudi.com/articles/5514741.html",
+        "https://beta.dongqiudi.com/articles/5274239.html",
+        "http://www.qwmedia.cn/18563/2026/09/45117381.html"
+      ]
+    },
+    {
+      "id": "henan",
+      "cn": "河南",
+      "en": "Henan",
+      "gameId": "C240",
+      "city": "郑州",
+      "venue": "郑州航海体育场",
+      "stadiumPackFolder": "10_Henan",
+      "palette": {
+        "primary": "#D71920",
+        "secondary": "#0E7A3C",
+        "accent": "#F2C200"
+      },
+      "emblem": "豫",
+      "nickname": [
+        "中原铁军",
+        "航体"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "航海体育场北看台",
+            "note": "河南球迷组织的核心看台；2025年9月12日北看台大型图案TIFO因未经报批被中足联通报批评并罚款1万元"
+          },
+          {
+            "name": "俱乐部联合助威（官方球迷协会）",
+            "note": "2025赛季俱乐部号召『统一加油，联合助威』，球迷入场向检票人员领取《助威手册》"
+          }
+        ],
+        "chants": [
+          {
+            "text": "同袍豫心 共助荣耀",
+            "kind": "slogan",
+            "note": "2025赛季河南俱乐部助威号召的标题，配套『请做参与者』"
+          },
+          {
+            "text": "同穿红衣、同喊口号、同创文明",
+            "kind": "slogan",
+            "note": "同篇助威号召原文，目标是『让航体成为红色海洋』"
+          },
+          {
+            "text": "为河南，共战斗！",
+            "kind": "chant",
+            "note": "2022赛季俱乐部远征报名文案，另见『同袍豫心 并肩战斗』"
+          },
+          {
+            "text": "建业",
+            "kind": "chant",
+            "note": "中性名改革后球迷仍在看台整齐呼喊旧名『建业』，看台条幅亦见『河南建业』"
+          },
+          {
+            "text": "专治各种不服",
+            "kind": "banner",
+            "note": "2007年河南球迷用床单制成的看台标语，此后成为河南足球的经典标签"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "29岁生日三面TIFO",
+            "desc": "航海体育场一侧看台拉出三面TIFO，文字为『河南足球建功立业』『29年风雨相随』『河南足球勇往直前』",
+            "when": "2023年8月25日 主场对上海海港赛前"
+          },
+          {
+            "title": "成立三十周年巨幅TIFO",
+            "desc": "看台打出纪念俱乐部成立三十周年的巨幅TIFO，并拉出横幅『时光列车从未停止，如同我对你的爱不因任何而改变』",
+            "when": "2024年9月21日 中超第26轮主场对成都蓉城赛前"
+          },
+          {
+            "title": "北看台大型图案TIFO（被处罚）",
+            "desc": "赛前北看台展示未经事先批准且内容不当的大型图案，中足联对河南赛区予以通报批评并罚款1万元",
+            "when": "2025年9月12日 中超第24轮主场对北京国安"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "『河南建业』字样条幅长期出现在航海体育场看台，与全场呼喊旧队名形成呼应",
+            "note": "条幅内容见自媒体现场记录，具体场次待核实"
+          }
+        ],
+        "mascot": {
+          "name": "巴布",
+          "desc": "以亚洲象为原型、融合猛犸象特征，红色主色调，融入黄河水纹、青铜器纹样与河南方言『中』；1997年起俱乐部即以『象』为形象符号。青训梯队吉祥物名『豫宝』，两者精神文化号码均为『12』"
+        },
+        "localSymbols": [
+          {
+            "item": "大象（豫）",
+            "kind": "animal",
+            "use": "俱乐部吉祥物与形象基因符号，古代中原曾为大象繁衍生息之地"
+          },
+          {
+            "item": "黄河",
+            "kind": "landmark",
+            "use": "吉祥物融入黄河水纹，寓意『扎根中原、传承黄河精神』"
+          },
+          {
+            "item": "青铜器纹样",
+            "kind": "heritage",
+            "use": "写入吉祥物设计，指向中原青铜文明"
+          },
+          {
+            "item": "河南方言『中』",
+            "kind": "dialect",
+            "use": "直接做成吉祥物设计元素，代表中原人『可以、行』的口头禅"
+          },
+          {
+            "item": "中原",
+            "kind": "landmark",
+            "use": "队名与助威词的核心地理符号，『共同捍卫中原的荣耀』"
+          }
+        ],
+        "food": [
+          "烩面",
+          "胡辣汤",
+          "开封灌汤包"
+        ],
+        "venueFeatures": [
+          "航海体育场位于郑州市区，被球迷简称为『航体』，是河南队长期主场与城市足球地标",
+          "北看台为助威核心区，赛前发放《助威手册》，要求球迷『同穿红衣』，把航体变成红色海洋",
+          "看台文化以『坚守』著称：队名多次更迭后，球迷仍齐喊『建业』，2026赛季主场场均约2.1万人"
+        ],
+        "slogan": "同袍豫心 共助荣耀",
+        "sloganNote": "2025 赛季俱乐部助威号召标题",
+        "chant": "为河南，共战斗！",
+        "chantNote": "俱乐部远征报名文案，看台通用",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/henan_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "河南",
+          "sub": "Henan",
+          "glyph": "豫",
+          "slogan": "中 原 铁 军"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/henan_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "河南队",
+          "text": "同袍豫心",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/henan_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "专治各种不服",
+          "lines": [
+            "河南足球 建功立业",
+            "29 年风雨相随"
+          ],
+          "icon": "elephant"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/henan_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "豫",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/henan_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "同袍豫心 共助荣耀",
+          "sub": "2025 赛季俱乐部助威号召标题"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/henan_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "为河南，共战斗！",
+          "sub": "俱乐部远征报名文案，看台通用",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/henan_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "河南队",
+          "sub": "中原铁军"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/henan_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "豫",
+          "sub": "郑州",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/henan_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 大象（豫）",
+          "icon": "elephant",
+          "title": "大象（豫）",
+          "note": "吉祥物巴布的原型，中原的动物符号"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/henan_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 黄河",
+          "icon": "waves",
+          "title": "黄河",
+          "note": "吉祥物水纹来源，寓意扎根中原"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/henan_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 青铜器纹样",
+          "icon": "shield",
+          "title": "青铜器纹样",
+          "note": "中原青铜文明，做看台纹样与围巾"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/henan_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 烩面",
+          "icon": "noodle",
+          "title": "烩面",
+          "sub": "郑州羊肉烩面 · 大碗"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/henan_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 开封灌汤包",
+          "icon": "dumpling",
+          "title": "开封灌汤包",
+          "sub": "提起来像灯笼"
+        }
+      ],
+      "sources": [
+        "http://k.sina.com.cn/article_1963099827_v750286b3001018266.html",
+        "https://www.dongqiudi.com/articles/2836968.html",
+        "http://www.ppsports.com/article/news/2269487.html",
+        "https://news.zhibo8.com/zuqiu/2023-08-25/64e8a357cc5a5native.htm",
+        "https://www.czjgt.com/news/120751.html",
+        "https://www.ttplus.cn/publish/app/data/2024/08/13/527623/os_news.html",
+        "https://news.zynews.cn/hn/2024/08/29/139196.html",
+        "https://www.sohu.com/a/1094141325_121608578",
+        "http://sports.sina.com.cn/j/2008-10-30/10404040566.shtml"
+      ]
+    },
+    {
+      "id": "dalian_yingbo",
+      "cn": "大连英博",
+      "en": "DalianYingbo",
+      "gameId": "C243",
+      "city": "大连",
+      "venue": "大连梭鱼湾足球场",
+      "stadiumPackFolder": "11_DalianYingbo",
+      "palette": {
+        "primary": "#1D4E9E",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "连",
+      "nickname": [
+        "足球城",
+        "滨城"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "大连北看台",
+            "note": "梭鱼湾北看台球迷组织，官方微博同名；领喊人王超绰号『大炮』，主张全员『站立式助威』，把北看台定义为『节日载体』"
+          },
+          {
+            "name": "大连市足球球迷协会",
+            "note": "执行会长常军；组织向辽籍国脚致敬、球迷开放日等城市足球传统活动"
+          }
+        ],
+        "chants": [
+          {
+            "text": "我就喜欢大连赢，大连不赢都不行！",
+            "kind": "slogan",
+            "note": "经济日报2025年9月28日报道的梭鱼湾看台口号原文，被称为『大连的城市精神』"
+          },
+          {
+            "text": "莎啦～啦啦啦，呼",
+            "kind": "chant",
+            "note": "『莎啦啦』，北看台最具辨识度的旋律，球队取胜时刻的专属战歌，已被视为城市文化符号"
+          },
+          {
+            "text": "足球城，大连赢",
+            "kind": "slogan",
+            "note": "梭鱼湾足球场附近醒目口号；『东北超』期间改为『足球城，大连迎』"
+          },
+          {
+            "text": "足球城的名字永不可替代",
+            "kind": "banner",
+            "note": "大连北看台官方微博2026年3月20日发布的球迷赛前热身视频配文"
+          },
+          {
+            "text": "大海啊故乡",
+            "kind": "chant",
+            "note": "2024年7月7日胜青岛赛后谢场，全场齐唱《大海啊故乡》并点亮手机手电筒"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "罗马尼亚魔法师斯坦丘巨幅TIFO",
+            "desc": "北看台升起以斯坦丘为主题的巨幅TIFO：身披斗篷、指尖悬球，肩头海鸥振翅欲飞，两侧典籍翻开双方交锋历史；东西南三面看台同步变换板牌，雷电、巨龙、浪涛层层铺展，全场62075人",
+            "when": "2026赛季中超第22轮 大连英博 vs 辽宁铁人"
+          },
+          {
+            "title": "We Are The World 儿童节TIFO",
+            "desc": "全场球迷打出巨幅TIFO『We Are The World』，为儿童节送上祝福",
+            "when": "2026赛季儿童节前主场"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "北看台『旗帜如浪涛翻涌』，蓝色海洋是梭鱼湾最标志性的看台画面",
+            "note": "大连新闻传媒集团报道"
+          },
+          {
+            "desc": "应援色为海洋蓝，与球场『海洋蓝』立面、蓝灰渐变座椅形成整体视觉",
+            "note": "球场设计说明"
+          }
+        ],
+        "mascot": {
+          "name": "",
+          "desc": "未查到官方吉祥物信息；看台视觉以海鸥、海浪、蓝灰渐变为主，TIFO以球员形象为载体"
+        },
+        "localSymbols": [
+          {
+            "item": "海鸥",
+            "kind": "animal",
+            "use": "出现在斯坦丘TIFO肩头，把『大连海滨城市的独特印记与球队灵魂融为一体』"
+          },
+          {
+            "item": "海洋蓝与海浪",
+            "kind": "landmark",
+            "use": "球场立面定妆色『海洋蓝』、设计灵感『海浪与海螺』、设计理念『炫彩叠浪』"
+          },
+          {
+            "item": "三面环海的梭鱼湾",
+            "kind": "landmark",
+            "use": "我国唯一三面环海的海边足球场，看台与慢跑坡道可看海"
+          },
+          {
+            "item": "足球城",
+            "kind": "heritage",
+            "use": "城市足球传统写进看台口号『足球城，大连赢』，并有向辽籍国脚致敬的惯例"
+          },
+          {
+            "item": "焖子",
+            "kind": "food",
+            "use": "梭鱼湾场外嘉年华设『焖子文化体验』，分传统焖子、海鲜焖子、海参焖子"
+          }
+        ],
+        "food": [
+          "铁板大鱿鱼",
+          "焖子（海鲜焖子、海参焖子）",
+          "海菜包子",
+          "海胆饺子",
+          "大连大樱桃"
+        ],
+        "venueFeatures": [
+          "我国唯一一个三面环海的海边足球场，也是大连首座专业足球场，6.3万席，环场2.2公里慢跑坡道可直达顶部观景平台",
+          "设计灵感『海浪与海螺』：立面『海洋蓝』、顶棚白色，蓝灰两色座椅渐变模拟海浪翻滚",
+          "北看台是助威核心，场均上座率极高，被业内称为『亚洲第一主场』",
+          "场外北侧设嘉年华市集，赛前可吃到铁板鱿鱼、焖子、海菜包子、海胆饺子等大连本味"
+        ],
+        "slogan": "我就喜欢大连赢 大连不赢都不行",
+        "sloganNote": "梭鱼湾看台口号原文，被称为大连的城市精神",
+        "chant": "莎啦～啦啦啦，呼",
+        "chantNote": "『莎啦啦』取胜专属战歌，已被视为城市文化符号",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/dalian_yingbo_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "大连英博",
+          "sub": "DalianYingbo",
+          "glyph": "连",
+          "slogan": "足 球 城"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/dalian_yingbo_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "大连英博",
+          "text": "大连不赢都不行",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/dalian_yingbo_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "足球城 大连赢",
+          "lines": [
+            "我就喜欢大连赢",
+            "梭鱼湾 · 三面环海"
+          ],
+          "icon": "seagull"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/dalian_yingbo_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "连",
+          "cols": 46
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/dalian_yingbo_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "我就喜欢大连赢 大连不赢都不行",
+          "sub": "梭鱼湾看台口号原文，被称为大连的城市精神"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/dalian_yingbo_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "莎啦～啦啦啦，呼",
+          "sub": "『莎啦啦』取胜专属战歌，已被视为城市文化符号",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/dalian_yingbo_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "大连英博",
+          "sub": "足球城"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/dalian_yingbo_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "连",
+          "sub": "大连",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/dalian_yingbo_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 海鸥",
+          "icon": "seagull",
+          "title": "海鸥",
+          "note": "斯坦丘 TIFO 肩头的海鸥，海滨印记与球队灵魂的合体"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/dalian_yingbo_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 梭鱼湾",
+          "icon": "waves",
+          "title": "梭鱼湾",
+          "note": "我国唯一三面环海的海边足球场，看台与慢跑坡道可看海"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/dalian_yingbo_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 焖子",
+          "icon": "skewer",
+          "title": "焖子",
+          "note": "场外嘉年华的焖子文化体验"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/dalian_yingbo_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 铁板大鱿鱼",
+          "icon": "fish",
+          "title": "铁板大鱿鱼",
+          "sub": "场外嘉年华招牌"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/dalian_yingbo_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 海胆饺子",
+          "icon": "dumpling",
+          "title": "海胆饺子",
+          "sub": "大连本味 · 鲜得上头"
+        }
+      ],
+      "sources": [
+        "https://news.cnr.cn/native/gd/20250928/t20250928_527379404.shtml",
+        "http://news.youth.cn/zc/202509/t20250928_16264626.htm",
+        "https://view.inews.qq.com/k/20260501A073VM00",
+        "https://www.thecfa.cn:30785/zyls1/20260814/38067.html",
+        "http://www.chinanews.com.cn/cj/2023/04-25/9996787.shtml",
+        "https://news.zhibo8.com/zuqiu/2026-03-20/69bd592f2be29native.htm",
+        "http://epaper.lnd.com.cn/lnrbepaper/pc/con/202606/20/content_329847.html",
+        "https://www.163.com/dy/article/KVT5S08F0514CRLH.html",
+        "https://www.sohu.com/a/954429446_585510"
+      ]
+    },
+    {
+      "id": "shenzhen_peng_city",
+      "cn": "深圳新鹏城",
+      "en": "ShenzhenPengCity",
+      "gameId": "C241",
+      "city": "深圳",
+      "venue": "深圳宝安体育场",
+      "stadiumPackFolder": "12_ShenzhenPengCity",
+      "palette": {
+        "primary": "#C8102E",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "鹏",
+      "nickname": [
+        "鹏城",
+        "新鹏城"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "深体南看台联合会",
+            "note": "222区，2024年5月12日成立，曾用名『深圳北看台』，俱乐部原生球迷组织，定位『打造专属助威看台南看台』"
+          },
+          {
+            "name": "深圳市球迷会",
+            "note": "221区，成立于1994年，深圳最老牌球迷组织"
+          },
+          {
+            "name": "深圳球迷联盟",
+            "note": "221区，2007年10月25日成立，自称『深圳足球死忠团体』"
+          },
+          {
+            "name": "深圳风暴球迷会",
+            "note": "223区，2018年8月19日成立，主打看台文化与远征"
+          },
+          {
+            "name": "深圳吴川球迷会",
+            "note": "223区，2016年成立，以在深吴川、粤西球迷为主，倡导『统一着装、统一标志、统一口号、统一动作』"
+          },
+          {
+            "name": "深圳青年球迷会 / 深圳爱足球球迷会",
+            "note": "217区；爱足球球迷会2025年1月成立，提倡『来了就是深圳人』"
+          }
+        ],
+        "chants": [
+          {
+            "text": "来吧，我们是兄弟，一起呐喊为深圳！燃烧我们的激情，一起COME ON，COME ON CITY!",
+            "kind": "chant",
+            "note": "官方助威曲《COME ON 深圳，COME ON CITY》歌词，赛前全场大合唱"
+          },
+          {
+            "text": "COME ON深圳！",
+            "kind": "chant",
+            "note": "2025年4月15日主场3比1胜长春亚泰、拿下赛季主场首胜时的看台助威"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "新家、新希望",
+            "desc": "俱乐部联合7家官方球迷协会，在体育场南看台展示以『新家、新希望』为主题、覆盖整个看台的大型TIFO，现场31205人",
+            "when": "2025年3月28日 深圳体育中心首秀 vs 云南玉昆"
+          },
+          {
+            "title": "激光秀《鹏城之光·荣耀之路》",
+            "desc": "体育场四周穹顶架设12台激光设备，以『城市脉搏、铁血传承、鹏城之翼、无限进取』四个序章，演出4分16秒，展示城市风貌与球队落户",
+            "when": "2025年3月28日 深圳市体育中心"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "深体首秀『新主场变身蓝色海洋』，球迷统一蓝色着装铺满看台",
+            "note": "俱乐部公号标题，正文页面未能打开，待核实"
+          }
+        ],
+        "mascot": {
+          "name": "鹏鹏",
+          "desc": "中超首个以机器人为核心形象创作的俱乐部官方吉祥物，2026年3月14日中超第2轮主场对天津津门虎赛前正式揭晓"
+        },
+        "localSymbols": [
+          {
+            "item": "鹏城／大鹏",
+            "kind": "animal",
+            "use": "深圳别称『鹏城』，吉祥物取名『鹏鹏』，激光秀设『鹏城之翼』序章"
+          },
+          {
+            "item": "科技与机器人",
+            "kind": "heritage",
+            "use": "吉祥物以机器人为原型，激光秀用12台激光设备，强调『科技感的深圳表达』"
+          },
+          {
+            "item": "深圳市体育中心（深体）",
+            "kind": "landmark",
+            "use": "2025赛季起主场迁入，南看台成为『深体南看台联合会』阵地"
+          },
+          {
+            "item": "来了就是深圳人",
+            "kind": "dialect",
+            "use": "被球迷协会当作吸纳新球迷、构建包容看台文化的口号"
+          }
+        ],
+        "food": [
+          "沙井蚝",
+          "光明乳鸽",
+          "粤式早茶",
+          "精酿啤酒（深体乐活街区）"
+        ],
+        "venueFeatures": [
+          "2024赛季主场为深圳宝安体育场，2024年11月2日中超收官战在此2比1胜南通支云完成保级",
+          "2025赛季起主场迁至改造后的深圳市体育中心体育场（深体），『一场两馆三空间』，首秀入场31205人",
+          "赛前固定节目是《鹏城之光·荣耀之路》激光秀：穹顶12台激光设备、4分16秒、四个序章",
+          "场外『深体乐活街区』与『鹏城新主场·球迷狂欢季』市集：精酿、港式葡挞、冬阴功鸡肉卷等，配乐队与互动项目"
+        ],
+        "slogan": "来了就是深圳人",
+        "sloganNote": "球迷协会用来吸纳新球迷、构建包容看台文化的口号",
+        "chant": "COME ON 深圳",
+        "chantNote": "官方助威曲《COME ON 深圳，COME ON CITY》",
+        "venueNote": "本包按球场包用『深圳宝安体育场』（2024 赛季主场）；调研显示 2025 赛季起主场已迁至改造后的深圳市体育中心体育场（深体），深体首秀入场 31205 人。"
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/shenzhen_peng_city_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "深圳新鹏城",
+          "sub": "ShenzhenPengCity",
+          "glyph": "鹏",
+          "slogan": "鹏 城"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/shenzhen_peng_city_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "深圳新鹏城",
+          "text": "COME ON 深圳",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/shenzhen_peng_city_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "新家 新希望",
+          "lines": [
+            "鹏城之光 · 荣耀之路",
+            "2025 · 深体首秀"
+          ],
+          "icon": "bird"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/shenzhen_peng_city_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "鹏",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shenzhen_peng_city_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "来了就是深圳人",
+          "sub": "球迷协会用来吸纳新球迷、构建包容看台文化的口号"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/shenzhen_peng_city_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "COME ON 深圳",
+          "sub": "官方助威曲《COME ON 深圳，COME ON CITY》",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/shenzhen_peng_city_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "深圳新鹏城",
+          "sub": "鹏城"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/shenzhen_peng_city_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "鹏",
+          "sub": "深圳",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shenzhen_peng_city_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 大鹏",
+          "icon": "bird",
+          "title": "大鹏",
+          "note": "深圳别称『鹏城』，吉祥物取名鹏鹏，激光秀设『鹏城之翼』序章"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shenzhen_peng_city_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 机器人",
+          "icon": "robot",
+          "title": "机器人",
+          "note": "中超首个机器人原型吉祥物，科技感的深圳表达"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/shenzhen_peng_city_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 深圳天际线",
+          "icon": "city",
+          "title": "深圳天际线",
+          "note": "激光秀四序章的城市影像母题"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shenzhen_peng_city_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 光明乳鸽",
+          "icon": "bird",
+          "title": "光明乳鸽",
+          "sub": "深圳老字号 · 皮脆"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/shenzhen_peng_city_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 粤式早茶",
+          "icon": "dumpling",
+          "title": "粤式早茶",
+          "sub": "看球前的一盅两件"
+        }
+      ],
+      "sources": [
+        "http://www.ppsport.com/article/news/2343832.html",
+        "https://news.dayoo.com/gzrbrmt/202503/31/170629_54806053.htm",
+        "https://news.dayoo.com/gzrbrmt/202504/16/170629_54813516.htm",
+        "https://news.zhibo8.com/zuqiu/2026-03-15/69b62ca78f638native.htm",
+        "https://m.gmw.cn/2024-11/02/content_1303887616.htm",
+        "https://m.dutenews.com/n/article/10605828",
+        "https://www.toutiao.com/article/7493819109797331510/"
+      ]
+    },
+    {
+      "id": "qingdao_hainiu",
+      "cn": "青岛海牛",
+      "en": "QingdaoHainiu",
+      "gameId": "C244",
+      "city": "青岛",
+      "venue": "青岛天泰体育场",
+      "stadiumPackFolder": "13_QingdaoHainiu",
+      "palette": {
+        "primary": "#0B4EA2",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "牛",
+      "nickname": [
+        "海牛"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "青岛海啸球迷协会",
+            "note": "2001年7月24日创办，会训『激情似海，啸傲江湖』，2023年会员超千人；会长刘鹏，下设旗阵组、布展组、鼓动组、品宣组"
+          },
+          {
+            "name": "青岛北看台TFPU球迷协会",
+            "note": "与海啸、青年人三家协会达成共识，共同驻守青春足球场北看台 B12-B15 区域，形成统一鼓点与旗阵"
+          },
+          {
+            "name": "青岛青年人球迷协会",
+            "note": "第三家核心协会，与另两家并肩在北看台助威，年轻人比例高，负责带动站席高唱"
+          }
+        ],
+        "chants": [
+          {
+            "text": "战斗海牛队！战斗青岛队！",
+            "kind": "chant",
+            "note": "2025赛季出征仪式上球迷齐声高喊的口号，已是主场固定助威词"
+          },
+          {
+            "text": "抬起头来，继续战斗！",
+            "kind": "chant",
+            "note": "球队连败跌入降级区、以及主场输给申花谢场时，北看台反复高喊的安慰式助威"
+          },
+          {
+            "text": "赢了一起狂，输了一起扛",
+            "kind": "slogan",
+            "note": "青岛球迷自述的看台信条，媒体多次引用；另有俱乐部层面的『为青岛而战』『同青岛，共荣耀』"
+          },
+          {
+            "text": "泰山云虽高，不如东海崂",
+            "kind": "banner",
+            "note": "2023年5月28日齐鲁德比北看台巨幅海报文字，借青岛崂山回应泰山"
+          },
+          {
+            "text": "向英雄城市武汉致敬",
+            "kind": "banner",
+            "note": "2023年4月29日主场迎战武汉三镇时北看台打出的横幅，属青岛看台『好客』系列"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "30周年巨型TIFO",
+            "desc": "足协杯半决赛后俱乐部举行30周年庆典，东看台与北看台同时展开巨型Tifo，各梯队与一线队绕场并向看台抛洒礼物",
+            "when": "2023年11月7日"
+          },
+          {
+            "title": "青岛德比赛前TIFO",
+            "desc": "中超第6轮主场对阵青岛西海岸，球迷赛前展示TIFO，赛前灯光摇曳中全场齐唱《大海啊故乡》，把海滨城市的集体记忆搬进看台",
+            "when": "2026年4月17日"
+          },
+          {
+            "title": "缅怀申花老球迷张阿姨巨幅TIFO",
+            "desc": "北看台海啸球迷拉出巨幅TIFO缅怀离世的上海申花老球迷张阿姨，得到上海球迷积极回应，是青岛看台『温情路线』的代表作",
+            "when": "2023年6月8日"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "北看台旗阵：海啸、北看台TFPU、青年人三家协会的会旗与大幅助威旗，由『旗阵组』专门负责张挂与挥舞",
+            "note": "2025赛季出征仪式上所有球迷协会会旗伴随主场战旗一同挥动"
+          }
+        ],
+        "mascot": {
+          "name": "犇犇",
+          "desc": "海牛吉祥物，以『牛』为核心形象（犇为三牛）；2025赛季完成形象升级，以更灵活的姿态出现在主场，俱乐部将继续围绕吉祥物IP做衍生开发"
+        },
+        "localSymbols": [
+          {
+            "item": "崂山",
+            "kind": "landmark",
+            "use": "齐鲁德比巨幅海报『泰山云虽高，不如东海崂』，用青岛地标崂山在德比语境里压过泰山"
+          },
+          {
+            "item": "滨海天际线",
+            "kind": "landmark",
+            "use": "2025赛季橙色战袍『设计灵感来源于青岛这座城市的天际线和滨海建筑』，把城市景观直接穿在球员身上"
+          },
+          {
+            "item": "青岛啤酒",
+            "kind": "food",
+            "use": "青岛看台与球迷聚会的第一符号，散场后撸串碰杯是比赛日的固定延伸"
+          },
+          {
+            "item": "辣炒蛤蜊",
+            "kind": "food",
+            "use": "青岛方言读作 gala，是本地最具辨识度的市井吃食，常与啤酒一起出现在赛后聚餐与球场周边摊位"
+          },
+          {
+            "item": "足球之城底蕴",
+            "kind": "heritage",
+            "use": "海牛是中国职业联赛先行者，2023年时隔十年重返中超，球迷把看台当作展示青岛足球城底蕴的窗口"
+          },
+          {
+            "item": "岛城",
+            "kind": "dialect",
+            "use": "青岛人自称『岛城人』，出征仪式上队长牟鹏飞喊出『为了岛城人民的厚爱战斗』"
+          }
+        ],
+        "food": [
+          "青岛啤酒",
+          "辣炒蛤蜊（gala）",
+          "海鲜烧烤（散场后的撸串碰杯）"
+        ],
+        "venueFeatures": [
+          "主场为青岛青春足球场（城阳区靖城路1号），约5万人的专业足球场，2023年起成为海牛主场，2024赛季主场涌入超25万人次",
+          "北看台（B12-B15）正好位于一侧球门后方：主队进攻时呐喊干扰对方门将，客队进攻时为后防打气，还能就近提醒裁判看VAR",
+          "青岛天泰体育场、国信体育场是海牛此前的老主场，球迷『习惯在天泰、国信看球』；迁至城阳后俱乐部协调摆渡车与10条接驳线路",
+          "看台文化做『主题化』：对武汉三镇挂『向英雄城市武汉致敬』，对成都蓉城致敬抗洪逆行者并齐喊『欢迎成都！』，齐鲁德比上文化海报"
+        ],
+        "slogan": "赢了一起狂 输了一起扛",
+        "sloganNote": "青岛球迷自述的看台信条，媒体多次引用",
+        "chant": "抬起头来，继续战斗！",
+        "chantNote": "连败与谢场时北看台反复高喊的安慰式助威",
+        "venueNote": "本包按球场包用『青岛天泰体育场』（2023 年以前的老主场）；调研显示现主场已是青岛青春足球场（城阳区，约5万座），北看台 B12-B15 为助威核心。"
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/qingdao_hainiu_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "青岛海牛",
+          "sub": "QingdaoHainiu",
+          "glyph": "牛",
+          "slogan": "海 牛"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/qingdao_hainiu_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "青岛海牛",
+          "text": "战斗海牛队",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/qingdao_hainiu_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "泰山云虽高",
+          "lines": [
+            "不如东海崂",
+            "2023 · 齐鲁德比 · 北看台"
+          ],
+          "icon": "mountain"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/qingdao_hainiu_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "牛",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/qingdao_hainiu_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "赢了一起狂 输了一起扛",
+          "sub": "青岛球迷自述的看台信条，媒体多次引用"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/qingdao_hainiu_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "抬起头来，继续战斗！",
+          "sub": "连败与谢场时北看台反复高喊的安慰式助威",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/qingdao_hainiu_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "青岛海牛",
+          "sub": "海牛"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/qingdao_hainiu_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "牛",
+          "sub": "青岛",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_hainiu_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 崂山",
+          "icon": "mountain",
+          "title": "崂山",
+          "note": "齐鲁德比海报用崂山回应泰山，青岛的山海地标"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_hainiu_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 滨海天际线",
+          "icon": "city",
+          "title": "滨海天际线",
+          "note": "2025 赛季橙色战袍的设计灵感来源"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/qingdao_hainiu_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 青岛啤酒",
+          "icon": "beer",
+          "title": "青岛啤酒",
+          "note": "散场撸串碰杯的固定延伸"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/qingdao_hainiu_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 辣炒蛤蜊",
+          "icon": "fish",
+          "title": "辣炒蛤蜊",
+          "sub": "本地读 gala · 配冰啤"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/qingdao_hainiu_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 海鲜烧烤",
+          "icon": "skewer",
+          "title": "海鲜烧烤",
+          "sub": "散场后的第二主场"
+        }
+      ],
+      "sources": [
+        "http://news.bandao.cn/a/1691390148366671.html",
+        "https://www.guanhai.com.cn/p/273522.html",
+        "https://epaper.guanhai.com.cn/conpaper/qdwb/html/2025-02/19/content_144695_1862453.htm",
+        "http://m.qdxin.cn/detail/317258.html",
+        "http://news.zhibo8.com/zuqiu/2026-04-17/69e21de7e4837native.htm"
+      ]
+    },
+    {
+      "id": "wuhan_three_towns",
+      "cn": "武汉三镇",
+      "en": "WuhanThreeTowns",
+      "gameId": "C239",
+      "city": "武汉",
+      "venue": "武汉体育中心",
+      "stadiumPackFolder": "14_WuhanThreeTowns",
+      "palette": {
+        "primary": "#0047A0",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C200"
+      },
+      "emblem": "汉",
+      "nickname": [
+        "三镇",
+        "汉军"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "鄂魔球迷会（鄂魔球迷协会）",
+            "note": "2009年成立的湖北球迷组织，2024赛季公开招募会员；新会员要系统学习『赛场助威口号、队歌演唱、领喊节奏把控』，是武汉看台上领喊与鼓点的骨干力量"
+          },
+          {
+            "name": "南看台大学生球迷方阵",
+            "note": "俱乐部在南看台设低价学生票区域，武汉高校学生构成南看台的固定『蓝色方阵』"
+          }
+        ],
+        "chants": [
+          {
+            "text": "三镇必胜！",
+            "kind": "chant",
+            "note": "亚冠主场及联赛关键战球迷齐声高喊的短促助威词"
+          },
+          {
+            "text": "蓝色的火焰，永照夜空；蓝色的猛虎，永远冲锋！",
+            "kind": "chant",
+            "note": "官方队歌《永照我心》开篇歌词（2023年5月19日发布），主场领唱与看台合唱的核心段落；后段还有『我们是利剑，我们是堡垒，我们的骄傲，武汉三镇！』"
+          },
+          {
+            "text": "降级不可怕，我们明年再打回来",
+            "kind": "slogan",
+            "note": "2026年10月19日主场1比3负于申花、保级仅剩理论可能后，球迷朝球队喊话的原文，完整版为『希望我们这个队要有魂，要有队魂。每个人昂起头，往前走。降级不可怕，我们明年再打回来』"
+          },
+          {
+            "text": "保卫大武汉",
+            "kind": "banner",
+            "note": "2026年8月22日南看台巨型TIFO主文案，蓝底白字，借抗疫记忆把球队保级战写成城市保卫战"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "保卫大武汉",
+            "desc": "南看台巨型TIFO，蓝色底、白色大字『保卫大武汉』，与全场蓝色助威服连成『蓝色海洋』；当晚40153名观众创下三镇俱乐部主场观战人数历史新高",
+            "when": "2026年8月22日"
+          },
+          {
+            "title": "亚冠主场首秀巨幅TIFO",
+            "desc": "亚冠正赛主场首战（2比2平浦和红钻），球迷提前三小时入场在看台展开巨幅TIFO：蓝底幕布上印黄鹤楼、龟山电视塔和江汉关三座武汉地标，两侧分列亚洲地标建筑，TIFO上方为中国国旗",
+            "when": "2023年9月20日"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "蓝底白字『武汉』巨幅横幅：布面是2016年第一批会员凑钱绣的，边角起毛、留有2018年远征时蹭上的油渍，由球迷组织每场抬上看台最上层",
+            "note": "出自武汉球迷组织负责人自述，细节待核实；但『蓝底白字武汉横幅＋蓝色围巾』是武汉看台的稳定视觉"
+          },
+          {
+            "desc": "赛前看台挂满十余家球迷协会的助威横幅与旗帜",
+            "note": "懂球帝2023年4月18日对武汉体育中心首个主场的现场记述"
+          }
+        ],
+        "mascot": {
+          "name": "三镇虎",
+          "desc": "官方吉祥物『三镇虎』，定位为超萌『气氛担当』，2025年8月焕新亮相；同场还有以武汉方言梗『算鸟（算了）』为原型的『三镇版蒜鸟』人偶一同互动。队歌里『蓝色的猛虎，永远冲锋』即虎的形象来源"
+        },
+        "localSymbols": [
+          {
+            "item": "黄鹤楼",
+            "kind": "landmark",
+            "use": "亚冠首战巨幅TIFO三大武汉地标之首"
+          },
+          {
+            "item": "江汉关",
+            "kind": "landmark",
+            "use": "出现在亚冠TIFO上，代表汉口开埠与长江航运的城市记忆"
+          },
+          {
+            "item": "龟山电视塔",
+            "kind": "landmark",
+            "use": "亚冠TIFO第三座地标，构成『武汉三镇』式的天际线组合"
+          },
+          {
+            "item": "热干面",
+            "kind": "food",
+            "use": "武汉球迷远征与看台叙事的固定符号"
+          },
+          {
+            "item": "不服周",
+            "kind": "dialect",
+            "use": "湖北方言，意为不服输、不认命；媒体写三镇亚冠首秀时称球队把湖北武汉人『不服周』的血性展现出来"
+          },
+          {
+            "item": "江城",
+            "kind": "heritage",
+            "use": "武汉的别称，与『汉军』一起构成武汉足球的城市自称"
+          }
+        ],
+        "food": [
+          "热干面",
+          "鸭脖",
+          "豆皮"
+        ],
+        "venueFeatures": [
+          "武汉体育中心体育场（沌口）：2023赛季为承办卫冕冠军三镇比赛『装潢一新』，场内外随处可见俱乐部元素",
+          "南看台设低价学生票区，大学生群体构成稳定的蓝色方阵；看台以蓝色助威服与围巾连成『蓝色海洋』",
+          "2026年8月22日对阵天津津门虎入场40153人，创俱乐部主场观战人数历史新高；此前亚冠主场首秀为27949人",
+          "比赛日有城市仪式感：曾邀请疫情期间支援武汉的医护人员免费观赛，并为残障人士设专门观赛区"
+        ],
+        "slogan": "蓝色的火焰 永照夜空 蓝色的猛虎 永远冲锋",
+        "sloganNote": "官方队歌《永照我心》开篇",
+        "chant": "三镇必胜！",
+        "chantNote": "亚冠与关键战看台齐喊",
+        "venueNote": ""
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/wuhan_three_towns_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "武汉三镇",
+          "sub": "WuhanThreeTowns",
+          "glyph": "汉",
+          "slogan": "三 镇"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/wuhan_three_towns_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "武汉三镇",
+          "text": "保卫大武汉",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/wuhan_three_towns_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "保卫大武汉",
+          "lines": [
+            "蓝色的火焰 永照夜空",
+            "2026 · 南看台 · 40153 人"
+          ],
+          "icon": "pagoda"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/wuhan_three_towns_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "汉",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/wuhan_three_towns_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "蓝色的火焰 永照夜空 蓝色的猛虎 永远冲锋",
+          "sub": "官方队歌《永照我心》开篇"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/wuhan_three_towns_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "三镇必胜！",
+          "sub": "亚冠与关键战看台齐喊",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/wuhan_three_towns_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "武汉三镇",
+          "sub": "汉军"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/wuhan_three_towns_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "汉",
+          "sub": "武汉",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/wuhan_three_towns_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 黄鹤楼",
+          "icon": "pagoda",
+          "title": "黄鹤楼",
+          "note": "亚冠 TIFO 三大地标之首"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/wuhan_three_towns_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 江汉关",
+          "icon": "gate",
+          "title": "江汉关",
+          "note": "汉口开埠与长江航运的城市记忆"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/wuhan_three_towns_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 热干面",
+          "icon": "noodle",
+          "title": "热干面",
+          "note": "远征清晨在球场门口台阶上的一碗"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/wuhan_three_towns_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 鸭脖",
+          "icon": "skewer",
+          "title": "鸭脖",
+          "sub": "看球零嘴 · 越辣越喊"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/wuhan_three_towns_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 豆皮",
+          "icon": "dumpling",
+          "title": "豆皮",
+          "sub": "过早三件套之一"
+        }
+      ],
+      "sources": [
+        "https://news.ifeng.com/c/8TEt7n5jOD8",
+        "https://yijingbazi.com/xinwen/zuqiu/5664.html",
+        "https://www.sina.cn/news/detail/5335092375062366.html",
+        "https://news.zhibo8.com/zuqiu/2026-08-22/6a89a08ab4ab4native.htm",
+        "https://m.dongqiudi.com/article/3391862.html",
+        "https://www.163.com/dy/article/IF46J7TJ0529D1LJ.html",
+        "http://www.ppsport.com/article/video/2054282.html",
+        "https://m.163.com/dy/article/K88N49D80529AJS0.html",
+        "https://news.hubeidaily.net/pc/c_5633687.html",
+        "http://news.cnhubei.com/content/2021-04/27/content_13762064.html"
+      ]
+    },
+    {
+      "id": "liaoning_tieren",
+      "cn": "辽宁铁人",
+      "en": "LiaoningTieren",
+      "gameId": "C247",
+      "city": "沈阳",
+      "venue": "沈阳奥体中心",
+      "stadiumPackFolder": "15_LiaoningTieren",
+      "palette": {
+        "primary": "#B02E2E",
+        "secondary": "#F4F5F7",
+        "accent": "#F2C200"
+      },
+      "emblem": "辽",
+      "nickname": [
+        "铁人"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "辽沈球迷会",
+            "note": "辽沈球迷骨干组织，会长何大鹏；辽宁男女足每个主场都组织球迷到场，2025赛季会员每场增加近200人，并设专职旗手"
+          },
+          {
+            "name": "沈阳球迷俱乐部",
+            "note": "负责人绍纯；2025年7月26日组织近千名辽沈球迷远征延吉，创下省外远征人数纪录，赛后乘专列返回沈阳"
+          },
+          {
+            "name": "星火辽员等辽宁球迷组织",
+            "note": "原为辽宁男篮球迷组织，2025年起在广东、上海、江苏等地加入辽宁铁人与辽宁女足的助威队伍"
+          }
+        ],
+        "chants": [
+          {
+            "text": "铁人战斗！",
+            "kind": "chant",
+            "note": "2026年3月21日中超主场首秀，辽宁日报现场报道『球迷们全程站立助威，铁人战斗的口号声此起彼伏』"
+          },
+          {
+            "text": "我就是烈焰的魂，辽宁铁人！",
+            "kind": "chant",
+            "note": "新队歌《铁人洪流》的标志性歌词（2026年1月11日公布），以『钢铁力量』『辽宁荣耀』为核心意象，现已成为看台合唱段"
+          },
+          {
+            "text": "真心英雄",
+            "kind": "chant",
+            "note": "2026年3月21日队史中超首胜（3比0胜天津津门虎）后，全场打开手机闪光灯汇聚成河，齐唱《真心英雄》向球队致敬"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "中超主场首秀巨型TIFO",
+            "desc": "赛前全省各地球迷早早集结，巨型TIFO缓缓展开、助威旗帜迎风招展；25069名球迷见证中超时隔3059天重回沈阳主场，客队主帅赛后称羡慕这样的氛围",
+            "when": "2026年3月21日"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "看台上助威旗帜迎风招展，辽沈球迷会设专职旗手挥动会旗，客队看台亦以整片旗帜与围巾构成红色块面",
+            "note": "辽宁日报2026年3月23日；辽宁铁人主色为红色"
+          }
+        ],
+        "mascot": {
+          "name": "辽辽",
+          "desc": "辽宁铁人吉祥物『小老虎辽辽』，出现在俱乐部官方授权商店的铁西店中，是比赛日周边的主力IP"
+        },
+        "localSymbols": [
+          {
+            "item": "铁西老工业区",
+            "kind": "heritage",
+            "use": "『铁人』名号的现实来源：球队把主场搬进铁西，用工业区的钢铁意象承接『铁人精神』"
+          },
+          {
+            "item": "辽足传统与辽宁荣耀",
+            "kind": "heritage",
+            "use": "队歌以『钢铁力量』『辽宁荣耀』为核心意象，写辽足坚韧不拔、永不言弃"
+          },
+          {
+            "item": "东北话",
+            "kind": "dialect",
+            "use": "辽宁方言进入俱乐部公告与球迷话语，成为区别于其他赛区的语言标识"
+          },
+          {
+            "item": "鸡架",
+            "kind": "food",
+            "use": "沈阳看球场景的标配：比赛日球迷市集与烧烤摊上的鸡架配啤酒，是本地观赛仪式的一部分"
+          },
+          {
+            "item": "老边饺子",
+            "kind": "food",
+            "use": "沈阳老字号，外地客队球迷来沈的打卡吃食"
+          }
+        ],
+        "food": [
+          "鸡架",
+          "老边饺子",
+          "烤串（球迷市集）"
+        ],
+        "venueFeatures": [
+          "主场经核实为沈阳铁西体育场：沈阳首座专业足球场，由旧体育场改建、可容纳约4万人；2025年5月12日对大连鲲城是辽宁铁人在沈阳奥体中心的最后一场，5月31日起主场迁至铁西",
+          "启用铁西后球市爆发：2025赛季连续三个主场超3万人（6月28日对南京城市30621人），当季铁西近5场场均观众近35000人；2026年3月21日中超主场首秀25069人",
+          "沈阳奥体中心为旧主场：2025赛季上半程仍在奥体作赛，球队用『一场胜利告别奥体中心』",
+          "铁西体育场北门外设俱乐部官方授权商店，比赛日赛前数小时挤满球迷；客队看台与主队红衫形成强烈色彩对峙"
+        ],
+        "slogan": "铁人战斗！",
+        "sloganNote": "2026 中超主场首秀看台反复的口号",
+        "chant": "我就是烈焰的魂 辽宁铁人！",
+        "chantNote": "新队歌《铁人洪流》标志性歌词",
+        "venueNote": "本包按球场包用『沈阳奥体中心』（2025 上半程旧主场）；调研显示 2025 年 5 月 31 日起主场已迁至沈阳铁西体育场（沈阳首座专业足球场，约 4 万人）。"
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/liaoning_tieren_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "辽宁铁人",
+          "sub": "LiaoningTieren",
+          "glyph": "辽",
+          "slogan": "铁 人"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/liaoning_tieren_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "辽宁铁人",
+          "text": "我就是烈焰的魂",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/liaoning_tieren_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "铁人洪流",
+          "lines": [
+            "钢铁力量 · 辽宁荣耀",
+            "2026 · 中超主场首秀"
+          ],
+          "icon": "fire"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/liaoning_tieren_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "辽",
+          "cols": 44
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/liaoning_tieren_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "铁人战斗！",
+          "sub": "2026 中超主场首秀看台反复的口号"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/liaoning_tieren_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "我就是烈焰的魂 辽宁铁人！",
+          "sub": "新队歌《铁人洪流》标志性歌词",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/liaoning_tieren_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "辽宁铁人",
+          "sub": "铁人"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/liaoning_tieren_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "辽",
+          "sub": "沈阳",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/liaoning_tieren_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 铁西老工业区",
+          "icon": "city",
+          "title": "铁西老工业区",
+          "note": "『铁人』名号的现实来源，钢铁工业意象"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/liaoning_tieren_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 小老虎辽辽",
+          "icon": "tiger",
+          "title": "小老虎辽辽",
+          "note": "吉祥物形象，官方商店与比赛日周边主力 IP"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/liaoning_tieren_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 鸡架",
+          "icon": "skewer",
+          "title": "鸡架",
+          "note": "沈阳看球标配：鸡架配啤酒"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/liaoning_tieren_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 老边饺子",
+          "icon": "dumpling",
+          "title": "老边饺子",
+          "sub": "沈阳老字号"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/liaoning_tieren_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 烤串",
+          "icon": "skewer",
+          "title": "烤串",
+          "sub": "球迷市集 · 球场外烧烤"
+        }
+      ],
+      "sources": [
+        "http://www.ppsport.com/article/news/2379061.html",
+        "https://epaper.lnd.com.cn/lnrbepaper/pc/con/202603/23/content_320867.html",
+        "https://news.zhibo8.com/zuqiu/2026-01-11/69635dbbed296native.htm",
+        "https://syd.com.cn/newscenter/content/2025-07/28/content_189425.html",
+        "https://tyj.ln.gov.cn/tyj/jjty/jsxx/2025063010232161712/index.shtml",
+        "https://sports.sina.cn/2026-08-10/detail-inimuzxr2893283.d.html"
+      ]
+    },
+    {
+      "id": "chongqing_tongliang_long",
+      "cn": "重庆铜梁龙",
+      "en": "ChongqingTonglianglong",
+      "gameId": "C248",
+      "city": "重庆",
+      "venue": "重庆奥体中心",
+      "stadiumPackFolder": "16_ChongqingTonglianglong",
+      "palette": {
+        "primary": "#C62026",
+        "secondary": "#F2C200",
+        "accent": "#FFFFFF"
+      },
+      "emblem": "渝",
+      "nickname": [
+        "铜梁龙",
+        "龙"
+      ],
+      "identity": {
+        "ultras": [
+          {
+            "name": "重庆无名勇士球迷协会",
+            "note": "负责人张铮、鼓手徐健；从2023年中乙时期就开始筹划给球员写专属助威歌，已产出向余望、李镇全、姚浩洋、黄希扬四首，2024年改编出爆火的《向余望之歌》"
+          },
+          {
+            "name": "南看台球迷方阵",
+            "note": "龙兴足球场南看台是TIFO与领唱的核心区：川渝德比的巨幅TIFO在此展开，向余望谢场时南看台球迷集体唱《向余望之歌》"
+          }
+        ],
+        "chants": [
+          {
+            "text": "队长，队长，英勇的向余望；带球奔袭，射门破网，共铸辉煌斗志昂。",
+            "kind": "chant",
+            "note": "《向余望之歌》全文，曲调取自热门球迷歌（近似《新年好》），2024年由无名勇士球迷协会改编；2026年4月17日向余望打进中超首球后全场齐唱出圈"
+          },
+          {
+            "text": "重庆雄起",
+            "kind": "chant",
+            "note": "重庆看台的传统助威词，同一曲调的旧版重庆歌词唱的就是『重庆雄起』"
+          },
+          {
+            "text": "扎起",
+            "kind": "slogan",
+            "note": "重庆方言『扎起』＝撑腰、捧场；本地媒体以『为重庆铜梁龙扎起』作为球迷助威的标题词"
+          }
+        ],
+        "tifo": [
+          {
+            "title": "川渝德比南看台巨幅TIFO",
+            "desc": "龙兴足球场南看台展示巨幅TIFO，当晚55868人刷新中超重庆赛区上座纪录，赛前两小时看台已开始『对吼』",
+            "when": "2026年3月21日"
+          },
+          {
+            "title": "致敬黄希扬巨型TIFO",
+            "desc": "开场前看台升起巨型TIFO向重庆老将黄希扬致敬，把现场气氛推向高潮；同日55610名球迷把看台染成一片红色海洋，中场还有本地乐队演唱助威歌",
+            "when": "2026年5月5日"
+          }
+        ],
+        "flags": [
+          {
+            "desc": "南看台以红色助威服、红围巾构成的『红色海洋』，配合龙形图案横幅；龙兴球场外『球迷之家』同步售卖球衣、围巾与『暴躁龙』周边",
+            "note": "『55610名球迷来到现场，将看台染成一片红色海洋』"
+          }
+        ],
+        "mascot": {
+          "name": "暴躁龙",
+          "desc": "俱乐部周边IP『暴躁龙』，出现在球衣、围巾、水杯等官方商品上，是龙兴足球场外『球迷之家』的主力形象；名字里的『暴躁』贴合重庆球迷『魔鬼主场』的气质（是否为人偶吉祥物待核实）"
+        },
+        "localSymbols": [
+          {
+            "item": "铜梁龙舞",
+            "kind": "heritage",
+            "use": "国家级非物质文化遗产（起源于明清，分龙灯舞与彩灯舞两大系列），是队名『铜梁龙』的直接来源，也是看台与开场表演的龙元素母题"
+          },
+          {
+            "item": "铜梁火龙",
+            "kind": "heritage",
+            "use": "铜梁龙舞中最震撼的一支：匠人把1500摄氏度铁水抛向空中、以木板击打形成『万点星辰』，舞龙人赤膊在火光中穿梭"
+          },
+          {
+            "item": "铜梁龙灯彩扎",
+            "kind": "heritage",
+            "use": "区级非遗技艺，传承人周千明等制作的龙灯远销海外；『中华龙乡』铜梁的龙灯工艺为球场龙形装置、龙头道具提供原型"
+          },
+          {
+            "item": "重庆火锅",
+            "kind": "food",
+            "use": "重庆球迷看球前后的社交主食，红色锅底与球队红色主场色、南看台红色海洋呼应"
+          },
+          {
+            "item": "重庆小面",
+            "kind": "food",
+            "use": "山城最日常的早餐/夜宵，球迷远征与赛后聚餐的高频选择"
+          },
+          {
+            "item": "重庆话",
+            "kind": "dialect",
+            "use": "『扎起』『雄起』等方言词直接进入看台口号与媒体标题，构成本地球迷的语言身份"
+          }
+        ],
+        "food": [
+          "重庆火锅",
+          "重庆小面",
+          "酸辣粉"
+        ],
+        "venueFeatures": [
+          "主场经核实为重庆龙兴足球场：2026赛季中足联公布的赛程中，铜梁龙启用双主场——龙兴足球场10场、铜梁龙体育场5场",
+          "重庆奥体中心是重庆力帆时代（2015年重返中超起）的老主场，2016年对石家庄永昌时『看台过道上都坐着人』；本季铜梁龙并不以奥体为主场",
+          "龙兴足球场容量约6万人：2026年5月5日对河南55610人、川渝德比55868人、对北京国安56246人（当轮中超最多），上座纪录被反复刷新",
+          "铜梁龙体育场（铜梁区）承载本土性：2026年4月11日对武汉三镇18326人创该场地上座纪录",
+          "比赛日运营：球场外设『球迷之家』官方周边店，开场前有意外冲突乐队演唱《战斗为这座城》《重庆向前冲》《红色巅峰》"
+        ],
+        "slogan": "扎起！",
+        "sloganNote": "重庆方言『扎起』＝撑腰、捧场",
+        "chant": "队长，队长，英勇的向余望",
+        "chantNote": "《向余望之歌》首句，2026 年向余望中超首球后全场齐唱出圈",
+        "venueNote": "本包按球场包用『重庆奥体中心』（力帆时代旧主场）；调研显示 2026 赛季铜梁龙为双主场：重庆龙兴足球场 10 场、铜梁龙体育场 5 场。"
+      },
+      "assets": [
+        {
+          "type": "flag-main",
+          "file": "01_旗帜与TIFO/chongqing_tongliang_long_flag_main.png",
+          "w": 1024,
+          "h": 1536,
+          "label": "主场大旗",
+          "title": "重庆铜梁龙",
+          "sub": "ChongqingTonglianglong",
+          "glyph": "渝",
+          "slogan": "铜 梁 龙"
+        },
+        {
+          "type": "flag-terrace",
+          "file": "01_旗帜与TIFO/chongqing_tongliang_long_flag_terrace.png",
+          "w": 1536,
+          "h": 1024,
+          "label": "看台双杆旗",
+          "title": "重庆铜梁龙",
+          "text": "重庆雄起",
+          "sub": "",
+          "onSecondary": false
+        },
+        {
+          "type": "tifo",
+          "file": "01_旗帜与TIFO/chongqing_tongliang_long_tifo.png",
+          "w": 2048,
+          "h": 1024,
+          "label": "巨幅 TIFO",
+          "title": "铜梁火龙",
+          "lines": [
+            "龙舞非遗 · 火里舞龙",
+            "2026 · 龙兴 · 红色海洋"
+          ],
+          "icon": "dragon"
+        },
+        {
+          "type": "mosaic",
+          "file": "01_旗帜与TIFO/chongqing_tongliang_long_mosaic.png",
+          "w": 1024,
+          "h": 1024,
+          "label": "座席拼图",
+          "glyph": "渝",
+          "cols": 46
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/chongqing_tongliang_long_banner_slogan.png",
+          "w": 2048,
+          "h": 256,
+          "label": "主场标语",
+          "text": "扎起！",
+          "sub": "重庆方言『扎起』＝撑腰、捧场"
+        },
+        {
+          "type": "banner",
+          "file": "02_标语与助威/chongqing_tongliang_long_banner_chant.png",
+          "w": 2048,
+          "h": 256,
+          "label": "助威词条幅",
+          "text": "队长，队长，英勇的向余望",
+          "sub": "《向余望之歌》首句，2026 年向余望中超首球后全场齐唱出圈",
+          "flip": true
+        },
+        {
+          "type": "scarf",
+          "file": "02_标语与助威/chongqing_tongliang_long_scarf.png",
+          "w": 2048,
+          "h": 384,
+          "label": "助威围巾",
+          "text": "重庆铜梁龙",
+          "sub": "铜梁龙"
+        },
+        {
+          "type": "badge",
+          "file": "03_徽记与吉祥物/chongqing_tongliang_long_badge.png",
+          "w": 768,
+          "h": 768,
+          "label": "城市徽记",
+          "glyph": "渝",
+          "sub": "重庆",
+          "stars": 3
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chongqing_tongliang_long_symbol_1.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 1 · 铜梁龙舞",
+          "icon": "dragon",
+          "title": "铜梁龙舞",
+          "note": "国家级非遗，队名的直接来源，开场表演与看台龙形装置"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chongqing_tongliang_long_symbol_2.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 2 · 铜梁火龙",
+          "icon": "fire",
+          "title": "铜梁火龙",
+          "note": "1500 度铁水打出万点星辰，火里舞龙，与主场高温氛围同构"
+        },
+        {
+          "type": "symbol",
+          "file": "04_地方文化符号/chongqing_tongliang_long_symbol_3.png",
+          "w": 512,
+          "h": 512,
+          "label": "地方符号 3 · 重庆火锅",
+          "icon": "hotpot",
+          "title": "重庆火锅",
+          "note": "红锅与红色主场色、南看台红色海洋呼应"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/chongqing_tongliang_long_food_1.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 1 · 重庆小面",
+          "icon": "noodle",
+          "title": "重庆小面",
+          "sub": "山城早餐 · 二两小面"
+        },
+        {
+          "type": "food",
+          "file": "05_球场饮食/chongqing_tongliang_long_food_2.png",
+          "w": 768,
+          "h": 384,
+          "label": "饮食 2 · 酸辣粉",
+          "icon": "dumpling",
+          "title": "酸辣粉",
+          "sub": "散场夜宵 · 又酸又辣"
+        }
+      ],
+      "sources": [
+        "https://www.163.com/dy/article/KQQ7TOGQ053469M5.html",
+        "https://view.inews.qq.com/k/20260214A06Z0J00?scene=wap&no-redirect=1",
+        "https://news.china.com/socialgd/10000169/20260531/49522617_1.html",
+        "https://share.gmw.cn/difang/cq/2026-05/06/content_38749062.htm",
+        "https://bbs.hupu.com/638020658.html",
+        "https://app.xinhuanet.com/news/article.html?articleId=4e17c72f2f87f662890ecb9403daaa07",
+        "http://epaper.gmw.cn/gmrb/html/content/202601/03/content_4234.html",
+        "http://www.ppsport.com/article/news/2545961.html",
+        "http://cqtl.cn/news/detail/5000321694?columnId=7027"
+      ]
+    }
+  ]
+}

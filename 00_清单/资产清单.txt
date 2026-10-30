@@ -1,0 +1,211 @@
+中超 16 队球场特色元素包 · 资产清单
+生成时间：2026-10-30T07:11:09.615Z
+相对路径 | 类型 | 宽x高 | 字节 | 球队 | 说明
+01_旗帜与TIFO/shanghai_port_flag_main.png | flag-main | 1024x1536 | 374043 | 上海海港 | 主场大旗
+01_旗帜与TIFO/shanghai_port_flag_terrace.png | flag-terrace | 1536x1024 | 244850 | 上海海港 | 看台双杆旗
+01_旗帜与TIFO/shanghai_port_tifo.png | tifo | 2048x1024 | 709059 | 上海海港 | 巨幅 TIFO
+01_旗帜与TIFO/shanghai_port_mosaic.png | mosaic | 1024x1024 | 225387 | 上海海港 | 座席拼图
+02_标语与助威/shanghai_port_banner_slogan.png | banner | 2048x256 | 30152 | 上海海港 | 主场标语
+02_标语与助威/shanghai_port_banner_chant.png | banner | 2048x256 | 19835 | 上海海港 | 助威词条幅
+02_标语与助威/shanghai_port_scarf.png | scarf | 2048x384 | 65391 | 上海海港 | 助威围巾
+03_徽记与吉祥物/shanghai_port_badge.png | badge | 768x768 | 56015 | 上海海港 | 城市徽记
+04_地方文化符号/shanghai_port_symbol_1.png | symbol | 512x512 | 12271 | 上海海港 | 地方符号 1 · 东方明珠
+04_地方文化符号/shanghai_port_symbol_2.png | symbol | 512x512 | 13381 | 上海海港 | 地方符号 2 · 白玉兰
+04_地方文化符号/shanghai_port_symbol_3.png | symbol | 512x512 | 12056 | 上海海港 | 地方符号 3 · 生煎馒头
+05_球场饮食/shanghai_port_food_1.png | food | 768x384 | 58957 | 上海海港 | 饮食 1 · 生煎馒头
+05_球场饮食/shanghai_port_food_2.png | food | 768x384 | 55734 | 上海海港 | 饮食 2 · 葱油拌面
+01_旗帜与TIFO/shanghai_shenhua_flag_main.png | flag-main | 1024x1536 | 362022 | 上海申花 | 主场大旗
+01_旗帜与TIFO/shanghai_shenhua_flag_terrace.png | flag-terrace | 1536x1024 | 238109 | 上海申花 | 看台双杆旗
+01_旗帜与TIFO/shanghai_shenhua_tifo.png | tifo | 2048x1024 | 681695 | 上海申花 | 巨幅 TIFO
+01_旗帜与TIFO/shanghai_shenhua_mosaic.png | mosaic | 1024x1024 | 207688 | 上海申花 | 座席拼图
+02_标语与助威/shanghai_shenhua_banner_slogan.png | banner | 2048x256 | 34324 | 上海申花 | 主场标语
+02_标语与助威/shanghai_shenhua_banner_chant.png | banner | 2048x256 | 18499 | 上海申花 | 助威词条幅
+02_标语与助威/shanghai_shenhua_scarf.png | scarf | 2048x384 | 63043 | 上海申花 | 助威围巾
+03_徽记与吉祥物/shanghai_shenhua_badge.png | badge | 768x768 | 51490 | 上海申花 | 城市徽记
+04_地方文化符号/shanghai_shenhua_symbol_1.png | symbol | 512x512 | 12547 | 上海申花 | 地方符号 1 · 石库门
+04_地方文化符号/shanghai_shenhua_symbol_2.png | symbol | 512x512 | 15691 | 上海申花 | 地方符号 2 · 猎豹
+04_地方文化符号/shanghai_shenhua_symbol_3.png | symbol | 512x512 | 14221 | 上海申花 | 地方符号 3 · 白玉兰
+05_球场饮食/shanghai_shenhua_food_1.png | food | 768x384 | 33483 | 上海申花 | 饮食 1 · 小笼包
+05_球场饮食/shanghai_shenhua_food_2.png | food | 768x384 | 31814 | 上海申花 | 饮食 2 · 排骨年糕
+01_旗帜与TIFO/beijing_guoan_flag_main.png | flag-main | 1024x1536 | 345515 | 北京国安 | 主场大旗
+01_旗帜与TIFO/beijing_guoan_flag_terrace.png | flag-terrace | 1536x1024 | 219657 | 北京国安 | 看台双杆旗
+01_旗帜与TIFO/beijing_guoan_tifo.png | tifo | 2048x1024 | 575141 | 北京国安 | 巨幅 TIFO
+01_旗帜与TIFO/beijing_guoan_mosaic.png | mosaic | 1024x1024 | 199766 | 北京国安 | 座席拼图
+02_标语与助威/beijing_guoan_banner_slogan.png | banner | 2048x256 | 25301 | 北京国安 | 主场标语
+02_标语与助威/beijing_guoan_banner_chant.png | banner | 2048x256 | 13951 | 北京国安 | 助威词条幅
+02_标语与助威/beijing_guoan_scarf.png | scarf | 2048x384 | 64142 | 北京国安 | 助威围巾
+03_徽记与吉祥物/beijing_guoan_badge.png | badge | 768x768 | 52819 | 北京国安 | 城市徽记
+04_地方文化符号/beijing_guoan_symbol_1.png | symbol | 512x512 | 10968 | 北京国安 | 地方符号 1 · 国槐
+04_地方文化符号/beijing_guoan_symbol_2.png | symbol | 512x512 | 12855 | 北京国安 | 地方符号 2 · 工人雕塑
+04_地方文化符号/beijing_guoan_symbol_3.png | symbol | 512x512 | 22698 | 北京国安 | 地方符号 3 · 京狮
+05_球场饮食/beijing_guoan_food_1.png | food | 768x384 | 35396 | 北京国安 | 饮食 1 · 炸酱面
+05_球场饮食/beijing_guoan_food_2.png | food | 768x384 | 41775 | 北京国安 | 饮食 2 · 卤煮火烧
+01_旗帜与TIFO/chengdu_rongcheng_flag_main.png | flag-main | 1024x1536 | 411856 | 成都蓉城 | 主场大旗
+01_旗帜与TIFO/chengdu_rongcheng_flag_terrace.png | flag-terrace | 1536x1024 | 316602 | 成都蓉城 | 看台双杆旗
+01_旗帜与TIFO/chengdu_rongcheng_tifo.png | tifo | 2048x1024 | 607067 | 成都蓉城 | 巨幅 TIFO
+01_旗帜与TIFO/chengdu_rongcheng_mosaic.png | mosaic | 1024x1024 | 232966 | 成都蓉城 | 座席拼图
+02_标语与助威/chengdu_rongcheng_banner_slogan.png | banner | 2048x256 | 30314 | 成都蓉城 | 主场标语
+02_标语与助威/chengdu_rongcheng_banner_chant.png | banner | 2048x256 | 27112 | 成都蓉城 | 助威词条幅
+02_标语与助威/chengdu_rongcheng_scarf.png | scarf | 2048x384 | 55487 | 成都蓉城 | 助威围巾
+03_徽记与吉祥物/chengdu_rongcheng_badge.png | badge | 768x768 | 56552 | 成都蓉城 | 城市徽记
+04_地方文化符号/chengdu_rongcheng_symbol_1.png | symbol | 512x512 | 15352 | 成都蓉城 | 地方符号 1 · 大熊猫
+04_地方文化符号/chengdu_rongcheng_symbol_2.png | symbol | 512x512 | 12010 | 成都蓉城 | 地方符号 2 · 凤凰山
+04_地方文化符号/chengdu_rongcheng_symbol_3.png | symbol | 512x512 | 12416 | 成都蓉城 | 地方符号 3 · 火锅
+05_球场饮食/chengdu_rongcheng_food_1.png | food | 768x384 | 40141 | 成都蓉城 | 饮食 1 · 串串香
+05_球场饮食/chengdu_rongcheng_food_2.png | food | 768x384 | 38420 | 成都蓉城 | 饮食 2 · 担担面
+01_旗帜与TIFO/shandong_taishan_flag_main.png | flag-main | 1024x1536 | 386936 | 山东泰山 | 主场大旗
+01_旗帜与TIFO/shandong_taishan_flag_terrace.png | flag-terrace | 1536x1024 | 257152 | 山东泰山 | 看台双杆旗
+01_旗帜与TIFO/shandong_taishan_tifo.png | tifo | 2048x1024 | 680870 | 山东泰山 | 巨幅 TIFO
+01_旗帜与TIFO/shandong_taishan_mosaic.png | mosaic | 1024x1024 | 237235 | 山东泰山 | 座席拼图
+02_标语与助威/shandong_taishan_banner_slogan.png | banner | 2048x256 | 37748 | 山东泰山 | 主场标语
+02_标语与助威/shandong_taishan_banner_chant.png | banner | 2048x256 | 15072 | 山东泰山 | 助威词条幅
+02_标语与助威/shandong_taishan_scarf.png | scarf | 2048x384 | 64657 | 山东泰山 | 助威围巾
+03_徽记与吉祥物/shandong_taishan_badge.png | badge | 768x768 | 55620 | 山东泰山 | 城市徽记
+04_地方文化符号/shandong_taishan_symbol_1.png | symbol | 512x512 | 10579 | 山东泰山 | 地方符号 1 · 泰山
+04_地方文化符号/shandong_taishan_symbol_2.png | symbol | 512x512 | 13858 | 山东泰山 | 地方符号 2 · 泰山石敢当
+04_地方文化符号/shandong_taishan_symbol_3.png | symbol | 512x512 | 11588 | 山东泰山 | 地方符号 3 · 把子肉
+05_球场饮食/shandong_taishan_food_1.png | food | 768x384 | 30517 | 山东泰山 | 饮食 1 · 甜沫
+05_球场饮食/shandong_taishan_food_2.png | food | 768x384 | 33565 | 山东泰山 | 饮食 2 · 油旋
+01_旗帜与TIFO/zhejiang_flag_main.png | flag-main | 1024x1536 | 392375 | 浙江 | 主场大旗
+01_旗帜与TIFO/zhejiang_flag_terrace.png | flag-terrace | 1536x1024 | 295869 | 浙江 | 看台双杆旗
+01_旗帜与TIFO/zhejiang_tifo.png | tifo | 2048x1024 | 705305 | 浙江 | 巨幅 TIFO
+01_旗帜与TIFO/zhejiang_mosaic.png | mosaic | 1024x1024 | 228336 | 浙江 | 座席拼图
+02_标语与助威/zhejiang_banner_slogan.png | banner | 2048x256 | 32515 | 浙江 | 主场标语
+02_标语与助威/zhejiang_banner_chant.png | banner | 2048x256 | 33133 | 浙江 | 助威词条幅
+02_标语与助威/zhejiang_scarf.png | scarf | 2048x384 | 53227 | 浙江 | 助威围巾
+03_徽记与吉祥物/zhejiang_badge.png | badge | 768x768 | 60475 | 浙江 | 城市徽记
+04_地方文化符号/zhejiang_symbol_1.png | symbol | 512x512 | 13149 | 浙江 | 地方符号 1 · 西湖
+04_地方文化符号/zhejiang_symbol_2.png | symbol | 512x512 | 10632 | 浙江 | 地方符号 2 · 雷峰塔
+04_地方文化符号/zhejiang_symbol_3.png | symbol | 512x512 | 14607 | 浙江 | 地方符号 3 · 菜狗 GOGOAL
+05_球场饮食/zhejiang_food_1.png | food | 768x384 | 27399 | 浙江 | 饮食 1 · 片儿川
+05_球场饮食/zhejiang_food_2.png | food | 768x384 | 29550 | 浙江 | 饮食 2 · 西湖醋鱼
+01_旗帜与TIFO/tianjin_jinmen_tiger_flag_main.png | flag-main | 1024x1536 | 381687 | 天津津门虎 | 主场大旗
+01_旗帜与TIFO/tianjin_jinmen_tiger_flag_terrace.png | flag-terrace | 1536x1024 | 301469 | 天津津门虎 | 看台双杆旗
+01_旗帜与TIFO/tianjin_jinmen_tiger_tifo.png | tifo | 2048x1024 | 687752 | 天津津门虎 | 巨幅 TIFO
+01_旗帜与TIFO/tianjin_jinmen_tiger_mosaic.png | mosaic | 1024x1024 | 210703 | 天津津门虎 | 座席拼图
+02_标语与助威/tianjin_jinmen_tiger_banner_slogan.png | banner | 2048x256 | 34976 | 天津津门虎 | 主场标语
+02_标语与助威/tianjin_jinmen_tiger_banner_chant.png | banner | 2048x256 | 31003 | 天津津门虎 | 助威词条幅
+02_标语与助威/tianjin_jinmen_tiger_scarf.png | scarf | 2048x384 | 55638 | 天津津门虎 | 助威围巾
+03_徽记与吉祥物/tianjin_jinmen_tiger_badge.png | badge | 768x768 | 56946 | 天津津门虎 | 城市徽记
+04_地方文化符号/tianjin_jinmen_tiger_symbol_1.png | symbol | 512x512 | 11033 | 天津津门虎 | 地方符号 1 · 大沽灯塔
+04_地方文化符号/tianjin_jinmen_tiger_symbol_2.png | symbol | 512x512 | 12897 | 天津津门虎 | 地方符号 2 · 海河
+04_地方文化符号/tianjin_jinmen_tiger_symbol_3.png | symbol | 512x512 | 11057 | 天津津门虎 | 地方符号 3 · 民园体育场
+05_球场饮食/tianjin_jinmen_tiger_food_1.png | food | 768x384 | 32495 | 天津津门虎 | 饮食 1 · 煎饼果子
+05_球场饮食/tianjin_jinmen_tiger_food_2.png | food | 768x384 | 31650 | 天津津门虎 | 饮食 2 · 十八街麻花
+01_旗帜与TIFO/yunnan_yukun_flag_main.png | flag-main | 1024x1536 | 390141 | 云南玉昆 | 主场大旗
+01_旗帜与TIFO/yunnan_yukun_flag_terrace.png | flag-terrace | 1536x1024 | 288841 | 云南玉昆 | 看台双杆旗
+01_旗帜与TIFO/yunnan_yukun_tifo.png | tifo | 2048x1024 | 671940 | 云南玉昆 | 巨幅 TIFO
+01_旗帜与TIFO/yunnan_yukun_mosaic.png | mosaic | 1024x1024 | 220177 | 云南玉昆 | 座席拼图
+02_标语与助威/yunnan_yukun_banner_slogan.png | banner | 2048x256 | 24525 | 云南玉昆 | 主场标语
+02_标语与助威/yunnan_yukun_banner_chant.png | banner | 2048x256 | 32394 | 云南玉昆 | 助威词条幅
+02_标语与助威/yunnan_yukun_scarf.png | scarf | 2048x384 | 52161 | 云南玉昆 | 助威围巾
+03_徽记与吉祥物/yunnan_yukun_badge.png | badge | 768x768 | 57420 | 云南玉昆 | 城市徽记
+04_地方文化符号/yunnan_yukun_symbol_1.png | symbol | 512x512 | 9871 | 云南玉昆 | 地方符号 1 · 哀牢山
+04_地方文化符号/yunnan_yukun_symbol_2.png | symbol | 512x512 | 14569 | 云南玉昆 | 地方符号 2 · 亚洲象
+04_地方文化符号/yunnan_yukun_symbol_3.png | symbol | 512x512 | 12926 | 云南玉昆 | 地方符号 3 · 玉溪花灯
+05_球场饮食/yunnan_yukun_food_1.png | food | 768x384 | 58075 | 云南玉昆 | 饮食 1 · 玉溪凉米线
+05_球场饮食/yunnan_yukun_food_2.png | food | 768x384 | 55794 | 云南玉昆 | 饮食 2 · 抚仙湖铜锅鱼
+01_旗帜与TIFO/qingdao_west_coast_flag_main.png | flag-main | 1024x1536 | 379773 | 青岛西海岸 | 主场大旗
+01_旗帜与TIFO/qingdao_west_coast_flag_terrace.png | flag-terrace | 1536x1024 | 285109 | 青岛西海岸 | 看台双杆旗
+01_旗帜与TIFO/qingdao_west_coast_tifo.png | tifo | 2048x1024 | 690270 | 青岛西海岸 | 巨幅 TIFO
+01_旗帜与TIFO/qingdao_west_coast_mosaic.png | mosaic | 1024x1024 | 202355 | 青岛西海岸 | 座席拼图
+02_标语与助威/qingdao_west_coast_banner_slogan.png | banner | 2048x256 | 28603 | 青岛西海岸 | 主场标语
+02_标语与助威/qingdao_west_coast_banner_chant.png | banner | 2048x256 | 26299 | 青岛西海岸 | 助威词条幅
+02_标语与助威/qingdao_west_coast_scarf.png | scarf | 2048x384 | 53749 | 青岛西海岸 | 助威围巾
+03_徽记与吉祥物/qingdao_west_coast_badge.png | badge | 768x768 | 54683 | 青岛西海岸 | 城市徽记
+04_地方文化符号/qingdao_west_coast_symbol_1.png | symbol | 512x512 | 16086 | 青岛西海岸 | 地方符号 1 · 离海最近的球场
+04_地方文化符号/qingdao_west_coast_symbol_2.png | symbol | 512x512 | 11024 | 青岛西海岸 | 地方符号 2 · 蛤蜊
+04_地方文化符号/qingdao_west_coast_symbol_3.png | symbol | 512x512 | 11573 | 青岛西海岸 | 地方符号 3 · 青岛啤酒
+05_球场饮食/qingdao_west_coast_food_1.png | food | 768x384 | 32966 | 青岛西海岸 | 饮食 1 · 辣炒蛤蜊
+05_球场饮食/qingdao_west_coast_food_2.png | food | 768x384 | 32478 | 青岛西海岸 | 饮食 2 · 青岛啤酒
+01_旗帜与TIFO/henan_flag_main.png | flag-main | 1024x1536 | 388548 | 河南 | 主场大旗
+01_旗帜与TIFO/henan_flag_terrace.png | flag-terrace | 1536x1024 | 274488 | 河南 | 看台双杆旗
+01_旗帜与TIFO/henan_tifo.png | tifo | 2048x1024 | 661853 | 河南 | 巨幅 TIFO
+01_旗帜与TIFO/henan_mosaic.png | mosaic | 1024x1024 | 213763 | 河南 | 座席拼图
+02_标语与助威/henan_banner_slogan.png | banner | 2048x256 | 29323 | 河南 | 主场标语
+02_标语与助威/henan_banner_chant.png | banner | 2048x256 | 25980 | 河南 | 助威词条幅
+02_标语与助威/henan_scarf.png | scarf | 2048x384 | 51228 | 河南 | 助威围巾
+03_徽记与吉祥物/henan_badge.png | badge | 768x768 | 59592 | 河南 | 城市徽记
+04_地方文化符号/henan_symbol_1.png | symbol | 512x512 | 15182 | 河南 | 地方符号 1 · 大象（豫）
+04_地方文化符号/henan_symbol_2.png | symbol | 512x512 | 12862 | 河南 | 地方符号 2 · 黄河
+04_地方文化符号/henan_symbol_3.png | symbol | 512x512 | 13675 | 河南 | 地方符号 3 · 青铜器纹样
+05_球场饮食/henan_food_1.png | food | 768x384 | 42788 | 河南 | 饮食 1 · 烩面
+05_球场饮食/henan_food_2.png | food | 768x384 | 46460 | 河南 | 饮食 2 · 开封灌汤包
+01_旗帜与TIFO/dalian_yingbo_flag_main.png | flag-main | 1024x1536 | 369168 | 大连英博 | 主场大旗
+01_旗帜与TIFO/dalian_yingbo_flag_terrace.png | flag-terrace | 1536x1024 | 246984 | 大连英博 | 看台双杆旗
+01_旗帜与TIFO/dalian_yingbo_tifo.png | tifo | 2048x1024 | 722935 | 大连英博 | 巨幅 TIFO
+01_旗帜与TIFO/dalian_yingbo_mosaic.png | mosaic | 1024x1024 | 219458 | 大连英博 | 座席拼图
+02_标语与助威/dalian_yingbo_banner_slogan.png | banner | 2048x256 | 37124 | 大连英博 | 主场标语
+02_标语与助威/dalian_yingbo_banner_chant.png | banner | 2048x256 | 21977 | 大连英博 | 助威词条幅
+02_标语与助威/dalian_yingbo_scarf.png | scarf | 2048x384 | 65770 | 大连英博 | 助威围巾
+03_徽记与吉祥物/dalian_yingbo_badge.png | badge | 768x768 | 55285 | 大连英博 | 城市徽记
+04_地方文化符号/dalian_yingbo_symbol_1.png | symbol | 512x512 | 9664 | 大连英博 | 地方符号 1 · 海鸥
+04_地方文化符号/dalian_yingbo_symbol_2.png | symbol | 512x512 | 13830 | 大连英博 | 地方符号 2 · 梭鱼湾
+04_地方文化符号/dalian_yingbo_symbol_3.png | symbol | 512x512 | 10921 | 大连英博 | 地方符号 3 · 焖子
+05_球场饮食/dalian_yingbo_food_1.png | food | 768x384 | 34029 | 大连英博 | 饮食 1 · 铁板大鱿鱼
+05_球场饮食/dalian_yingbo_food_2.png | food | 768x384 | 32621 | 大连英博 | 饮食 2 · 海胆饺子
+01_旗帜与TIFO/shenzhen_peng_city_flag_main.png | flag-main | 1024x1536 | 381322 | 深圳新鹏城 | 主场大旗
+01_旗帜与TIFO/shenzhen_peng_city_flag_terrace.png | flag-terrace | 1536x1024 | 247773 | 深圳新鹏城 | 看台双杆旗
+01_旗帜与TIFO/shenzhen_peng_city_tifo.png | tifo | 2048x1024 | 711513 | 深圳新鹏城 | 巨幅 TIFO
+01_旗帜与TIFO/shenzhen_peng_city_mosaic.png | mosaic | 1024x1024 | 230251 | 深圳新鹏城 | 座席拼图
+02_标语与助威/shenzhen_peng_city_banner_slogan.png | banner | 2048x256 | 30365 | 深圳新鹏城 | 主场标语
+02_标语与助威/shenzhen_peng_city_banner_chant.png | banner | 2048x256 | 18537 | 深圳新鹏城 | 助威词条幅
+02_标语与助威/shenzhen_peng_city_scarf.png | scarf | 2048x384 | 69539 | 深圳新鹏城 | 助威围巾
+03_徽记与吉祥物/shenzhen_peng_city_badge.png | badge | 768x768 | 60130 | 深圳新鹏城 | 城市徽记
+04_地方文化符号/shenzhen_peng_city_symbol_1.png | symbol | 512x512 | 11872 | 深圳新鹏城 | 地方符号 1 · 大鹏
+04_地方文化符号/shenzhen_peng_city_symbol_2.png | symbol | 512x512 | 10606 | 深圳新鹏城 | 地方符号 2 · 机器人
+04_地方文化符号/shenzhen_peng_city_symbol_3.png | symbol | 512x512 | 11650 | 深圳新鹏城 | 地方符号 3 · 深圳天际线
+05_球场饮食/shenzhen_peng_city_food_1.png | food | 768x384 | 57715 | 深圳新鹏城 | 饮食 1 · 光明乳鸽
+05_球场饮食/shenzhen_peng_city_food_2.png | food | 768x384 | 55151 | 深圳新鹏城 | 饮食 2 · 粤式早茶
+01_旗帜与TIFO/qingdao_hainiu_flag_main.png | flag-main | 1024x1536 | 380187 | 青岛海牛 | 主场大旗
+01_旗帜与TIFO/qingdao_hainiu_flag_terrace.png | flag-terrace | 1536x1024 | 300195 | 青岛海牛 | 看台双杆旗
+01_旗帜与TIFO/qingdao_hainiu_tifo.png | tifo | 2048x1024 | 692602 | 青岛海牛 | 巨幅 TIFO
+01_旗帜与TIFO/qingdao_hainiu_mosaic.png | mosaic | 1024x1024 | 204631 | 青岛海牛 | 座席拼图
+02_标语与助威/qingdao_hainiu_banner_slogan.png | banner | 2048x256 | 28327 | 青岛海牛 | 主场标语
+02_标语与助威/qingdao_hainiu_banner_chant.png | banner | 2048x256 | 34730 | 青岛海牛 | 助威词条幅
+02_标语与助威/qingdao_hainiu_scarf.png | scarf | 2048x384 | 51532 | 青岛海牛 | 助威围巾
+03_徽记与吉祥物/qingdao_hainiu_badge.png | badge | 768x768 | 53920 | 青岛海牛 | 城市徽记
+04_地方文化符号/qingdao_hainiu_symbol_1.png | symbol | 512x512 | 9735 | 青岛海牛 | 地方符号 1 · 崂山
+04_地方文化符号/qingdao_hainiu_symbol_2.png | symbol | 512x512 | 11789 | 青岛海牛 | 地方符号 2 · 滨海天际线
+04_地方文化符号/qingdao_hainiu_symbol_3.png | symbol | 512x512 | 11698 | 青岛海牛 | 地方符号 3 · 青岛啤酒
+05_球场饮食/qingdao_hainiu_food_1.png | food | 768x384 | 33464 | 青岛海牛 | 饮食 1 · 辣炒蛤蜊
+05_球场饮食/qingdao_hainiu_food_2.png | food | 768x384 | 34440 | 青岛海牛 | 饮食 2 · 海鲜烧烤
+01_旗帜与TIFO/wuhan_three_towns_flag_main.png | flag-main | 1024x1536 | 375456 | 武汉三镇 | 主场大旗
+01_旗帜与TIFO/wuhan_three_towns_flag_terrace.png | flag-terrace | 1536x1024 | 238932 | 武汉三镇 | 看台双杆旗
+01_旗帜与TIFO/wuhan_three_towns_tifo.png | tifo | 2048x1024 | 685776 | 武汉三镇 | 巨幅 TIFO
+01_旗帜与TIFO/wuhan_three_towns_mosaic.png | mosaic | 1024x1024 | 206782 | 武汉三镇 | 座席拼图
+02_标语与助威/wuhan_three_towns_banner_slogan.png | banner | 2048x256 | 40781 | 武汉三镇 | 主场标语
+02_标语与助威/wuhan_three_towns_banner_chant.png | banner | 2048x256 | 14339 | 武汉三镇 | 助威词条幅
+02_标语与助威/wuhan_three_towns_scarf.png | scarf | 2048x384 | 65493 | 武汉三镇 | 助威围巾
+03_徽记与吉祥物/wuhan_three_towns_badge.png | badge | 768x768 | 55768 | 武汉三镇 | 城市徽记
+04_地方文化符号/wuhan_three_towns_symbol_1.png | symbol | 512x512 | 11983 | 武汉三镇 | 地方符号 1 · 黄鹤楼
+04_地方文化符号/wuhan_three_towns_symbol_2.png | symbol | 512x512 | 13009 | 武汉三镇 | 地方符号 2 · 江汉关
+04_地方文化符号/wuhan_three_towns_symbol_3.png | symbol | 512x512 | 10605 | 武汉三镇 | 地方符号 3 · 热干面
+05_球场饮食/wuhan_three_towns_food_1.png | food | 768x384 | 31748 | 武汉三镇 | 饮食 1 · 鸭脖
+05_球场饮食/wuhan_three_towns_food_2.png | food | 768x384 | 27428 | 武汉三镇 | 饮食 2 · 豆皮
+01_旗帜与TIFO/liaoning_tieren_flag_main.png | flag-main | 1024x1536 | 386065 | 辽宁铁人 | 主场大旗
+01_旗帜与TIFO/liaoning_tieren_flag_terrace.png | flag-terrace | 1536x1024 | 249914 | 辽宁铁人 | 看台双杆旗
+01_旗帜与TIFO/liaoning_tieren_tifo.png | tifo | 2048x1024 | 705056 | 辽宁铁人 | 巨幅 TIFO
+01_旗帜与TIFO/liaoning_tieren_mosaic.png | mosaic | 1024x1024 | 206685 | 辽宁铁人 | 座席拼图
+02_标语与助威/liaoning_tieren_banner_slogan.png | banner | 2048x256 | 23818 | 辽宁铁人 | 主场标语
+02_标语与助威/liaoning_tieren_banner_chant.png | banner | 2048x256 | 23097 | 辽宁铁人 | 助威词条幅
+02_标语与助威/liaoning_tieren_scarf.png | scarf | 2048x384 | 65479 | 辽宁铁人 | 助威围巾
+03_徽记与吉祥物/liaoning_tieren_badge.png | badge | 768x768 | 56285 | 辽宁铁人 | 城市徽记
+04_地方文化符号/liaoning_tieren_symbol_1.png | symbol | 512x512 | 11092 | 辽宁铁人 | 地方符号 1 · 铁西老工业区
+04_地方文化符号/liaoning_tieren_symbol_2.png | symbol | 512x512 | 15219 | 辽宁铁人 | 地方符号 2 · 小老虎辽辽
+04_地方文化符号/liaoning_tieren_symbol_3.png | symbol | 512x512 | 10709 | 辽宁铁人 | 地方符号 3 · 鸡架
+05_球场饮食/liaoning_tieren_food_1.png | food | 768x384 | 38735 | 辽宁铁人 | 饮食 1 · 老边饺子
+05_球场饮食/liaoning_tieren_food_2.png | food | 768x384 | 39125 | 辽宁铁人 | 饮食 2 · 烤串
+01_旗帜与TIFO/chongqing_tongliang_long_flag_main.png | flag-main | 1024x1536 | 420070 | 重庆铜梁龙 | 主场大旗
+01_旗帜与TIFO/chongqing_tongliang_long_flag_terrace.png | flag-terrace | 1536x1024 | 294680 | 重庆铜梁龙 | 看台双杆旗
+01_旗帜与TIFO/chongqing_tongliang_long_tifo.png | tifo | 2048x1024 | 725360 | 重庆铜梁龙 | 巨幅 TIFO
+01_旗帜与TIFO/chongqing_tongliang_long_mosaic.png | mosaic | 1024x1024 | 220657 | 重庆铜梁龙 | 座席拼图
+02_标语与助威/chongqing_tongliang_long_banner_slogan.png | banner | 2048x256 | 19630 | 重庆铜梁龙 | 主场标语
+02_标语与助威/chongqing_tongliang_long_banner_chant.png | banner | 2048x256 | 37547 | 重庆铜梁龙 | 助威词条幅
+02_标语与助威/chongqing_tongliang_long_scarf.png | scarf | 2048x384 | 58616 | 重庆铜梁龙 | 助威围巾
+03_徽记与吉祥物/chongqing_tongliang_long_badge.png | badge | 768x768 | 58060 | 重庆铜梁龙 | 城市徽记
+04_地方文化符号/chongqing_tongliang_long_symbol_1.png | symbol | 512x512 | 12739 | 重庆铜梁龙 | 地方符号 1 · 铜梁龙舞
+04_地方文化符号/chongqing_tongliang_long_symbol_2.png | symbol | 512x512 | 13151 | 重庆铜梁龙 | 地方符号 2 · 铜梁火龙
+04_地方文化符号/chongqing_tongliang_long_symbol_3.png | symbol | 512x512 | 13316 | 重庆铜梁龙 | 地方符号 3 · 重庆火锅
+05_球场饮食/chongqing_tongliang_long_food_1.png | food | 768x384 | 58687 | 重庆铜梁龙 | 饮食 1 · 重庆小面
+05_球场饮食/chongqing_tongliang_long_food_2.png | food | 768x384 | 65277 | 重庆铜梁龙 | 饮食 2 · 酸辣粉
